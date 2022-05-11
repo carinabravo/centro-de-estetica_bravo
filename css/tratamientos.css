@@ -1,0 +1,216 @@
+/* MAIN - GENERAL */
+
+.fondo__color__tratamientos {
+  background-color: #f5bbc08c;
+  height: 1719px;
+}
+
+/* MAIN  - CONTAINER */
+
+.tratamientos_container {
+  grid-area: tratamientos_container;
+  display: flex;
+  flex-direction: column;
+}
+.titulo__principal {
+  font-weight: bold;
+  font-size: 26px;
+  color: #615c5d;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* tratamientos */
+
+.columnas {
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: justify;
+  align-items: flex-start;
+}
+.imagen__tratamiento {
+  width: 370px;
+  height: 265px;
+  border-radius: 10px;
+  margin: 50px 0 0 40px;
+  box-shadow: 0 10px 15px 0 #eca9af;
+}
+.sub__titulo__tratamiento {
+  font-weight: bold;
+  font-size: 24px;
+  color: #f0778f;
+  text-align: justify;
+  margin: 45px 0 10px 30px;
+}
+.listado {
+  list-style: disc;
+  font-weight: bold;
+  font-size: 15px;
+  color: #615c5d;
+  text-align: justify;
+  margin: 0 0 10px 40px;
+}
+.descripciones__uno {
+  color: #615c5d;
+  text-align: justify;
+  font-weight: normal;
+  font-size: 16px;
+  margin: 0 40px 0 30px;
+}
+
+/* MEDIAS QUERIS */
+
+/*** VISTA PARA DESKTOP - con la que se realizó la página web ***/
+
+@media (max-width: 1200px) {
+  .grid_container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 180px 50px 1719px 60px;
+    row-gap: 2px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "header_container"
+      "nav_container"
+      "tratamientos_container"
+      "footer_container";
+  }
+}
+
+/*** VISTA PARA TABLET ***/
+
+@media (max-width: 767px) {
+  .grid_container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 160px 50px 1719px 60px;
+    row-gap: 2px;
+    grid-template-areas:
+      "header_container"
+      "nav_container"
+      "tratamientos_container"
+      "footer_container";
+  }
+
+  /* TRATAMIENTOS - CONTAINER (MAIN) */
+
+  .titulo__principal {
+    font-weight: bold;
+    font-size: 20px;
+    color: #615c5d;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  /* tratamientos */
+
+  .tratamientos_container {
+    grid-area: tratamientos_container;
+    display: flex;
+    flex-direction: column;
+  }
+  .columnas {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    align-items: center;
+  }
+  .imagen__tratamiento {
+    width: 285px;
+    height: 175px;
+    border-radius: 10px;
+    margin: 10px 0 5px 10px;
+    box-shadow: 0 10px 15px 0 #eca9af;
+  }
+  .sub__titulo__tratamiento {
+    font-weight: bold;
+    font-size: 17px;
+    color: #f0778f;
+    text-align: justify;
+    margin: 5px 0 5px 15px;
+  }
+  .listado {
+    list-style: disc;
+    font-weight: bold;
+    font-size: 13px;
+    color: #615c5d;
+    text-align: justify;
+    margin: 0 0 5px 30px;
+  }
+  .descripciones__uno {
+    color: #615c5d;
+    text-align: justify;
+    font-weight: normal;
+    font-size: 14px;
+    margin: 0 15px 10px 15px;
+  }
+}
+
+/*** VISTA PARA MOBILE ***/
+
+@media screen and (min-width: 350px) and (max-width: 480px) {
+  .grid_container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 120px 40px 1719px 50px;
+    row-gap: 2px;
+    grid-template-areas:
+      "header_container"
+      "nav_container"
+      "tratamientos_container"
+      "footer_container";
+  }
+
+  /* TRATAMIENTOS - CONTAINER (MAIN) */
+
+  .titulo__principal {
+    font-weight: bold;
+    font-size: 16px;
+    color: #615c5d;
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  /* tratamientos */
+
+  .tratamientos_container {
+    grid-area: tratamientos_container;
+    display: flex;
+    flex-direction: column;
+  }
+  .columnas {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    align-items: center;
+  }
+  .imagen__tratamiento {
+    width: 260px;
+    height: 160px;
+    border-radius: 10px;
+    margin: 10px 0 0 10px;
+    box-shadow: 0 10px 15px 0 #eca9af;
+  }
+  .sub__titulo__tratamiento {
+    font-weight: bold;
+    font-size: 14px;
+    color: #f0778f;
+    text-align: justify;
+    margin: 20px 0 10px 15px;
+  }
+  .listado {
+    list-style: disc;
+    font-weight: bold;
+    font-size: 11px;
+    color: #615c5d;
+    text-align: justify;
+    margin: 0 0 10px 30px;
+  }
+  .descripciones__uno {
+    color: #615c5d;
+    text-align: justify;
+    font-weight: normal;
+    font-size: 12px;
+    margin: 0 15px 10px 15px;
+  }
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Centro de estetica SELENE</title>
+    <link rel="stylesheet" href="../index.css" />
+    <link rel="stylesheet" href="../css/contacto.css" />
+    <link rel="shortcut icon" href="../images/logo 1/logo1.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="boton.css">
+</head>
+
+<body class="grid_container">
+
+    <header class="header_container">
+        <a href="../index.html"><img class="logo__chico" src="../images/logo 1/logo1.png"
+                alt="centro de estética Selene"></a>
+        <h1 class="nombre">CENTRO DE ESTÉTICA</h1>
+        <p class="frase">¡Excelencia en belleza!</p>
+    </header>
+
+    <nav class="nav_container">
+        <ul>
+            <li><a href="../index.html"><i class="fa fa-home" aria-hidden="true"></i>INICIO</a></li>
+            <li><a href="nosotros.html"><i class="fa fa-user" aria-hidden="true"></i>NOSOTROS</a></li>
+            <li><a href="tratamientos.html"><i class="fa fa-server" aria-hidden="true"></i>TRATAMIENTOS</a></li>
+            <li><a href="contacto.html"><i class="fa fa-envelope" aria-hidden="true"></i>CONTACTO</a></li>
+            <li><a href="recursos humanos.html"><i class="fa fa-handshake" aria-hidden="true"></i>RR.HH</a></li>
+        </ul>
+    </nav>
+
+    <section class="color__fondo">
+        <div class="contacto_container">
+            <!--formulario-->
+            <div>
+                <h1 class="titulo__contacto">CONTACTO</h1>
+            </div>
+            <div class="formulario__uno">
+                <!--comienzo del formulario-->
+                <form>
+                    <p class="texto__contacto">Dejanos tus datos junto con tu consulta y a la brevedad una de
+                        nuestras representantes te
+                        estará enviando información detallada del tratamiento que desees adquirir.</p>
+                    <div>
+                        <input type="text" class="casillas" placeholder="Nombre y Apellido" name="nombre_apellido"
+                            id="nombre_apellido" />
+                    </div>
+                    <div>
+                        <input type="number" class="casillas" placeholder="Teléfono" name="telefono" id="telefono" />
+                    </div>
+                    <div>
+                        <input type="email" class="casillas" placeholder="E-mail" name="e-mail" id="e-mail" />
+                    </div>
+                    <div class="contacto__uno">
+
+                        <label for="atencion">Atención:</label>
+                        <select class="opciones" name="atención" id="atencion">
+
+                            <option value="particular">particular</option>
+                            <option value="obra_social">obra social</option>
+                        </select>
+                    </div>
+                    <div>
+                        <textarea class="casilla__consulta" rows="3" cols="19" placeholder="Consulta"></textarea>
+                    </div>
+                    <div class="contacto__dos">
+                        <label for="acepta">Deseo recibir promociones vía E-Mail</label>
+                        <input id="acepta" type="checkbox" name="acepta" value="1" />
+                    </div>
+                    <div class="botones">
+                        <input type="reset" class="boton" value="Limpiar formulario">
+                        <input type="submit" class="boton" value="Enviar formulario">
+                    </div>
+                </form>
+            </div>
+            <!--fin del formulario-->
+        </div>
+    </section>
+
+    <footer class="footer_container">
+        <!--redes sociales-->
+        <div>
+            <h3 class="derechos">Todos los derechos reservados | Términos y condiciones | Preguntas frecuentes</h3>
+        </div>
+        <div class="redes">
+            <a href="#" class="fa-brands fa-facebook"></a>
+            <a href="#" class="fa-brands fa-twitter"></a>
+            <a href="#" class="fa-brands fa-instagram"></a>
+        </div>
+    </footer>
+</body>
+
+</html>

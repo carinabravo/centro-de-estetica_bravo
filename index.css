@@ -1,0 +1,692 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body - general*/
+
+body {
+  font-family: "Open Sans", sans-serif;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 100%;
+  margin: auto;
+}
+
+/* GRID - CONTAINER GENERAL */
+
+.grid_container {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 180px 50px 1719px 60px;
+  row-gap: 2px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "header_container"
+    "nav_container"
+    "main_container"
+    "footer_container";
+}
+
+/* HEADER - CONTAINER */
+
+.header_container {
+  grid-area: header_container;
+  background-color: #eca9af;
+  display: flex;
+  justify-content: space-between;
+}
+.logo__chico {
+  width: 170px;
+  height: 170px;
+  margin: 5px 0 0 5px;
+  border-radius: 50%;
+}
+.nombre {
+  color: #615c5d;
+  font-size: 28px;
+  margin-top: 70px;
+}
+.frase {
+  font-family: "Dancing Script", cursive;
+  color: #615c5d;
+  font-size: 20px;
+  text-align: right;
+  margin: 30px 30px 0 0;
+}
+
+/* NAV - CONTAINER */
+
+.nav_container {
+  grid-area: nav_container;
+  background-color: #ffe4cc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav a {
+  color: #615c5d;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 18px;
+  padding: 5px 7px;
+  border-radius: 10px;
+}
+nav > ul li {
+  float: left;
+  list-style: none;
+}
+nav > ul li a:hover {
+  background-color: #ffffffa0;
+  transition: 0.4s;
+}
+nav > ul li i {
+  margin-right: 10px;
+  color: #615c5dc6;
+}
+
+/* MAIN - CONTAINER */
+
+.main_container {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 400px 360px 40px 912px;
+  grid-auto-flow: row;
+  row-gap: 2px;
+  grid-template-areas:
+    "imagen_principal"
+    "bienvenida"
+    "tratamientos_titulo"
+    "tratamientos";
+}
+
+/* imagen - principal */
+
+.imagen_principal {
+  grid-area: imagen_principal;
+  display: flex;
+  flex-direction: row;
+}
+.imagen {
+  width: 100%;
+}
+
+/* bienvenida */
+
+.bienvenida {
+  grid-area: bienvenida;
+  background-color: #eca9af;
+  display: flex;
+  text-align: justify;
+  align-items: center;
+}
+.logo__grande {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+}
+.titulo {
+  color: #615c5d;
+  font-weight: bold;
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.texto {
+  color: #615c5d;
+  text-align: justify;
+  font-weight: bold;
+  font-size: 18px;
+  margin-right: 50px;
+}
+
+/* tratamientos */
+
+.tratamientos_titulo {
+  grid-area: tratamientos_titulo;
+  background-color: #ffe4cc;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+}
+.titulo__uno {
+  font-weight: bold;
+  font-size: 24px;
+  color: #615c5d;
+}
+.tratamientos {
+  grid-area: tratamientos;
+  background-color: #f5bbc08c;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.tratamiento__uno {
+  font-weight: bold;
+  font-size: 22px;
+  color: #f0778f;
+  text-align: center;
+  margin: 40px 0 20px;
+}
+.img__tratamiento {
+  width: 250px;
+  height: 350px;
+  border-radius: 10px;
+  transition: all 0.4s ease-in-out;
+}
+.img__tratamiento:hover {
+  transform: scale(1.1);
+}
+.tratamiento__dos {
+  font-weight: bold;
+  font-size: 22px;
+  color: #f0778f;
+  text-align: center;
+  margin: 40px 0 20px 0;
+}
+.img__tratamiento__dos {
+  width: 250px;
+  height: 350px;
+  border-radius: 10px;
+  transition: all 0.4s ease-in-out;
+}
+.img__tratamiento__dos:hover {
+  transform: scale(1.1);
+}
+
+/* FOOTER - CONTAINER */
+
+.footer_container {
+  grid-area: footer_container;
+  background-color: #eca9af;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.derechos {
+  color: #615c5d;
+  font-weight: bold;
+  font-size: 11px;
+  margin-left: 30px;
+}
+.redes {
+  min-width: 140px;
+  margin-right: 30px;
+}
+.redes a {
+  text-decoration: none;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #615c5dc6;
+  color: #fff;
+  border-radius: 50%;
+  box-shadow: 2x 2x 5x rgba(0, 0, 0, 5);
+  transition: all 0.4s ease-in-out;
+}
+.redes a:hover {
+  transform: scale(1.2);
+}
+
+/* MEDIAS QUERIS */
+
+/*** VISTA PARA DESKTOP - con la que se realizó la página web ***/
+
+@media (max-width: 1200px) {
+  .grid_container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 180px 50px 1719px 60px;
+    row-gap: 2px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "header_container"
+      "nav_container"
+      "main_container"
+      "footer_container";
+  }
+}
+
+/*** VISTA PARA TABLET ***/
+
+@media (max-width: 767px) {
+  .grid_container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 160px 50px 1719px 60px;
+    row-gap: 2px;
+    grid-template-areas:
+      "header_container"
+      "nav_container"
+      "main__container"
+      "footer_container";
+  }
+
+  /* HEADER - CONTAINER */
+
+  .header_container {
+    grid-area: header_container;
+    background-color: #eca9af;
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo__chico {
+    width: 150px;
+    height: 150px;
+    margin: 5px 0 0 5px;
+    border-radius: 50%;
+  }
+  .nombre {
+    color: #615c5d;
+    font-size: 18px;
+    margin-top: 70px;
+  }
+  .frase {
+    font-family: "Dancing Script", cursive;
+    color: #615c5d;
+    font-size: 14px;
+    text-align: right;
+    margin: 30px 30px 0 0;
+  }
+
+  /* NAV - CONTAINER */
+
+  .nav_container {
+    grid-area: nav_container;
+    background-color: #ffe4cc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  nav a {
+    color: #615c5d;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 7px;
+    font-size: 12px;
+    padding: 5px 7px;
+    border-radius: 10px;
+  }
+  nav > ul li {
+    float: left;
+    list-style: none;
+  }
+  nav > ul li a:hover {
+    background-color: #ffffffa0;
+    transition: 0.4s;
+  }
+  nav > ul li i {
+    margin-right: 5px;
+    color: #615c5dc6;
+  }
+
+  /* MAIN - CONTAINER */
+
+  .main_container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 340px 489px 40px 844px;
+    grid-auto-flow: row;
+    row-gap: 2px;
+    grid-template-areas:
+      "imagen_principal"
+      "bienvenida"
+      "tratamientos_titulo"
+      "tratamientos";
+  }
+
+  /* imagen - principal */
+
+  .imagen_principal {
+    grid-area: imagen_principal;
+    display: flex;
+    flex-direction: row;
+  }
+  .imagen {
+    width: 100%;
+  }
+
+  /* bienvenida */
+
+  .bienvenida {
+    grid-area: bienvenida;
+    background-color: #eca9af;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .logo__grande {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+  }
+  .titulo {
+    color: #615c5d;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+  }
+  .texto {
+    color: #615c5d;
+    text-align: justify;
+    font-size: 16px;
+    margin: 15px 30px 10px 30px;
+  }
+
+  /* tratamientos */
+
+  .tratamientos_titulo {
+    grid-area: tratamientos_titulo;
+    background-color: #ffe4cc;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+  }
+  .titulo__uno {
+    font-weight: bold;
+    font-size: 20px;
+    color: #615c5d;
+  }
+  .tratamientos {
+    grid-area: tratamientos;
+    background-color: #f5bbc08c;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .tratamiento__uno {
+    font-weight: bold;
+    font-size: 16px;
+    color: #f0778f;
+    text-align: center;
+    margin: 50px 0 20px 0;
+  }
+  .img__tratamiento {
+    width: 160px;
+    height: 240px;
+    border-radius: 10px;
+    transition: all 0.4s ease-in-out;
+  }
+  .img__tratamiento:hover {
+    transform: scale(1.1);
+  }
+  .tratamiento__dos {
+    font-weight: bold;
+    font-size: 16px;
+    color: #f0778f;
+    text-align: center;
+    margin: 50px 0 20px 0;
+  }
+  .img__tratamiento__dos {
+    width: 160px;
+    height: 240px;
+    border-radius: 5px;
+    transition: all 0.4s ease-in-out;
+  }
+  .img__tratamiento__dos:hover {
+    transform: scale(1.1);
+  }
+
+  /* FOOTER - CONTAINER */
+
+  .footer_container {
+    grid-area: footer_container;
+    background-color: #eca9af;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .derechos {
+    color: #615c5d;
+    font-weight: bold;
+    font-size: 8px;
+    margin-left: 30px;
+  }
+  .redes {
+    min-width: 100px;
+    margin-right: 30px;
+  }
+  .redes a {
+    text-decoration: none;
+    font-size: 17px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #615c5dc6;
+    color: #fff;
+    border-radius: 50%;
+    box-shadow: 2x 2x 5x rgba(0, 0, 0, 5);
+    transition: all 0.4s ease-in-out;
+  }
+  .redes a:hover {
+    transform: scale(1.2);
+  }
+}
+
+/*** VISTA PARA MOBILE ***/
+
+@media screen and (min-width: 350px) and (max-width: 480px) {
+  .grid_container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 120px 40px 1719px 50px;
+    row-gap: 2px;
+    grid-template-areas:
+      "header_container"
+      "nav_container"
+      "main__container"
+      "footer_container";
+  }
+
+  /* HEADER - CONTAINER */
+
+  .header_container {
+    grid-area: header_container;
+    background-color: #eca9af;
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo__chico {
+    width: 110px;
+    height: 110px;
+    margin: 5px 0 0 5px;
+    border-radius: 50%;
+  }
+  .nombre {
+    color: #615c5d;
+    font-size: 12px;
+    margin: 50px 20px 0 0;
+  }
+  .frase {
+    font-family: "Dancing Script", cursive;
+    color: #615c5d;
+    font-size: 9px;
+    text-align: right;
+    margin: 30px 25px 0 0;
+  }
+
+  /* NAV - CONTAINER */
+
+  .nav_container {
+    grid-area: nav_container;
+    background-color: #ffe4cc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  nav a {
+    color: #615c5d;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 3px;
+    font-size: 8px;
+    padding: 2px 7px;
+    border-radius: 10px;
+  }
+  nav > ul li {
+    float: left;
+    list-style: none;
+  }
+  nav > ul li i {
+    margin-right: 5px;
+    color: #615c5dc6;
+  }
+
+  /* MAIN - CONTAINER */
+
+  .main_container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 250px 470px 40px 992px;
+    grid-auto-flow: row;
+    row-gap: 2px;
+    grid-template-areas:
+      "imagen_principal"
+      "bienvenida"
+      "tratamientos_titulo"
+      "tratamientos";
+  }
+
+  /* imagen - principal */
+
+  .imagen_principal {
+    grid-area: imagen_principal;
+    display: flex;
+    flex-direction: row;
+  }
+  .imagen {
+    width: 100%;
+  }
+
+  /* bienvenida */
+
+  .bienvenida {
+    grid-area: bienvenida;
+    background-color: #eca9af;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .logo__grande {
+    width: 210px;
+    height: 210px;
+    margin-top: 10px;
+    border-radius: 50%;
+  }
+  .titulo {
+    color: #615c5d;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+  }
+  .texto {
+    color: #615c5d;
+    text-align: justify;
+    font-size: 13px;
+    margin: 15px 30px 10px 30px;
+  }
+
+  /* tratamientos */
+
+  .tratamientos_titulo {
+    grid-area: tratamientos_titulo;
+    background-color: #ffe4cc;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .titulo__uno {
+    font-weight: bold;
+    font-size: 16px;
+    color: #615c5d;
+  }
+  .tratamientos {
+    grid-area: tratamientos;
+    background-color: #f5bbc08c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  .tratamiento__uno {
+    font-weight: bold;
+    font-size: 13px;
+    color: #f0778f;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  .img__tratamiento {
+    width: 120px;
+    height: 170px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    transition: all 0.4s ease-in-out;
+  }
+  .img__tratamiento:hover {
+    transform: scale(1.1);
+  }
+  .tratamiento__dos {
+    font-weight: bold;
+    font-size: 13px;
+    color: #f0778f;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  .img__tratamiento__dos {
+    width: 120px;
+    height: 170px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    transition: all 0.4s ease-in-out;
+  }
+  .img__tratamiento__dos:hover {
+    transform: scale(1.1);
+  }
+
+  /* FOOTER - CONTAINER */
+
+  .footer_container {
+    grid-area: footer_container;
+    background-color: #eca9af;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .derechos {
+    color: #615c5d;
+    font-weight: bold;
+    font-size: 6px;
+    margin-left: 15px;
+  }
+  .redes {
+    min-width: 60px;
+    margin-right: 15px;
+  }
+  .redes a {
+    text-decoration: none;
+    font-size: 15px;
+    width: 27px;
+    height: 27px;
+    line-height: 27px;
+    text-align: center;
+    background-color: #615c5dc6;
+    color: #fff;
+    border-radius: 50%;
+    box-shadow: 2x 2x 5x rgba(0, 0, 0, 5);
+    transition: all 0.4s ease-in-out;
+  }
+  .redes a:hover {
+    transform: scale(1.2);
+  }
+}
