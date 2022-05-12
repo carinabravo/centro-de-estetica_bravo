@@ -213,6 +213,7 @@
   .texto__nosotros__tres {
     color: #615c5d;
     text-align: justify;
+    font-weight: bold;
     font-weight: normal;
     font-size: 12px;
     margin: 5px 40px 0 40px;
