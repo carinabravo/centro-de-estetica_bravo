@@ -203,6 +203,7 @@ nav > ul li i {
 }
 .derechos {
   color: #615c5d;
+  font-family: "open sans", cursive;
   font-weight: bold;
   font-size: 10px;
   margin-left: 30px;
@@ -434,6 +435,7 @@ nav > ul li i {
   }
   .derechos {
     color: #615c5d;
+    font-family: "open sans", cursive;
     font-size: 8px;
     margin-left: 20px;
   }
@@ -649,7 +651,7 @@ nav > ul li i {
   }
   .derechos {
     color: #615c5d;
-
+    font-family: "open sans", cursive;
     font-size: 6px;
     margin-left: 10px;
   }
@@ -660,9 +662,9 @@ nav > ul li i {
   .redes a {
     text-decoration: none;
     font-size: 15px;
-    width: 26px;
-    height: 26px;
-    line-height: 26px;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
     text-align: center;
     background-color: #615c5dc6;
     color: #fff;

@@ -31,7 +31,7 @@
 .texto__contacto {
   color: #504c4d;
   text-align: justify;
-  font-size: 14px;
+  font-size: 15px;
   margin: 10px 15px 20px 15px;
 }
 .casillas {
@@ -51,7 +51,7 @@
   color: #504c4d;
   font-family: "Merienda", cursive;
   text-align: justify;
-  font-size: 14px;
+  font-size: 15px;
   margin: 0 15px 15px 15px;
 }
 .opciones {
@@ -103,7 +103,7 @@ input[type="checkbox"]:checked {
   width: 180px;
   height: 40px;
   padding: 10px;
-  font-size: 14px;
+  font-size: 15px;
   margin: 10px 0 14px 20px;
   border-color: #f0778f;
   border-style: solid;
