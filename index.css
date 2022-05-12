@@ -493,14 +493,14 @@ nav > ul li i {
   .nombre {
     color: #615c5d;
     font-size: 12px;
-    margin: 50px 20px 0 0;
+    margin: 50px 15px 0 0;
   }
   .frase {
     font-family: "Dancing Script", cursive;
     color: #615c5d;
-    font-size: 9px;
+    font-size: 10px;
     text-align: right;
-    margin: 30px 15px 0 0;
+    margin: 20px 10px 0 0;
   }
 
   /* NAV - CONTAINER */
@@ -525,7 +525,7 @@ nav > ul li i {
     list-style: none;
   }
   nav > ul li i {
-    margin-right: 5px;
+    margin-right: 4px;
     color: #615c5dc6;
   }
 
