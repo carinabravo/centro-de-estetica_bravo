@@ -19,42 +19,39 @@
 }
 .titulo__nosotros {
   color: #615c5d;
-  font-weight: bold;
-  font-size: 26px;
+  font-size: 24px;
   text-align: center;
   margin: 50px 0 50px 0;
 }
 .sub__titulo__nosotros {
   color: #615c5d;
   text-align: center;
-  font-weight: bold;
-  font-size: 24px;
+  font-size: 22px;
   margin: 50px 0 15px;
 }
 .texto__nosotros {
   color: #615c5d;
   text-align: justify;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 14px;
   margin: 10px 40px 0 40px;
 }
 .texto__nosotros__dos {
   color: #615c5d;
   text-align: justify;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 14px;
   margin: 5px 40px 0 40px;
 }
 .texto__nosotros__tres {
   color: #615c5d;
   text-align: justify;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 14px;
   margin: 5px 40px 0 40px;
 }
 .frase__nosotros {
-  font-weight: bold;
-  font-size: 17px;
+  font-size: 14px;
   color: #f0778f;
   text-align: justify;
   margin: 10px 40px 40px 40px;
@@ -110,42 +107,39 @@
   }
   .titulo__nosotros {
     color: #615c5d;
-    font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     margin: 40px 0 50px 0;
   }
   .sub__titulo__nosotros {
     color: #615c5d;
     text-align: center;
-    font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
     margin: 50px 0 15px;
   }
   .texto__nosotros {
     color: #615c5d;
     text-align: justify;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 13px;
     margin: 10px 40px 0 40px;
   }
   .texto__nosotros__dos {
     color: #615c5d;
     text-align: justify;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 12px;
     margin: 5px 40px 0 40px;
   }
   .texto__nosotros__tres {
     color: #615c5d;
     text-align: justify;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 13px;
     margin: 5px 40px 0 40px;
   }
   .frase__nosotros {
-    font-weight: bold;
-    font-size: 15px;
+    font-size: 13px;
     color: #f0778f;
     text-align: justify;
     margin: 10px 40px 40px 40px;
@@ -184,16 +178,14 @@
   }
   .titulo__nosotros {
     color: #615c5d;
-    font-weight: bold;
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
     margin: 40px 0 40px 0;
   }
   .sub__titulo__nosotros {
     color: #615c5d;
     text-align: center;
-    font-weight: bold;
-    font-size: 14px;
+    font-size: 13px;
     margin: 40px 0 15px;
   }
   .texto__nosotros {
@@ -213,14 +205,12 @@
   .texto__nosotros__tres {
     color: #615c5d;
     text-align: justify;
-    font-weight: bold;
     font-weight: normal;
     font-size: 12px;
     margin: 5px 40px 0 40px;
   }
   .frase__nosotros {
-    font-weight: bold;
-    font-size: 13px;
+    font-size: 12px;
     color: #f0778f;
     text-align: justify;
     margin: 10px 40px 40px 40px;

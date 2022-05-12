@@ -11,8 +11,7 @@
   align-items: center;
 }
 .titulo__contacto {
-  font-weight: bold;
-  font-size: 26px;
+  font-size: 24px;
   text-align: center;
   color: #615c5d;
   margin-top: 40px;
@@ -32,7 +31,7 @@
 .texto__contacto {
   color: #504c4d;
   text-align: justify;
-  font-size: 16px;
+  font-size: 14px;
   margin: 10px 15px 20px 15px;
 }
 .casillas {
@@ -50,9 +49,9 @@
 }
 .contacto__uno {
   color: #504c4d;
-  font-family: Georgia;
+  font-family: "Merienda", cursive;
   text-align: justify;
-  font-size: 15px;
+  font-size: 14px;
   margin: 0 15px 15px 15px;
 }
 .opciones {
@@ -83,8 +82,7 @@
 .contacto__dos {
   color: #504c4d;
   text-align: justify;
-  font-family: Georgia;
-  font-size: 13px;
+  font-size: 11px;
   margin: 5px 15px 20px 15px;
 }
 input[type="checkbox"] {
@@ -101,10 +99,11 @@ input[type="checkbox"]:checked {
 }
 .boton {
   background-color: #eca9af;
+  font-family: "Merienda", cursive;
   width: 180px;
   height: 40px;
   padding: 10px;
-  font-size: 15px;
+  font-size: 14px;
   margin: 10px 0 14px 20px;
   border-color: #f0778f;
   border-style: solid;
@@ -162,7 +161,7 @@ input[type="checkbox"]:checked {
   }
   .titulo__contacto {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     color: #615c5d;
     margin-top: 40px;
@@ -182,7 +181,7 @@ input[type="checkbox"]:checked {
   .texto__contacto {
     color: #504c4d;
     text-align: justify;
-    font-size: 14px;
+    font-size: 13px;
     margin: 10px 15px 20px 15px;
   }
   .casillas {
@@ -200,9 +199,9 @@ input[type="checkbox"]:checked {
   }
   .contacto__uno {
     color: #504c4d;
-    font-family: Georgia;
+    font-family: "Merienda", cursive;
     text-align: justify;
-    font-size: 14px;
+    font-size: 13px;
     margin: 0 15px 15px 15px;
   }
   .opciones {
@@ -233,8 +232,8 @@ input[type="checkbox"]:checked {
   .contacto__dos {
     color: #504c4d;
     text-align: justify;
-    font-family: Georgia;
-    font-size: 12px;
+    font-family: "Merienda", cursive;
+    font-size: 11px;
     margin: 5px 15px 20px 15px;
   }
   input[type="checkbox"] {
@@ -251,10 +250,11 @@ input[type="checkbox"]:checked {
   }
   .boton {
     background-color: #eca9af;
+    font-family: "Merienda", cursive;
     width: 150px;
     height: 40px;
     padding: 10px;
-    font-size: 15px;
+    font-size: 13px;
     margin: 10px 0 14px 20px;
     border-color: #f0778f;
     border-style: solid;
@@ -293,8 +293,7 @@ input[type="checkbox"]:checked {
     align-items: center;
   }
   .titulo__contacto {
-    font-weight: bold;
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
     color: #615c5d;
     margin-top: 40px;
@@ -314,7 +313,7 @@ input[type="checkbox"]:checked {
   .texto__contacto {
     color: #504c4d;
     text-align: justify;
-    font-size: 14px;
+    font-size: 12px;
     margin: 10px 15px 20px 15px;
   }
   .casillas {
@@ -332,9 +331,9 @@ input[type="checkbox"]:checked {
   }
   .contacto__uno {
     color: #504c4d;
-    font-family: Georgia;
+    font-family: "Merienda", cursive;
     text-align: justify;
-    font-size: 14px;
+    font-size: 12px;
     margin: 0 15px 15px 15px;
   }
   .opciones {
@@ -365,8 +364,8 @@ input[type="checkbox"]:checked {
   .contacto__dos {
     color: #504c4d;
     text-align: justify;
-    font-family: Georgia;
-    font-size: 12px;
+    font-family: "Merienda", cursive;
+    font-size: 10px;
     margin: 5px 15px 20px 15px;
   }
   input[type="checkbox"] {
@@ -378,15 +377,16 @@ input[type="checkbox"]:checked {
   }
   .botones {
     text-align: center;
-    font-size: 5px;
+    font-size: 2px;
     margin: 20px 20px 0 0;
   }
   .boton {
     background-color: #eca9af;
-    width: 115px;
+    font-family: "Merienda", cursive;
+    width: 125px;
     height: 30px;
     padding: 5px;
-    font-size: 13px;
+    font-size: 12px;
     margin: 5px 0 15px 20px;
     border-color: #f0778f;
     border-style: solid;
