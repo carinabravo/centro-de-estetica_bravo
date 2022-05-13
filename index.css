@@ -46,8 +46,8 @@ body {
 }
 .nombre {
   color: #615c5d;
-  font-size: 26px;
-  margin-top: 70px;
+  font-size: 25px;
+  margin: 70px 0 0 20px;
 }
 .frase {
   font-family: "Satisfy", cursive;
@@ -280,7 +280,7 @@ nav > ul li i {
   .nombre {
     color: #615c5d;
     font-size: 16px;
-    margin-top: 70px;
+    margin: 70px 0 25px 0;
   }
   .frase {
     font-family: "Dancing Script", cursive;
@@ -482,7 +482,9 @@ nav > ul li i {
     grid-area: header_container;
     background-color: #eca9af;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    justify-content: flex-end;
   }
   .logo__chico {
     width: 110px;
@@ -492,15 +494,15 @@ nav > ul li i {
   }
   .nombre {
     color: #615c5d;
-    font-size: 12px;
-    margin: 50px 15px 0 0;
+    font-size: 13px;
+    margin: 15px 90px 0 0;
   }
   .frase {
     font-family: "Dancing Script", cursive;
     color: #615c5d;
-    font-size: 10px;
+    font-size: 14px;
     text-align: right;
-    margin: 20px 10px 0 0;
+    margin: 20px 25px 0 0;
   }
 
   /* NAV - CONTAINER */
