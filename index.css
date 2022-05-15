@@ -405,7 +405,7 @@ body {
   .grid_container {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 120px 50px 1440px 50px;
+    grid-template-rows: 120px 50px 1450px 50px;
     grid-template-areas:
       "header_container"
       "nav_container"
@@ -423,10 +423,10 @@ body {
   .navbar-brand {
     color: #615c5ddb !important;
     font-weight: bold;
-    font-size: 13px;
+    font-size: 14px;
   }
   .navbar-collapse {
-    font-size: 12px;
+    font-size: 13px;
     padding: 2px;
   }
 
@@ -463,7 +463,7 @@ body {
   .main_container {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 250px 460px 50px 680px;
+    grid-template-rows: 250px 465px 50px 685px;
     grid-auto-flow: row;
     grid-template-areas:
       "imagen_principal"
