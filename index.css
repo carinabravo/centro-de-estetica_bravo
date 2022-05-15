@@ -156,8 +156,8 @@ body {
   margin: 40px 0 20px;
 }
 .img__tratamiento {
-  width: 210px;
-  height: 300px;
+  width: 13.125rem;
+  height: 18.75rem;
   border-radius: 10px;
   transition: all 0.4s ease-in-out;
 }
@@ -351,11 +351,10 @@ body {
     font-size: 14px;
     color: #f0778f;
     text-align: center;
-    margin: ;
   }
   .img__tratamiento {
-    width: 140px;
-    height: 205px;
+    width: 8.75rem;
+    height: 12.813rem;
     border-radius: 10px;
     transition: all 0.4s ease-in-out;
   }
@@ -542,8 +541,8 @@ body {
     margin-top: 10px;
   }
   .img__tratamiento {
-    width: 120px;
-    height: 170px;
+    width: 7.5rem;
+    height: 10.625rem;
     border-radius: 10px;
     transition: all 0.4s ease-in-out;
   }
