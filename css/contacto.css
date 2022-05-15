@@ -21,7 +21,7 @@
 
 .formulario__uno {
   width: 470px;
-  height: 520px;
+  height: 540px;
   border-color: #eca9af;
   border-style: solid;
   border-radius: 10px;
@@ -303,7 +303,7 @@ input[type="checkbox"]:checked {
 
   .formulario__uno {
     width: 330px;
-    height: 480px;
+    height: 470px;
     border-color: #eca9af;
     border-style: solid;
     border-radius: 10px;
