@@ -2,7 +2,7 @@
 
 .color__fondo {
   background-color: #f5bbc08c;
-  height: 1719px;
+  height: 1300px;
 }
 .contacto_container {
   grid-area: contacto_container;
@@ -11,7 +11,7 @@
   align-items: center;
 }
 .titulo__contacto {
-  font-size: 24px;
+  font-size: 23px;
   text-align: center;
   color: #615c5d;
   margin-top: 40px;
@@ -26,7 +26,7 @@
   border-style: solid;
   border-radius: 10px;
   border-width: 5px;
-  margin: 40px 20px 0 20px;
+  margin: 30px 20px 0 20px;
 }
 .texto__contacto {
   color: #504c4d;
@@ -125,8 +125,7 @@ input[type="checkbox"]:checked {
   .grid_container {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 180px 50px 1719px 60px;
-    row-gap: 2px;
+    grid-template-rows: 180px 50px 1300px 60px;
     grid-auto-flow: row;
     grid-template-areas:
       "header_container"
@@ -142,8 +141,7 @@ input[type="checkbox"]:checked {
   .grid_container {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 160px 50px 1719px 60px;
-    row-gap: 2px;
+    grid-template-rows: 160px 50px 1300px 60px;
     grid-template-areas:
       "header_container"
       "nav_container"
@@ -160,7 +158,6 @@ input[type="checkbox"]:checked {
     align-items: center;
   }
   .titulo__contacto {
-    font-weight: bold;
     font-size: 18px;
     text-align: center;
     color: #615c5d;
@@ -176,7 +173,7 @@ input[type="checkbox"]:checked {
     border-style: solid;
     border-radius: 10px;
     border-width: 5px;
-    margin: 40px 5px 0 5px;
+    margin: 30px 5px 0 5px;
   }
   .texto__contacto {
     color: #504c4d;
@@ -271,12 +268,11 @@ input[type="checkbox"]:checked {
 
 /*** VISTA PARA MOBILE ***/
 
-@media screen and (min-width: 350px) and (max-width: 480px) {
+@media screen and (min-width: 350px) and (max-width: 500px) {
   .grid_container {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 120px 40px 1719px 50px;
-    row-gap: 2px;
+    grid-template-rows: 120px 50px 1300px 50px;
     grid-template-areas:
       "header_container"
       "nav_container"
@@ -293,7 +289,7 @@ input[type="checkbox"]:checked {
     align-items: center;
   }
   .titulo__contacto {
-    font-size: 14px;
+    font-size: 15px;
     text-align: center;
     color: #615c5d;
     margin-top: 40px;
@@ -308,7 +304,7 @@ input[type="checkbox"]:checked {
     border-style: solid;
     border-radius: 10px;
     border-width: 5px;
-    margin-top: 40px;
+    margin-top: 30px;
   }
   .texto__contacto {
     color: #504c4d;

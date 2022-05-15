@@ -2,7 +2,7 @@
 
 .fondo__color__tratamientos {
   background-color: #f5bbc08c;
-  height: 1719px;
+  height: 1300px;
 }
 
 /* MAIN  - CONTAINER */
@@ -13,10 +13,10 @@
   flex-direction: column;
 }
 .titulo__principal {
-  font-size: 24px;
+  font-size: 23px;
   color: #615c5d;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 /* tratamientos */
@@ -28,18 +28,18 @@
   align-items: flex-start;
 }
 .imagen__tratamiento {
-  width: 23.125rem;
-  height: 16.563rem;
+  width: 370px;
+  height: 250px;
   border-radius: 10px;
-  margin: 50px 0 0 40px;
-  box-shadow: 0 10px 15px 0 #eca9af;
+  margin: 40px 0 0 40px;
+  box-shadow: 0 10px 30px 0 #eca9af;
 }
 .sub__titulo__tratamiento {
   font-weight: bold;
   font-size: 22px;
   color: #f0778f;
   text-align: justify;
-  margin: 45px 0 10px 30px;
+  margin: 40px 0 10px 30px;
 }
 .listado {
   list-style: disc;
@@ -65,8 +65,7 @@
   .grid_container {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 180px 50px 1719px 60px;
-    row-gap: 2px;
+    grid-template-rows: 180px 50px 1300px 60px;
     grid-auto-flow: row;
     grid-template-areas:
       "header_container"
@@ -82,8 +81,7 @@
   .grid_container {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 160px 50px 1719px 60px;
-    row-gap: 2px;
+    grid-template-rows: 160px 50px 1300px 60px;
     grid-template-areas:
       "header_container"
       "nav_container"
@@ -97,7 +95,7 @@
     font-size: 18px;
     color: #615c5d;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
   }
 
   /* tratamientos */
@@ -114,17 +112,17 @@
     align-items: center;
   }
   .imagen__tratamiento {
-    width: 17.813rem;
-    height: 10.813rem;
+    width: 280px;
+    height: 165px;
     border-radius: 10px;
     margin: 5px 0 10px 10px;
-    box-shadow: 0 10px 15px 0 #eca9af;
+    box-shadow: 0 10px 20px 0 #eca9af;
   }
   .sub__titulo__tratamiento {
     font-size: 15px;
     color: #f0778f;
     text-align: justify;
-    margin: 5px 0 5px 15px;
+    margin: 10px 0 5px 15px;
   }
   .listado {
     list-style: disc;
@@ -144,12 +142,11 @@
 
 /*** VISTA PARA MOBILE ***/
 
-@media screen and (min-width: 350px) and (max-width: 480px) {
+@media screen and (min-width: 350px) and (max-width: 500px) {
   .grid_container {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 120px 40px 1719px 50px;
-    row-gap: 2px;
+    grid-template-rows: 120px 40px 1300px 50px;
     grid-template-areas:
       "header_container"
       "nav_container"
@@ -160,10 +157,10 @@
   /* TRATAMIENTOS - CONTAINER (MAIN) */
 
   .titulo__principal {
-    font-size: 14px;
+    font-size: 15px;
     color: #615c5d;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 20px;
   }
 
   /* tratamientos */
@@ -183,27 +180,27 @@
     width: 16.25rem;
     height: 10rem;
     border-radius: 10px;
-    margin: 10px 0 0 10px;
+    margin: 5px 0 10px 10px;
     box-shadow: 0 10px 15px 0 #eca9af;
   }
   .sub__titulo__tratamiento {
     font-size: 14px;
     color: #f0778f;
     text-align: justify;
-    margin: 20px 0 10px 15px;
+    margin: 10px 0 10px 15px;
   }
   .listado {
     list-style: disc;
     font-size: 10px;
     color: #615c5d;
     text-align: justify;
-    margin: 0 20px 10px 0;
+    margin-bottom: 10px;
   }
   .descripciones__uno {
     color: #615c5d;
     text-align: justify;
     font-weight: normal;
     font-size: 11px;
-    margin: 0 15px 10px 15px;
+    margin: 10px 15px 10px 15px;
   }
 }

@@ -42,8 +42,7 @@ body {
 .grid_container {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 180px 50px 1719px 60px;
-  row-gap: 2px;
+  grid-template-rows: 180px 50px 1300px 60px;
   grid-auto-flow: row;
   grid-template-areas:
     "header_container"
@@ -79,15 +78,13 @@ body {
   text-align: right;
   margin: 30px 30px 0 0;
 }
-
 /* MAIN - CONTAINER */
 
 .main_container {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 400px 360px 40px 912px;
+  grid-template-rows: 400px 360px 50px 500px;
   grid-auto-flow: row;
-  row-gap: 2px;
   grid-template-areas:
     "imagen_principal"
     "bienvenida"
@@ -122,7 +119,7 @@ body {
 }
 .titulo {
   color: #615c5d;
-  font-size: 22px;
+  font-size: 23px;
   font-weight: bold;
   margin-bottom: 10px;
 }
@@ -137,52 +134,34 @@ body {
 
 .tratamientos_titulo {
   grid-area: tratamientos_titulo;
-  background-color: #ffe4cc;
+  background-color: #f5bbc08c;
   display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: space-around;
+  align-items: flex-end;
+  justify-content: space-evenly;
 }
 .titulo__uno {
   color: #615c5d;
   font-size: 22px;
-  margin-top: 10px;
 }
 .tratamientos {
   grid-area: tratamientos;
   background-color: #f5bbc08c;
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
 }
-.tratamiento__uno {
+.tratamiento {
   font-size: 20px;
   color: #f0778f;
   text-align: center;
   margin: 40px 0 20px;
 }
 .img__tratamiento {
-  width: 15.625rem;
-  height: 21.875rem;
+  width: 210px;
+  height: 300px;
   border-radius: 10px;
   transition: all 0.4s ease-in-out;
 }
 .img__tratamiento:hover {
-  transform: scale(1.1);
-}
-.tratamiento__dos {
-  font-size: 20px;
-  color: #f0778f;
-  text-align: center;
-  margin: 40px 0 20px 0;
-}
-.img__tratamiento__dos {
-  width: 15.625rem;
-  height: 21.875rem;
-  border-radius: 10px;
-  transition: all 0.4s ease-in-out;
-}
-.img__tratamiento__dos:hover {
   transform: scale(1.1);
 }
 
@@ -200,11 +179,11 @@ body {
   font-family: "open sans", cursive;
   font-weight: bold;
   font-size: 10px;
-  margin-left: 30px;
+  margin-left: 20px;
 }
 .redes {
   min-width: 140px;
-  margin-right: 30px;
+  margin-right: 20px;
 }
 .redes a {
   text-decoration: none;
@@ -231,8 +210,7 @@ body {
   .grid_container {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 180px 50px 1719px 60px;
-    row-gap: 2px;
+    grid-template-rows: 180px 50px 1300px 60px;
     grid-auto-flow: row;
     grid-template-areas:
       "header_container"
@@ -248,8 +226,7 @@ body {
   .grid_container {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 160px 50px 1719px 60px;
-    row-gap: 2px;
+    grid-template-rows: 160px 50px 1250px 60px;
     grid-template-areas:
       "header_container"
       "nav_container"
@@ -305,9 +282,8 @@ body {
   .main_container {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 340px 489px 40px 844px;
+    grid-template-rows: 350px 480px 50px 370px;
     grid-auto-flow: row;
-    row-gap: 2px;
     grid-template-areas:
       "imagen_principal"
       "bienvenida"
@@ -342,7 +318,7 @@ body {
   }
   .titulo {
     color: #615c5d;
-    font-size: 18px;
+    font-size: 21px;
     text-align: center;
   }
   .texto {
@@ -356,51 +332,34 @@ body {
 
   .tratamientos_titulo {
     grid-area: tratamientos_titulo;
-    background-color: #ffe4cc;
+    background-color: #f5bbc08c;
     display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: space-around;
+    align-items: flex-end;
+    justify-content: space-evenly;
   }
   .titulo__uno {
-    font-size: 20px;
     color: #615c5d;
+    font-size: 20px;
   }
   .tratamientos {
     grid-area: tratamientos;
     background-color: #f5bbc08c;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
   }
-  .tratamiento__uno {
+  .tratamiento {
     font-size: 14px;
     color: #f0778f;
     text-align: center;
-    margin: 50px 0 20px 0;
+    margin: ;
   }
   .img__tratamiento {
-    width: 10rem;
-    height: 15rem;
+    width: 140px;
+    height: 205px;
     border-radius: 10px;
     transition: all 0.4s ease-in-out;
   }
   .img__tratamiento:hover {
-    transform: scale(1.1);
-  }
-  .tratamiento__dos {
-    font-size: 14px;
-    color: #f0778f;
-    text-align: center;
-    margin: 50px 0 20px 0;
-  }
-  .img__tratamiento__dos {
-    width: 10rem;
-    height: 15rem;
-    border-radius: 5px;
-    transition: all 0.4s ease-in-out;
-  }
-  .img__tratamiento__dos:hover {
     transform: scale(1.1);
   }
 
@@ -443,12 +402,11 @@ body {
 
 /*** VISTA PARA MOBILE ***/
 
-@media screen and (min-width: 350px) and (max-width: 480px) {
+@media screen and (min-width: 350px) and (max-width: 500px) {
   .grid_container {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 120px 40px 1719px 50px;
-    row-gap: 2px;
+    grid-template-rows: 120px 50px 1440px 50px;
     grid-template-areas:
       "header_container"
       "nav_container"
@@ -508,9 +466,8 @@ body {
   .main_container {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 250px 470px 40px 992px;
+    grid-template-rows: 250px 460px 50px 680px;
     grid-auto-flow: row;
-    row-gap: 2px;
     grid-template-areas:
       "imagen_principal"
       "bienvenida"
@@ -560,15 +517,14 @@ body {
 
   .tratamientos_titulo {
     grid-area: tratamientos_titulo;
-    background-color: #ffe4cc;
+    background-color: #f5bbc08c;
     display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
+    align-items: flex-end;
+    justify-content: space-evenly;
   }
   .titulo__uno {
-    font-size: 14px;
     color: #615c5d;
+    font-size: 15px;
   }
   .tratamientos {
     grid-area: tratamientos;
@@ -576,41 +532,22 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    margin-bottom: 40px;
+    justify-content: space-evenly;
   }
-  .tratamiento__uno {
+  .tratamiento {
     font-size: 12px;
     color: #f0778f;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     margin-top: 10px;
   }
   .img__tratamiento {
-    width: 7.5rem;
-    height: 10.625rem;
-    margin-bottom: 10px;
+    width: 120px;
+    height: 170px;
     border-radius: 10px;
     transition: all 0.4s ease-in-out;
   }
   .img__tratamiento:hover {
-    transform: scale(1.1);
-  }
-  .tratamiento__dos {
-    font-size: 12px;
-    color: #f0778f;
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: 10px;
-  }
-  .img__tratamiento__dos {
-    width: 7.5rem;
-    height: 10.625rem;
-    margin-bottom: 10px;
-    border-radius: 10px;
-    transition: all 0.4s ease-in-out;
-  }
-  .img__tratamiento__dos:hover {
     transform: scale(1.1);
   }
 
