@@ -128,13 +128,13 @@ input[type="checkbox"]:checked {
 }
 .info__extra {
   width: 470px;
-  height: 220px;
+  height: 210px;
   background-color: #f2f2f2;
   border-color: #eca9af;
   border-style: solid;
   border-radius: 10px;
   border-width: 5px;
-  margin-top: 60px;
+  margin-top: 50px;
 }
 .titulo__img {
   color: #f0778f;
@@ -318,7 +318,7 @@ input[type="checkbox"]:checked {
     border-style: solid;
     border-radius: 10px;
     border-width: 5px;
-    margin-top: 60px;
+    margin-top: 50px;
   }
   .titulo__img {
     color: #f0778f;
@@ -485,7 +485,7 @@ input[type="checkbox"]:checked {
     border-style: solid;
     border-radius: 10px;
     border-width: 5px;
-    margin-top: 60px;
+    margin-top: 50px;
   }
   .titulo__img {
     color: #f0778f;

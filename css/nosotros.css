@@ -60,6 +60,40 @@
   margin: 10px 40px 40px 40px;
 }
 
+/* info - extra */
+
+.info__extra__dos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.info__extra__dos {
+  width: 420px;
+  height: 170px;
+  background-color: #f2f2f2;
+  border-color: #eca9af;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 5px;
+  margin-top: 60px;
+}
+.titulo__img__dos {
+  color: #f0778f;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 30px;
+}
+.texto__img__dos {
+  color: #757575;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.frase__img__dos {
+  color: #f0778f;
+  font-weight: bold;
+  font-size: 21px;
+}
+
 /* MEDIAS QUERIS */
 
 /*** VISTA PARA DESKTOP - con la que se realizó la página web ***/
