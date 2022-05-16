@@ -11,7 +11,7 @@
   align-items: center;
 }
 .titulo__contacto {
-  color: #615c5d;
+  color: #757575;
   font-weight: bold;
   font-size: 23px;
   text-align: center;
@@ -30,7 +30,7 @@
   margin: 30px 20px 0 20px;
 }
 .texto__contacto {
-  color: #504c4d;
+  color: #757575;
   text-align: justify;
   font-size: 15px;
   margin: 10px 15px 20px 15px;
@@ -49,7 +49,7 @@
   padding: 10px;
 }
 .contacto__uno {
-  color: #504c4d;
+  color: #757575;
   font-family: "Merienda", cursive;
   text-align: justify;
   font-size: 15px;
@@ -81,7 +81,7 @@
   font-size: 15px;
 }
 .contacto__dos {
-  color: #504c4d;
+  color: #757575;
   text-align: justify;
   font-size: 11px;
   margin: 5px 15px 20px 15px;
@@ -116,6 +116,21 @@ input[type="checkbox"]:checked {
 }
 .boton:active {
   background-color: #f0778fac;
+}
+/* imagen de contacto */
+.titulo__img {
+  color: #f0778f;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 40px;
+}
+.img__contacto {
+  width: 320px;
+  height: 480px;
+  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 15px 0 #eca9af;
 }
 
 /* MEDIAS QUERIS */
@@ -159,7 +174,7 @@ input[type="checkbox"]:checked {
     align-items: center;
   }
   .titulo__contacto {
-    color: #615c5d;
+    color: #757575;
     font-weight: bold;
     font-size: 18px;
     text-align: center;
@@ -178,7 +193,7 @@ input[type="checkbox"]:checked {
     margin: 30px 5px 0 5px;
   }
   .texto__contacto {
-    color: #504c4d;
+    color: #757575;
     text-align: justify;
     font-size: 13px;
     margin: 10px 15px 20px 15px;
@@ -197,7 +212,7 @@ input[type="checkbox"]:checked {
     padding: 10px;
   }
   .contacto__uno {
-    color: #504c4d;
+    color: #757575;
     font-family: "Merienda", cursive;
     text-align: justify;
     font-size: 13px;
@@ -229,7 +244,7 @@ input[type="checkbox"]:checked {
     font-size: 15px;
   }
   .contacto__dos {
-    color: #504c4d;
+    color: #757575;
     text-align: justify;
     font-family: "Merienda", cursive;
     font-size: 11px;
@@ -266,6 +281,22 @@ input[type="checkbox"]:checked {
   .boton:active {
     background-color: #f0778fac;
   }
+
+  /* imagen de contacto */
+/* 
+  .titulo__img {
+    color: #f0778f;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+  } */
+  .img__contacto {
+    width: 310px;
+    height: 460px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px 0 #eca9af;
+  }
 }
 
 /*** VISTA PARA MOBILE ***/
@@ -291,7 +322,7 @@ input[type="checkbox"]:checked {
     align-items: center;
   }
   .titulo__contacto {
-    color: #615c5d;
+    color: #757575;
     font-weight: bold;
     font-size: 15px;
     text-align: center;
@@ -310,7 +341,7 @@ input[type="checkbox"]:checked {
     margin-top: 30px;
   }
   .texto__contacto {
-    color: #504c4d;
+    color: #757575;
     text-align: justify;
     font-size: 12px;
     margin: 10px 15px 20px 15px;
@@ -329,7 +360,7 @@ input[type="checkbox"]:checked {
     padding: 10px;
   }
   .contacto__uno {
-    color: #504c4d;
+    color: #757575;
     font-family: "Merienda", cursive;
     text-align: justify;
     font-size: 12px;
@@ -361,7 +392,7 @@ input[type="checkbox"]:checked {
     font-size: 13px;
   }
   .contacto__dos {
-    color: #504c4d;
+    color: #757575;
     text-align: justify;
     font-family: "Merienda", cursive;
     font-size: 10px;
@@ -398,4 +429,20 @@ input[type="checkbox"]:checked {
   .boton:active {
     background-color: #f0778fac;
   }
+
+  /* imagen de contacto */
+
+  /* .titulo__img {
+    color: #f0778f;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+  } */
+.img__contacto{
+  width: 300px;
+  height: 450px;
+  margin-top: 50px;
+  border-radius: 10px;
+  box-shadow: 0 10px 15px 0 #eca9af;
+}
 }

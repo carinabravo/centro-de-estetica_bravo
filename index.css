@@ -8,7 +8,6 @@
 
 body {
   font-family: "Merienda", cursive;
-  background-color: #ffff;
   font-weight: lighter;
   width: 100%;
   max-width: 1000px;
@@ -19,23 +18,23 @@ body {
 /* NAV - BOOTSTRAP */
 
 .navbar > .container {
-  background-color: #badcdd !important;
+  background-color: #f2f2f2 !important;
 }
 .bg-light {
-  background-color: #badcdd !important;
+  background-color: #f2f2f2 !important;
 }
 .navbar-brand {
-  color: #545051 !important;
+  color: #757575 !important;
   font-weight: bold;
   font-size: 18px;
 }
 .navbar-toggler {
   font-size: 12px;
-  border-color: #615c5ddb !important;
+  border-color: #757575 !important;
   border-radius: 5px;
 }
 .navbar-light .navbar-toggler {
-  color: #615c5d !important;
+  color: #757575 !important;
 }
 
 /* GRID - CONTAINER GENERAL */
@@ -44,7 +43,6 @@ body {
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: 180px 50px 1300px 60px;
-  row-gap: 4px;
   grid-auto-flow: row;
   grid-template-areas:
     "header_container"
@@ -68,14 +66,14 @@ body {
   border-radius: 50%;
 }
 .nombre {
-  color: #615c5d;
+  color: #757575;
   font-size: 25px;
   font-weight: bold;
   margin: 70px 0 0 10px;
 }
 .frase {
   font-family: "Satisfy", cursive;
-  color: #615c5d;
+  color: #757575;
   font-size: 20px;
   text-align: right;
   margin: 30px 30px 0 0;
@@ -120,13 +118,13 @@ body {
   border-radius: 50%;
 }
 .titulo {
-  color: #615c5d;
+  color: #757575;
   font-size: 23px;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin: 10px 0 10px 0;
 }
 .texto {
-  color: #615c5d;
+  color: #757575;
   text-align: justify;
   font-size: 17px;
   margin-right: 50px;
@@ -136,19 +134,19 @@ body {
 
 .tratamientos_titulo {
   grid-area: tratamientos_titulo;
-  background-color: #f3dadd;
+  background-color: #f2f2f2;
   display: flex;
   align-items: flex-end;
   justify-content: space-evenly;
 }
 .titulo__uno {
-  color: #615c5d;
+  color: #757575;
   font-weight: bold;
   font-size: 22px;
 }
 .tratamientos {
   grid-area: tratamientos;
-  background-color: #f3dadd;
+  background-color: #f2f2f2;
   display: flex;
   justify-content: space-around;
 }
@@ -178,7 +176,7 @@ body {
   align-items: center;
 }
 .derechos {
-  color: #615c5d;
+  color: #757575;
   font-family: "open sans", cursive;
   font-weight: bold;
   font-size: 10px;
@@ -195,7 +193,7 @@ body {
   height: 40px;
   line-height: 40px;
   text-align: center;
-  background-color: #615c5dc6;
+  background-color: #757575;
   color: #fff;
   border-radius: 50%;
   box-shadow: 2x 2x 5x rgba(0, 0, 0, 5);
@@ -241,11 +239,11 @@ body {
 
   .navbar-toggler {
     font-size: 8px;
-    border-color: #615c5d !important;
+    border-color: #757575 !important;
     border-radius: 5px;
   }
   .navbar-brand {
-    color: #615c5ddb !important;
+    color: #757575 !important;
     font-weight: bold;
     font-size: 16px;
   }
@@ -268,13 +266,13 @@ body {
     border-radius: 50%;
   }
   .nombre {
-    color: #615c5d;
+    color: #757575;
     font-size: 16px;
     margin: 70px 0 25px 0;
   }
   .frase {
     font-family: "Satisfy", cursive;
-    color: #615c5d;
+    color: #757575;
     font-size: 14px;
     text-align: right;
     margin: 30px 30px 0 0;
@@ -320,13 +318,13 @@ body {
     border-radius: 50%;
   }
   .titulo {
-    color: #615c5d;
+    color: #757575;
     font-weight: bold;
     font-size: 21px;
     text-align: center;
   }
   .texto {
-    color: #615c5d;
+    color: #757575;
     text-align: justify;
     font-size: 14px;
     margin: 15px 30px 10px 30px;
@@ -336,18 +334,18 @@ body {
 
   .tratamientos_titulo {
     grid-area: tratamientos_titulo;
-    background-color: #f3dadd;
+    background-color: #f2f2f2;
     display: flex;
     align-items: flex-end;
     justify-content: space-evenly;
   }
   .titulo__uno {
-    color: #615c5d;
+    color: #757575;
     font-size: 20px;
   }
   .tratamientos {
     grid-area: tratamientos;
-    background-color: #f3dadd;
+    background-color: #f2f2f2;
     display: flex;
     flex-direction: row;
   }
@@ -376,7 +374,7 @@ body {
     align-items: center;
   }
   .derechos {
-    color: #615c5d;
+    color: #757575;
     font-family: "open sans", cursive;
     font-size: 8px;
     margin-left: 20px;
@@ -392,7 +390,7 @@ body {
     height: 30px;
     line-height: 30px;
     text-align: center;
-    background-color: #615c5dc6;
+    background-color: #757575;
     color: #fff;
     border-radius: 50%;
     box-shadow: 2x 2x 5x rgba(0, 0, 0, 5);
@@ -421,11 +419,11 @@ body {
 
   .navbar-toggler {
     font-size: 8px;
-    border-color: #615c5d !important;
+    border-color: #757575 !important;
     border-radius: 5px;
   }
   .navbar-brand {
-    color: #615c5ddb !important;
+    color: #757575 !important;
     font-weight: bold;
     font-size: 14px;
   }
@@ -451,13 +449,13 @@ body {
     border-radius: 50%;
   }
   .nombre {
-    color: #615c5d;
+    color: #757575;
     font-size: 13px;
     margin: 15px 95px 0 0;
   }
   .frase {
     font-family: "Satisfy", cursive;
-    color: #615c5d;
+    color: #757575;
     font-size: 13px;
     margin: 20px 20px 0 0;
   }
@@ -503,13 +501,13 @@ body {
     border-radius: 50%;
   }
   .titulo {
-    color: #615c5d;
+    color: #757575;
     font-weight: bold;
     font-size: 16px;
     text-align: center;
   }
   .texto {
-    color: #615c5d;
+    color: #757575;
     text-align: justify;
     font-size: 12px;
     margin: 15px 30px 10px 30px;
@@ -519,18 +517,18 @@ body {
 
   .tratamientos_titulo {
     grid-area: tratamientos_titulo;
-    background-color: #f3dadd;
+    background-color: #f2f2f2;
     display: flex;
     align-items: flex-end;
     justify-content: space-evenly;
   }
   .titulo__uno {
-    color: #615c5d;
+    color: #757575;
     font-size: 15px;
   }
   .tratamientos {
     grid-area: tratamientos;
-    background-color: #f3dadd;
+    background-color: #f2f2f2;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -563,7 +561,7 @@ body {
     align-items: center;
   }
   .derechos {
-    color: #615c5d;
+    color: #757575;
     font-family: "open sans", cursive;
     font-size: 6px;
     margin-left: 10px;
@@ -579,7 +577,7 @@ body {
     height: 24px;
     line-height: 24px;
     text-align: center;
-    background-color: #615c5dc6;
+    background-color: #757575;
     color: #fff;
     border-radius: 50%;
     box-shadow: 2x 2x 5x rgba(0, 0, 0, 5);
