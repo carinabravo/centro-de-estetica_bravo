@@ -1,7 +1,7 @@
 /* MAIN - GENERAL */
 
 .color__fondo {
-  background-color: #f5bbc08c;
+  background-color: #f3dadd;
   height: 1300px;
 }
 .contacto_container {
@@ -11,9 +11,10 @@
   align-items: center;
 }
 .titulo__contacto {
+  color: #615c5d;
+  font-weight: bold;
   font-size: 23px;
   text-align: center;
-  color: #615c5d;
   margin-top: 40px;
 }
 
@@ -158,9 +159,10 @@ input[type="checkbox"]:checked {
     align-items: center;
   }
   .titulo__contacto {
+    color: #615c5d;
+    font-weight: bold;
     font-size: 18px;
     text-align: center;
-    color: #615c5d;
     margin-top: 40px;
   }
 
@@ -289,9 +291,10 @@ input[type="checkbox"]:checked {
     align-items: center;
   }
   .titulo__contacto {
+    color: #615c5d;
+    font-weight: bold;
     font-size: 15px;
     text-align: center;
-    color: #615c5d;
     margin-top: 40px;
   }
 

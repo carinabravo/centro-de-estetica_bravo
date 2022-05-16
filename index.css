@@ -8,6 +8,7 @@
 
 body {
   font-family: "Merienda", cursive;
+  background-color: #ffff;
   font-weight: lighter;
   width: 100%;
   max-width: 1000px;
@@ -18,23 +19,23 @@ body {
 /* NAV - BOOTSTRAP */
 
 .navbar > .container {
-  background-color: #ffe4cc !important;
+  background-color: #badcdd !important;
 }
 .bg-light {
-  background-color: #ffe4cc !important;
+  background-color: #badcdd !important;
 }
 .navbar-brand {
-  color: #615c5d !important;
+  color: #545051 !important;
   font-weight: bold;
   font-size: 18px;
 }
 .navbar-toggler {
   font-size: 12px;
-  border-color: #615c5dbd !important;
+  border-color: #615c5ddb !important;
   border-radius: 5px;
 }
 .navbar-light .navbar-toggler {
-  color: #615c5dd8 !important;
+  color: #615c5d !important;
 }
 
 /* GRID - CONTAINER GENERAL */
@@ -43,6 +44,7 @@ body {
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: 180px 50px 1300px 60px;
+  row-gap: 4px;
   grid-auto-flow: row;
   grid-template-areas:
     "header_container"
@@ -134,18 +136,19 @@ body {
 
 .tratamientos_titulo {
   grid-area: tratamientos_titulo;
-  background-color: #f5bbc08c;
+  background-color: #f3dadd;
   display: flex;
   align-items: flex-end;
   justify-content: space-evenly;
 }
 .titulo__uno {
   color: #615c5d;
+  font-weight: bold;
   font-size: 22px;
 }
 .tratamientos {
   grid-area: tratamientos;
-  background-color: #f5bbc08c;
+  background-color: #f3dadd;
   display: flex;
   justify-content: space-around;
 }
@@ -318,6 +321,7 @@ body {
   }
   .titulo {
     color: #615c5d;
+    font-weight: bold;
     font-size: 21px;
     text-align: center;
   }
@@ -332,7 +336,7 @@ body {
 
   .tratamientos_titulo {
     grid-area: tratamientos_titulo;
-    background-color: #f5bbc08c;
+    background-color: #f3dadd;
     display: flex;
     align-items: flex-end;
     justify-content: space-evenly;
@@ -343,7 +347,7 @@ body {
   }
   .tratamientos {
     grid-area: tratamientos;
-    background-color: #f5bbc08c;
+    background-color: #f3dadd;
     display: flex;
     flex-direction: row;
   }
@@ -500,6 +504,7 @@ body {
   }
   .titulo {
     color: #615c5d;
+    font-weight: bold;
     font-size: 16px;
     text-align: center;
   }
@@ -514,7 +519,7 @@ body {
 
   .tratamientos_titulo {
     grid-area: tratamientos_titulo;
-    background-color: #f5bbc08c;
+    background-color: #f3dadd;
     display: flex;
     align-items: flex-end;
     justify-content: space-evenly;
@@ -525,7 +530,7 @@ body {
   }
   .tratamientos {
     grid-area: tratamientos;
-    background-color: #f5bbc08c;
+    background-color: #f3dadd;
     display: flex;
     flex-direction: column;
     align-items: center;
