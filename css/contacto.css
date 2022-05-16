@@ -36,7 +36,7 @@
   margin: 10px 15px 20px 15px;
 }
 .casillas {
-  background-color: #ffffffca;
+  background-color: #f2f2f2;
   width: 430px;
   height: 40px;
   margin: 0 0 10px 15px;
@@ -56,7 +56,7 @@
   margin: 0 15px 15px 15px;
 }
 .opciones {
-  background-color: #ffffffca;
+  background-color: #f2f2f2;
   width: 100px;
   height: 40px;
   margin: 5px 0 0 5px;
@@ -68,7 +68,7 @@
   font-size: 15px;
 }
 .casilla__consulta {
-  background-color: #ffffffca;
+  background-color: #f2f2f2;
   width: 430px;
   height: 80px;
   margin-left: 15px;
@@ -101,6 +101,7 @@ input[type="checkbox"]:checked {
 .boton {
   background-color: #eca9af;
   font-family: "Merienda", cursive;
+  color: #757575;
   width: 180px;
   height: 40px;
   padding: 10px;
@@ -112,25 +113,44 @@ input[type="checkbox"]:checked {
   border-radius: 10px;
 }
 .boton:hover {
-  background-color: #ffffffca;
+  background-color: #f2f2f2;
 }
 .boton:active {
   background-color: #f0778fac;
 }
-/* imagen de contacto */
+
+/* info - extra */
+
+.info__extra {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.info__extra {
+  width: 470px;
+  height: 220px;
+  background-color: #f2f2f2;
+  border-color: #eca9af;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 5px;
+  margin-top: 60px;
+}
 .titulo__img {
   color: #f0778f;
-  text-align: center;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
   margin-top: 40px;
 }
-.img__contacto {
-  width: 320px;
-  height: 480px;
-  margin-top: 30px;
-  border-radius: 10px;
-  box-shadow: 0 10px 15px 0 #eca9af;
+.texto__img {
+  color: #757575;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.frase__img {
+  color: #f0778f;
+  font-weight: bold;
+  font-size: 23px;
 }
 
 /* MEDIAS QUERIS */
@@ -199,7 +219,7 @@ input[type="checkbox"]:checked {
     margin: 10px 15px 20px 15px;
   }
   .casillas {
-    background-color: #ffffffca;
+    background-color: #f2f2f2;
     width: 380px;
     height: 40px;
     margin: 0 0 10px 15px;
@@ -219,7 +239,7 @@ input[type="checkbox"]:checked {
     margin: 0 15px 15px 15px;
   }
   .opciones {
-    background-color: #ffffffca;
+    background-color: #f2f2f2;
     width: 90px;
     height: 40px;
     margin: 5px 0 0 5px;
@@ -231,7 +251,7 @@ input[type="checkbox"]:checked {
     font-size: 14px;
   }
   .casilla__consulta {
-    background-color: #ffffffca;
+    background-color: #f2f2f2;
     width: 380px;
     height: 80px;
     margin-left: 15px;
@@ -265,6 +285,7 @@ input[type="checkbox"]:checked {
   .boton {
     background-color: #eca9af;
     font-family: "Merienda", cursive;
+    color: #757575;
     width: 150px;
     height: 40px;
     padding: 10px;
@@ -276,26 +297,44 @@ input[type="checkbox"]:checked {
     border-radius: 10px;
   }
   .boton:hover {
-    background-color: #ffffffca;
+    background-color: #f2f2f2;
   }
   .boton:active {
     background-color: #f0778fac;
   }
 
-  /* imagen de contacto */
-/* 
+  /* info - extra */
+
+  .info__extra {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .info__extra {
+    width: 420px;
+    height: 170px;
+    background-color: #f2f2f2;
+    border-color: #eca9af;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 5px;
+    margin-top: 60px;
+  }
   .titulo__img {
     color: #f0778f;
-    text-align: center;
     font-weight: bold;
-    font-size: 18px;
-  } */
-  .img__contacto {
-    width: 310px;
-    height: 460px;
-    margin-top: 50px;
-    border-radius: 10px;
-    box-shadow: 0 10px 15px 0 #eca9af;
+    font-size: 16px;
+    margin-top: 30px;
+  }
+  .texto__img {
+    color: #757575;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .frase__img {
+    color: #f0778f;
+    font-weight: bold;
+    font-size: 21px;
   }
 }
 
@@ -347,7 +386,7 @@ input[type="checkbox"]:checked {
     margin: 10px 15px 20px 15px;
   }
   .casillas {
-    background-color: #ffffffca;
+    background-color: #f2f2f2;
     width: 290px;
     height: 35px;
     margin: 0 0 10px 15px;
@@ -367,7 +406,7 @@ input[type="checkbox"]:checked {
     margin: 0 15px 15px 15px;
   }
   .opciones {
-    background-color: #ffffffca;
+    background-color: #f2f2f2;
     width: 100px;
     height: 35px;
     margin: 5px 0 0 5px;
@@ -379,7 +418,7 @@ input[type="checkbox"]:checked {
     font-size: 13px;
   }
   .casilla__consulta {
-    background-color: #ffffffca;
+    background-color: #f2f2f2;
     width: 290px;
     height: 70px;
     margin-left: 15px;
@@ -413,6 +452,7 @@ input[type="checkbox"]:checked {
   .boton {
     background-color: #eca9af;
     font-family: "Merienda", cursive;
+    color: #757575;
     width: 125px;
     height: 30px;
     padding: 5px;
@@ -424,25 +464,43 @@ input[type="checkbox"]:checked {
     border-radius: 10px;
   }
   .boton:hover {
-    background-color: #ffffffca;
+    background-color: #f2f2f2;
   }
   .boton:active {
     background-color: #f0778fac;
   }
 
-  /* imagen de contacto */
+  /* info - extra */
 
-  /* .titulo__img {
+  .info__extra {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .info__extra {
+    width: 330px;
+    height: 140px;
+    background-color: #f2f2f2;
+    border-color: #eca9af;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 5px;
+    margin-top: 60px;
+  }
+  .titulo__img {
     color: #f0778f;
-    text-align: center;
     font-weight: bold;
-    font-size: 18px;
-  } */
-.img__contacto{
-  width: 300px;
-  height: 450px;
-  margin-top: 50px;
-  border-radius: 10px;
-  box-shadow: 0 10px 15px 0 #eca9af;
-}
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  .texto__img {
+    color: #757575;
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  .frase__img {
+    color: #f0778f;
+    font-weight: bold;
+    font-size: 17px;
+  }
 }

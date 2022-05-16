@@ -56,7 +56,7 @@
   margin: 0 30px 0 30px;
 }
 .casilla {
-  background-color: #ffffffca;
+  background-color: #f2f2f2;
   width: 360px;
   height: 40px;
   margin: 10px 15px 10px 15px;
@@ -69,7 +69,7 @@
   padding: 10px;
 }
 .casilla__mensaje {
-  background-color: #ffffffca;
+  background-color: #f2f2f2;
   width: 360px;
   height: 80px;
   margin: 5px 15px 0 15px;
@@ -88,6 +88,7 @@
 .boton {
   background-color: #eca9af;
   font-family: "Merienda", cursive;
+  color:#757575;
   width: 140px;
   height: 40px;
   padding: 10px;
@@ -99,7 +100,7 @@
   margin-top: 20px;
 }
 .boton:hover {
-  background-color: #ffffffca;
+  background-color: #f2f2f2;
 }
 .boton:active {
   background-color: #f0778fac;
@@ -136,6 +137,7 @@
       "recursos_container"
       "footer_container";
   }
+
   /* RECURSOS - CONTAINER (MAIN) */
 
   .recursos_container {
@@ -190,7 +192,7 @@
     margin: 5px 30px 0 30px;
   }
   .casilla {
-    background-color: #ffffffca;
+    background-color: #f2f2f2;
     width: 340px;
     height: 40px;
     margin: 10px 15px 10px 15px;
@@ -203,7 +205,7 @@
     padding: 10px;
   }
   .casilla__mensaje {
-    background-color: #ffffffca;
+    background-color: #f2f2f2;
     width: 340px;
     height: 80px;
     margin: 5px 15px 0 15px;
@@ -222,6 +224,7 @@
   .boton {
     background-color: #eca9af;
     font-family: "Merienda", cursive;
+    color:#757575;
     width: 140px;
     height: 40px;
     padding: 10px;
@@ -233,7 +236,7 @@
     margin-top: 20px;
   }
   .boton:hover {
-    background-color: #ffffffca;
+    background-color: #f2f2f2;
   }
   .boton:active {
     background-color: #f0778fac;
@@ -253,6 +256,7 @@
       "recursos_container"
       "footer_container";
   }
+
   /* RECURSOS - CONTAINER (MAIN) */
 
   .recursos_container {
@@ -305,7 +309,7 @@
     margin: 5px 15px 0 15px;
   }
   .casilla {
-    background-color: #ffffffca;
+    background-color: #f2f2f2;
     width: 260px;
     height: 30px;
     margin: 10px 5px 10px 5px;
@@ -318,7 +322,7 @@
     padding: 10px;
   }
   .casilla__mensaje {
-    background-color: #ffffffca;
+    background-color: #f2f2f2;
     width: 260px;
     height: 70px;
     margin: 5px 5px 0 5px;
@@ -334,10 +338,10 @@
     text-align: center;
     font-size: 30px;
   }
-
   .boton {
     background-color: #eca9af;
     font-family: "Merienda", cursive;
+    color:#757575;
     width: 110px;
     height: 30px;
     padding: 5px;
@@ -348,7 +352,7 @@
     border-radius: 10px;
   }
   .boton:hover {
-    background-color: #ffffffca;
+    background-color: #f2f2f2;
   }
   .boton:active {
     background-color: #f0778fac;
