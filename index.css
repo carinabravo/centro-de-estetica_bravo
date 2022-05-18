@@ -36,6 +36,12 @@ body {
 .navbar-light .navbar-toggler {
   color: #757575 !important;
 }
+.nav-link:hover {
+  background-color: #eca9af;
+  padding: 5px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
 
 /* GRID - CONTAINER GENERAL */
 
