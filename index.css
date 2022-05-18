@@ -256,6 +256,12 @@ body {
   .navbar-collapse {
     font-size: 13px;
   }
+  .nav-link:hover {
+    background-color: #eca9af;
+    padding: 5px;
+    border-radius: 5px;
+    transition: 0.5s;
+  }
 
   /* HEADER - CONTAINER */
 
@@ -437,7 +443,12 @@ body {
     font-size: 13px;
     padding: 2px;
   }
-
+  .nav-link:hover {
+    background-color: #eca9af;
+    padding: 5px;
+    border-radius: 5px;
+    transition: 0.5s;
+  }
   /* HEADER - CONTAINER */
 
   .header_container {
