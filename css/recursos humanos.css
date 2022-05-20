@@ -2,7 +2,7 @@
 
 .color__fondo {
   background-color: #f3dadd;
-  height: 1300px;
+  height: 81.25rem;
 }
 .recursos_container {
   grid-area: recursos_container;
@@ -13,9 +13,9 @@
 .titulo__RRHH {
   color: #757575;
   font-weight: bold;
-  font-size: 23px;
+  font-size: 1.4375rem;
   text-align: center;
-  margin: 40px 0 30px 0;
+  margin: 2.5rem 0 1.875rem 0;
 }
 
 /* formulario - recursos humanos */
@@ -24,80 +24,80 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 750px;
-  height: 630px;
+  width: 46.875rem;
+  height: 39.375rem;
   border-color: #eca9af;
   border-style: solid;
   border-radius: 10px;
   border-width: 5px;
-  margin: 0 10px 0 10px;
+  margin: 0 0.625rem 0 0.625rem;
 }
 .formulario__RRHH {
-  width: 400px;
-  height: 360px;
+  width: 25rem;
+  height: 22.5rem;
   text-align: justify;
   border-color: #eca9af;
   border-style: solid;
   border-radius: 10px;
   border-width: 3px;
-  margin: 30px 30px 0 0;
+  margin: 1.875rem 1.875rem 0 0;
 }
 .sub__titulo__RRHH {
   color: #757575;
   text-align: justify;
   font-weight: bold;
-  font-size: 22px;
-  margin: 25px 0 10px 30px;
+  font-size: 1.375rem;
+  margin: 1.5625rem 0 0.625rem 1.875rem;
 }
 .texto__RRHH {
   color: #757575;
   text-align: justify;
-  font-size: 15px;
-  margin: 0 30px 0 30px;
+  font-size: 0.9375rem;
+  margin: 0 1.875rem 0 1.875rem;
 }
 .casilla {
   background-color: #f2f2f2;
-  width: 360px;
-  height: 40px;
-  margin: 10px 15px 10px 15px;
+  width: 22.5rem;
+  height: 2.5rem;
+  margin: 0.625rem 0.9375rem 0.625rem 0.9375rem;
   border-width: 1px;
   border-radius: 10px;
   border-color: #f0778f;
   border-style: solid;
   font-family: Georgia;
-  font-size: 15px;
-  padding: 10px;
+  font-size: 0.9375rem;
+  padding: 0.625rem;
 }
 .casilla__mensaje {
   background-color: #f2f2f2;
-  width: 360px;
-  height: 80px;
-  margin: 5px 15px 0 15px;
+  width: 22.5rem;
+  height: 5rem;
+  margin: 0.3125rem 0.9375rem 0 0.9375rem;
   border-style: solid;
   border-color: #f0778f;
   border-width: 1px;
   border-radius: 10px;
   font-family: Georgia;
-  padding: 10px;
-  font-size: 15px;
+  padding: 0.625rem;
+  font-size: 0.9375rem;
 }
 .botones__dos {
   text-align: center;
-  font-size: 50px;
+  font-size: 3.125rem;
 }
 .boton {
   background-color: #eca9af;
   font-family: "Merienda", cursive;
   color: #757575;
-  width: 140px;
-  height: 40px;
-  padding: 10px;
-  font-size: 15px;
+  width: 8.75rem;
+  height: 2.5rem;
+  padding: 0.625rem;
+  font-size: 0.9375rem;
   border-color: #f0778f;
   border-style: solid;
   border-width: 1px;
   border-radius: 10px;
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 .boton:hover {
   background-color: #f2f2f2;
@@ -114,30 +114,30 @@
   align-items: center;
 }
 .info__extra__dos {
-  width: 400px;
-  height: 170px;
+  width: 25rem;
+  height: 10.625rem;
   background-color: #f2f2f2;
   border-color: #eca9af;
   border-style: solid;
   border-radius: 10px;
   border-width: 3px;
-  margin-top: 30px;
+  margin-top: 1.875rem;
 }
 .titulo__img__dos {
   color: #f0778f;
   font-weight: bold;
-  font-size: 16px;
-  margin-top: 30px;
+  font-size: 1rem;
+  margin-top: 1.875rem;
 }
 .texto__img__dos {
   color: #757575;
-  font-size: 14px;
-  margin-bottom: 20px;
+  font-size: 0.875rem;
+  margin-bottom: 1.25rem;
 }
 .frase__img__dos {
   color: #f0778f;
   font-weight: bold;
-  font-size: 21px;
+  font-size: 1.3125rem;
 }
 
 /* MEDIAS QUERIS */
@@ -148,7 +148,7 @@
   .grid_container {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 180px 50px 1300px 60px;
+    grid-template-rows: 11.25rem 3.125rem 81.25rem 3.75rem;
     grid-auto-flow: row;
     grid-template-areas:
       "header_container"
@@ -164,7 +164,7 @@
   .grid_container {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 160px 50px 1300px 60px;
+    grid-template-rows: 10rem 3.125rem 81.25rem 3.75rem;
     grid-template-areas:
       "header_container"
       "nav_container"
@@ -183,9 +183,9 @@
   .titulo__RRHH {
     color: #757575;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 1.125rem;
     text-align: center;
-    margin: 40px 0 30px 0;
+    margin: 2.5rem 0 1.875rem 0;
   }
 
   /* formulario - recursos humanos */
@@ -195,79 +195,79 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 450px;
-    height: 860px;
+    width: 28.125rem;
+    height: 53.75rem;
     border-color: #eca9af;
     border-style: solid;
     border-radius: 10px;
     border-width: 5px;
-    margin: 0 5px 0 5px;
+    margin: 0 0.3125rem 0 0.3125rem;
   }
   .formulario__RRHH {
-    width: 380px;
-    height: 350px;
+    width: 23.75rem;
+    height: 21.875rem;
     text-align: center;
     border-color: #eca9af;
     border-style: solid;
     border-radius: 10px;
     border-width: 3px;
-    margin: 30px 0 0 0;
+    margin: 1.875rem 0 0 0;
   }
   .sub__titulo__RRHH {
     color: #757575;
     text-align: justify;
-    font-size: 16px;
-    margin: 0 0 10px 30px;
+    font-size: 1rem;
+    margin: 0 0 0.625rem 1.875rem;
   }
   .texto__RRHH {
     color: #757575;
     text-align: justify;
-    font-size: 13px;
-    margin: 5px 30px 0 30px;
+    font-size: 0.8125rem;
+    margin: 0.3125rem 1.875rem 0 1.875rem;
   }
   .casilla {
     background-color: #f2f2f2;
-    width: 340px;
-    height: 40px;
-    margin: 10px 15px 10px 15px;
+    width: 21.25rem;
+    height: 2.5rem;
+    margin: 0.625rem 0.9375rem 0.625rem 0.9375rem;
     border-width: 1px;
     border-radius: 10px;
     border-color: #f0778f;
     border-style: solid;
     font-family: Georgia;
-    font-size: 14px;
-    padding: 10px;
+    font-size: 0.875rem;
+    padding: 0.625rem;
   }
   .casilla__mensaje {
     background-color: #f2f2f2;
-    width: 340px;
-    height: 80px;
-    margin: 5px 15px 0 15px;
+    width: 21.25rem;
+    height: 5rem;
+    margin: 0.3125rem 0.9375rem 0 0.9375rem;
     border-style: solid;
     border-color: #f0778f;
     border-width: 1px;
     border-radius: 10px;
     font-family: Georgia;
-    padding: 10px;
-    font-size: 14px;
+    padding: 0.625rem;
+    font-size: 0.875rem;
   }
   .botones__dos {
     text-align: center;
-    font-size: 40px;
+    font-size: 2.5rem;
   }
   .boton {
     background-color: #eca9af;
     font-family: "Merienda", cursive;
     color: #757575;
-    width: 140px;
-    height: 40px;
-    padding: 10px;
-    font-size: 13px;
+    width: 8.75rem;
+    height: 2.5rem;
+    padding: 0.625rem;
+    font-size: 0.8125rem;
     border-color: #f0778f;
     border-style: solid;
     border-width: 1px;
     border-radius: 10px;
-    margin-top: 20px;
+    margin-top: 1.25rem;
   }
   .boton:hover {
     background-color: #f2f2f2;
@@ -284,30 +284,30 @@
     align-items: center;
   }
   .info__extra__dos {
-    width: 380px;
-    height: 170px;
+    width: 23.75rem;
+    height: 10.625rem;
     background-color: #f2f2f2;
     border-color: #eca9af;
     border-style: solid;
     border-radius: 10px;
     border-width: 3px;
-    margin-top: 30px;
+    margin-top: 1.875rem;
   }
   .titulo__img__dos {
     color: #f0778f;
     font-weight: bold;
-    font-size: 16px;
-    margin-top: 30px;
+    font-size: 1rem;
+    margin-top: 1.875rem;
   }
   .texto__img__dos {
     color: #757575;
-    font-size: 14px;
-    margin-bottom: 20px;
+    font-size: 0.875rem;
+    margin-bottom: 0.875rem;
   }
   .frase__img__dos {
     color: #f0778f;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 }
 
@@ -317,7 +317,7 @@
   .grid_container {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 120px 50px 1300px 50px;
+    grid-template-rows: 7.5rem 3.125rem 81.25rem 3.125rem;
     grid-template-areas:
       "header_container"
       "nav_container"
@@ -336,9 +336,9 @@
   .titulo__RRHH {
     color: #757575;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 0.9375rem;
     text-align: center;
-    margin: 40px 0 30px 0;
+    margin: 2.5rem 0 1.875rem 0;
   }
 
   /* formulario - recursos humanos */
@@ -348,72 +348,72 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 330px;
-    height: 820px;
+    width: 20.625rem;
+    height: 51.25rem;
     border-color: #eca9af;
     border-style: solid;
     border-radius: 10px;
     border-width: 5px;
   }
   .formulario__RRHH {
-    width: 290px;
-    height: 300px;
+    width: 18.125rem;
+    height: 18.75rem;
     border-color: #eca9af;
     border-style: solid;
     border-radius: 10px;
     border-width: 3px;
-    margin: 30px 0 0 0;
+    margin: 1.875rem 0 0 0;
   }
   .sub__titulo__RRHH {
     color: #757575;
     text-align: justify;
-    font-size: 14px;
-    margin: 0 0 10px 15px;
+    font-size: 0.875rem;
+    margin: 0 0 0.625rem 0.9375rem;
   }
   .texto__RRHH {
     color: #757575;
     text-align: justify;
-    font-size: 12px;
-    margin: 5px 15px 0 15px;
+    font-size: 0.75rem;
+    margin: 0.3125rem 0.9375rem 0 0.9375rem;
   }
   .casilla {
     background-color: #f2f2f2;
-    width: 260px;
-    height: 30px;
-    margin: 10px 5px 10px 5px;
+    width: 16.25rem;
+    height: 1.875rem;
+    margin: 0.625rem 0.3125rem 0.625rem 0.3125rem;
     border-width: 1px;
     border-radius: 10px;
     border-color: #f0778f;
     border-style: solid;
     font-family: Georgia;
-    font-size: 13px;
-    padding: 10px;
+    font-size: 0.8125rem;
+    padding: 0.625rem;
   }
   .casilla__mensaje {
     background-color: #f2f2f2;
-    width: 260px;
-    height: 70px;
-    margin: 5px 5px 0 5px;
+    width: 16.25rem;
+    height: 4.375rem;
+    margin: 0.3125rem 0.3125rem 0 0.3125rem;
     border-style: solid;
     border-color: #f0778f;
     border-width: 1px;
     border-radius: 10px;
     font-family: Georgia;
-    padding: 10px;
-    font-size: 13px;
+    padding: 0.625rem;
+    font-size: 0.8125rem;
   }
   .botones__dos {
     text-align: center;
-    font-size: 30px;
+    font-size: 1.875rem;
   }
   .boton {
     background-color: #eca9af;
     font-family: "Merienda", cursive;
     color: #757575;
-    width: 110px;
-    height: 30px;
-    padding: 5px;
-    font-size: 12px;
+    width: 6.875rem;
+    height: 1.875rem;
+    padding: 0.3125rem;
+    font-size: 0.75rem;
     border-color: #f0778f;
     border-style: solid;
     border-width: 1px;
@@ -434,29 +434,29 @@
     align-items: center;
   }
   .info__extra__dos {
-    width: 290px;
-    height: 160px;
+    width: 18.125rem;
+    height: 10rem;
     background-color: #f2f2f2;
     border-color: #eca9af;
     border-style: solid;
     border-radius: 10px;
     border-width: 3px;
-    margin-top: 30px;
+    margin-top: 1.875rem;
   }
   .titulo__img__dos {
     color: #f0778f;
     font-weight: bold;
-    font-size: 14px;
-    margin-top: 30px;
+    font-size: 0.875rem;
+    margin-top: 1.875rem;
   }
   .texto__img__dos {
     color: #757575;
-    font-size: 12px;
-    margin-bottom: 20px;
+    font-size: 0.75rem;
+    margin-bottom: 1.25rem;
   }
   .frase__img__dos {
     color: #f0778f;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 0.9375rem;
   }
 }
