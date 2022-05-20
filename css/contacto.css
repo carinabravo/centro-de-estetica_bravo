@@ -2,7 +2,7 @@
 
 .color__fondo {
   background-color: #f3dadd;
-  height: 1300px;
+  height: 81.25rem;
 }
 .contacto_container {
   grid-area: contacto_container;
@@ -13,100 +13,100 @@
 .titulo__contacto {
   color: #757575;
   font-weight: bold;
-  font-size: 23px;
+  font-size: 1.4375rem;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 2.5rem;
 }
 
 /* formulario de contacto */
 
 .formulario__uno {
-  width: 470px;
-  height: 540px;
+  width: 29.375rem;
+  height: 33.75rem;
   border-color: #eca9af;
   border-style: solid;
   border-radius: 10px;
-  border-width: 5px;
-  margin: 30px 20px 0 20px;
+  border-width: 0.3125rem;
+  margin: 1.875rem 1.25rem 0 1.25rem;
 }
 .texto__contacto {
   color: #757575;
   text-align: justify;
-  font-size: 15px;
-  margin: 10px 15px 20px 15px;
+  font-size: 0.9375rem;
+  margin: 0.625rem 0.9375rem 1.25rem 0.9375rem;
 }
 .casillas {
   background-color: #f2f2f2;
-  width: 430px;
-  height: 40px;
-  margin: 0 0 10px 15px;
+  width: 26.875rem;
+  height: 2.5rem;
+  margin: 0 0 0.625rem 0.9375rem;
   border-width: 1px;
   border-radius: 10px;
   border-color: #f0778f;
   border-style: solid;
   font-family: Georgia;
-  font-size: 15px;
-  padding: 10px;
+  font-size: 0.9375rem;
+  padding: 0.625rem;
 }
 .contacto__uno {
   color: #757575;
   font-family: "Merienda", cursive;
   text-align: justify;
-  font-size: 15px;
-  margin: 0 15px 15px 15px;
+  font-size: 0.9375rem;
+  margin: 0 0.9375rem 0.9375rem 0.9375rem;
 }
 .opciones {
   background-color: #f2f2f2;
-  width: 100px;
-  height: 40px;
-  margin: 5px 0 0 5px;
+  width: 6.25rem;
+  height: 2.5rem;
+  margin: 0.3125rem 0 0 0.3125rem;
   border-color: #f0778f;
   border-style: solid;
   font-family: Georgia;
   border-width: 1px;
   border-radius: 10px;
-  font-size: 15px;
+  font-size: 0.9375rem;
 }
 .casilla__consulta {
   background-color: #f2f2f2;
-  width: 430px;
-  height: 80px;
-  margin-left: 15px;
+  width: 26.875rem;
+  height: 5rem;
+  margin-left: 0.9375rem;
   border-color: #f0778f;
   border-style: solid;
   border-width: 1px;
   border-radius: 10px;
   font-family: Georgia;
-  padding: 10px;
-  font-size: 15px;
+  padding: 0.625rem;
+  font-size: 0.9375rem;
 }
 .contacto__dos {
   color: #757575;
   text-align: justify;
-  font-size: 11px;
-  margin: 5px 15px 20px 15px;
+  font-size: 0.6875rem;
+  margin: 0.3125rem 0.9375rem 1.25rem 0.9375rem;
 }
 input[type="checkbox"] {
   transition: all 0.4s;
 }
 input[type="checkbox"]:checked {
-  width: 18px;
-  height: 18px;
+  width: 1.125rem;
+  height: 1.125rem;
 }
 .botones {
   text-align: center;
-  font-size: 5px;
-  margin: 18px 18px 0 0;
+  font-size: 0.3125rem;
+  margin: 1.125rem 1.125rem 0 0;
 }
 .boton {
   background-color: #eca9af;
   font-family: "Merienda", cursive;
   color: #757575;
-  width: 180px;
-  height: 40px;
-  padding: 10px;
-  font-size: 15px;
-  margin: 10px 0 14px 20px;
+  width: 11.25rem;
+  height: 2.5rem;
+  padding: 0.625rem;
+  font-size: 0.625rem;
+  margin: 0.625rem 0 0.875rem 1.25rem;
   border-color: #f0778f;
   border-style: solid;
   border-width: 1px;
@@ -127,30 +127,30 @@ input[type="checkbox"]:checked {
   align-items: center;
 }
 .info__extra {
-  width: 470px;
-  height: 210px;
+  width: 29.375rem;
+  height: 13.125rem;
   background-color: #f2f2f2;
   border-color: #eca9af;
   border-style: solid;
   border-radius: 10px;
   border-width: 5px;
-  margin-top: 50px;
+  margin-top: 3.125rem;
 }
 .titulo__img {
   color: #f0778f;
   font-weight: bold;
-  font-size: 18px;
-  margin-top: 40px;
+  font-size: 1.125rem;
+  margin-top: 2.5rem;
 }
 .texto__img {
   color: #757575;
-  font-size: 16px;
-  margin-bottom: 20px;
+  font-size: 1rem;
+  margin-bottom: 1.25rem;
 }
 .frase__img {
   color: #f0778f;
   font-weight: bold;
-  font-size: 23px;
+  font-size: 1.4375rem;
 }
 
 /* MEDIAS QUERIS */
@@ -161,7 +161,7 @@ input[type="checkbox"]:checked {
   .grid_container {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 180px 50px 1300px 60px;
+    grid-template-rows: 11.25rem 3.125rem 81.25rem 3.75rem;
     grid-auto-flow: row;
     grid-template-areas:
       "header_container"
@@ -177,7 +177,7 @@ input[type="checkbox"]:checked {
   .grid_container {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 160px 50px 1300px 60px;
+    grid-template-rows: 10rem 3.125rem 81.25rem 3.75rem;
     grid-template-areas:
       "header_container"
       "nav_container"
@@ -196,101 +196,101 @@ input[type="checkbox"]:checked {
   .titulo__contacto {
     color: #757575;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 1.125rem;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 2.5rem;
   }
 
   /* formulario de contacto */
 
   .formulario__uno {
-    width: 420px;
-    height: 520px;
+    width: 26.25rem;
+    height: 32.5rem;
     border-color: #eca9af;
     border-style: solid;
     border-radius: 10px;
     border-width: 5px;
-    margin: 30px 5px 0 5px;
+    margin: 1.875rem 0.3125rem 0 0.3125rem;
   }
   .texto__contacto {
     color: #757575;
     text-align: justify;
-    font-size: 13px;
-    margin: 10px 15px 20px 15px;
+    font-size: 0.8125rem;
+    margin: 0.625rem 0.9375rem 1.25rem 0.9375rem;
   }
   .casillas {
     background-color: #f2f2f2;
-    width: 380px;
-    height: 40px;
-    margin: 0 0 10px 15px;
+    width: 23.75rem;
+    height: 2.5rem;
+    margin: 0 0 0.625rem 0.9375rem;
     border-width: 1px;
     border-radius: 10px;
     border-color: #f0778f;
     border-style: solid;
     font-family: Georgia;
-    font-size: 15px;
-    padding: 10px;
+    font-size: 0.9375rem;
+    padding: 0.625rem;
   }
   .contacto__uno {
     color: #757575;
     font-family: "Merienda", cursive;
     text-align: justify;
-    font-size: 13px;
-    margin: 0 15px 15px 15px;
+    font-size: 0.8125rem;
+    margin: 0 0.9375rem 0.9375rem 0.9375rem;
   }
   .opciones {
     background-color: #f2f2f2;
-    width: 90px;
-    height: 40px;
-    margin: 5px 0 0 5px;
+    width: 5.625rem;
+    height: 2.5rem;
+    margin: 0.3125rem 0 0 0.3125rem;
     border-color: #f0778f;
     border-style: solid;
     font-family: Georgia;
     border-width: 1px;
     border-radius: 10px;
-    font-size: 14px;
+    font-size: 0.875rem;
   }
   .casilla__consulta {
     background-color: #f2f2f2;
-    width: 380px;
-    height: 80px;
-    margin-left: 15px;
+    width: 23.75rem;
+    height: 5rem;
+    margin-left: 0.9375rem;
     border-color: #f0778f;
     border-style: solid;
     border-width: 1px;
     border-radius: 10px;
     font-family: Georgia;
-    padding: 10px;
-    font-size: 15px;
+    padding: 0.625rem;
+    font-size: 0.9375rem;
   }
   .contacto__dos {
     color: #757575;
     text-align: justify;
     font-family: "Merienda", cursive;
-    font-size: 11px;
-    margin: 5px 15px 20px 15px;
+    font-size: 0.6875rem;
+    margin: 0.3125rem 0.9375rem 1.25rem 0.9375rem;
   }
   input[type="checkbox"] {
     transition: all 0.4s;
   }
   input[type="checkbox"]:checked {
-    width: 18px;
-    height: 18px;
+    width: 1.125rem;
+    height: 1.125rem;
   }
   .botones {
     text-align: center;
-    font-size: 5px;
-    margin: 20px 20px 0 0;
+    font-size: 0.3125rem;
+    margin: 1.25rem 1.25rem 0 0;
   }
   .boton {
     background-color: #eca9af;
     font-family: "Merienda", cursive;
     color: #757575;
-    width: 150px;
-    height: 40px;
-    padding: 10px;
-    font-size: 13px;
-    margin: 10px 0 14px 20px;
+    width: 9.375rem;
+    height: 2.5rem;
+    padding: 0.625rem;
+    font-size: 0.8125rem;
+    margin: 0.625rem 0 0.875rem 1.25rem;
     border-color: #f0778f;
     border-style: solid;
     border-width: 1px;
@@ -311,30 +311,30 @@ input[type="checkbox"]:checked {
     align-items: center;
   }
   .info__extra {
-    width: 420px;
-    height: 170px;
+    width: 26.25rem;
+    height: 10.625rem;
     background-color: #f2f2f2;
     border-color: #eca9af;
     border-style: solid;
     border-radius: 10px;
     border-width: 5px;
-    margin-top: 50px;
+    margin-top: 3.125rem;
   }
   .titulo__img {
     color: #f0778f;
     font-weight: bold;
-    font-size: 16px;
-    margin-top: 30px;
+    font-size: 1rem;
+    margin-top: 1.875rem;
   }
   .texto__img {
     color: #757575;
-    font-size: 14px;
-    margin-bottom: 20px;
+    font-size: 0.875rem;
+    margin-bottom: 1.25rem;
   }
   .frase__img {
     color: #f0778f;
     font-weight: bold;
-    font-size: 21px;
+    font-size: 1.3125rem;
   }
 }
 
@@ -344,7 +344,7 @@ input[type="checkbox"]:checked {
   .grid_container {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 120px 50px 1300px 50px;
+    grid-template-rows: 7.5rem 3.125rem 81.25rem 3.125rem;
     grid-template-areas:
       "header_container"
       "nav_container"
@@ -363,101 +363,101 @@ input[type="checkbox"]:checked {
   .titulo__contacto {
     color: #757575;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 0.9375rem;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 2.5rem;
   }
 
   /* formulario de contacto */
 
   .formulario__uno {
-    width: 330px;
-    height: 470px;
+    width: 20.625rem;
+    height: 29.375rem;
     border-color: #eca9af;
     border-style: solid;
     border-radius: 10px;
     border-width: 5px;
-    margin-top: 30px;
+    margin-top: 1.875rem;
   }
   .texto__contacto {
     color: #757575;
     text-align: justify;
-    font-size: 12px;
-    margin: 10px 15px 20px 15px;
+    font-size: 0.75rem;
+    margin: 0.625rem 0.9375rem 1.25rem 0.9375rem;
   }
   .casillas {
     background-color: #f2f2f2;
-    width: 290px;
-    height: 35px;
-    margin: 0 0 10px 15px;
+    width: 18.125rem;
+    height: 2.1875rem;
+    margin: 0 0 0.625rem 0.9375rem;
     border-width: 1px;
     border-radius: 10px;
     border-color: #f0778f;
     border-style: solid;
     font-family: Georgia;
-    font-size: 13px;
-    padding: 10px;
+    font-size: 0.8125rem;
+    padding: 0.625rem;
   }
   .contacto__uno {
     color: #757575;
     font-family: "Merienda", cursive;
     text-align: justify;
-    font-size: 12px;
-    margin: 0 15px 15px 15px;
+    font-size: 0.75rem;
+    margin: 0 0.9375rem 0.9375rem 0.9375rem;
   }
   .opciones {
     background-color: #f2f2f2;
-    width: 100px;
-    height: 35px;
-    margin: 5px 0 0 5px;
+    width: 6.25rem;
+    height: 2.1875rem;
+    margin: 0.3125rem 0 0 0.3125rem;
     border-color: #f0778f;
     border-style: solid;
     font-family: Georgia;
     border-width: 1px;
     border-radius: 10px;
-    font-size: 13px;
+    font-size: 0.8125rem;
   }
   .casilla__consulta {
     background-color: #f2f2f2;
-    width: 290px;
-    height: 70px;
-    margin-left: 15px;
+    width: 18.125rem;
+    height: 4.375rem;
+    margin-left: 0.9375rem;
     border-color: #f0778f;
     border-style: solid;
     border-width: 1px;
     border-radius: 10px;
     font-family: Georgia;
-    padding: 10px;
-    font-size: 13px;
+    padding: 0.625rem;
+    font-size: 0.8125rem;
   }
   .contacto__dos {
     color: #757575;
     text-align: justify;
     font-family: "Merienda", cursive;
-    font-size: 10px;
-    margin: 5px 15px 20px 15px;
+    font-size: 0.625rem;
+    margin: 0.3125rem 0.9375rem 1.25rem 0.9375rem;
   }
   input[type="checkbox"] {
     transition: all 0.4s;
   }
   input[type="checkbox"]:checked {
-    width: 18px;
-    height: 18px;
+    width: 1.125rem;
+    height: 1.125rem;
   }
   .botones {
     text-align: center;
-    font-size: 2px;
-    margin: 20px 20px 0 0;
+    font-size: 0.125rem;
+    margin: 1.25rem 1.25rem 0 0;
   }
   .boton {
     background-color: #eca9af;
     font-family: "Merienda", cursive;
     color: #757575;
-    width: 125px;
-    height: 30px;
-    padding: 5px;
-    font-size: 12px;
-    margin: 5px 0 15px 20px;
+    width: 7.8125rem;
+    height: 1.875rem;
+    padding: 0.3125rem;
+    font-size: 0.75rem;
+    margin: 0.3125rem 0 0.9375rem 1.25rem;
     border-color: #f0778f;
     border-style: solid;
     border-width: 1px;
@@ -478,29 +478,29 @@ input[type="checkbox"]:checked {
     align-items: center;
   }
   .info__extra {
-    width: 330px;
-    height: 140px;
+    width: 20.625rem;
+    height: 8.75rem;
     background-color: #f2f2f2;
     border-color: #eca9af;
     border-style: solid;
     border-radius: 10px;
     border-width: 5px;
-    margin-top: 50px;
+    margin-top: 3.125rem;
   }
   .titulo__img {
     color: #f0778f;
     font-weight: bold;
-    font-size: 14px;
-    margin-top: 20px;
+    font-size: 0.875rem;
+    margin-top: 1.25rem;
   }
   .texto__img {
     color: #757575;
-    font-size: 12px;
-    margin-bottom: 20px;
+    font-size: 0.75rem;
+    margin-bottom: 1.25rem;
   }
   .frase__img {
     color: #f0778f;
     font-weight: bold;
-    font-size: 17px;
+    font-size: 1.0625rem;
   }
 }
