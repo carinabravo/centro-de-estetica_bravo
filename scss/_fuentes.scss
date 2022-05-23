@@ -7,9 +7,6 @@ body {
   font-family: "Merienda", cursive;
   font-weight: $fuente-menor;
 }
-.navbar-collapse {
-  font-size: 0.8125rem;
-}
 .navbar-brand {
   font-weight: $fuente-mayor;
   font-size: 1.125rem;
@@ -27,6 +24,14 @@ body {
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
     font-size: 0.5rem;
+  }
+}
+.navbar-collapse {
+  @media (max-width: 767px) {
+    font-size: 0.8125rem;
+  }
+  @media screen and (min-width: 350px) and (max-width: 500px) {
+    font-size: 0.8125rem;
   }
 }
 .nombre {
