@@ -1,0 +1,190 @@
+/*** Medidas del sitio ***/
+
+$textAlineacion-primaria: center;
+$textAlineacion-secundaria: right;
+$textAlineacion-terciaria: justify;
+$alineacionItem-primario: center;
+$alineacionItem-secundario: flex-end;
+$justifyContent-primario: space-evenly;
+$justifyContent-secundario: space-between;
+$justifyContent-terciario: space-around;
+$justifyContent-cuaternario: flex-end;
+
+.navbar-brand {
+  padding-bottom: 0.3125rem;
+}
+.navbar-nav {
+  padding-bottom: 0.3125rem;
+}
+.nav-link:hover {
+  padding: 0.3125rem;
+  border-radius: 5px;
+}
+.imagen {
+  width: 100%;
+}
+.navbar-toggler {
+  border-radius: 5px;
+  @media (max-width: 767px) {
+    border-radius: 5px;
+  }
+  @media screen and (min-width: 350px) and (max-width: 500px) {
+    border-radius: 5px;
+  }
+}
+.logo__chico {
+  width: 150px;
+  height: 150px;
+  margin: 0.9375rem 0 0 0.9375rem;
+  border-radius: 50%;
+  @media (max-width: 767px) {
+    width: 120px;
+    height: 120px;
+    margin: 1.25rem 0 0 0.625rem;
+    border-radius: 50%;
+  }
+  @media screen and (min-width: 350px) and (max-width: 500px) {
+    width: 90px;
+    height: 90px;
+    margin: 0.9375rem 0 0 0.625rem;
+    border-radius: 50%;
+  }
+}
+.nombre {
+  align-items: $alineacionItem-primario;
+  margin: 5rem 0 0 0.625rem;
+  @media (max-width: 767px) {
+    margin: 4.375rem 0 0 0.625rem;
+  }
+  @media screen and (min-width: 350px) and (max-width: 500px) {
+    margin: 0.75rem 4.1875rem 0 0;
+  }
+}
+.frase {
+  text-align: $textAlineacion-secundaria;
+  margin: 1.875rem 1.25rem 0 0;
+  @media (max-width: 767px) {
+    text-align: $textAlineacion-secundaria;
+    margin: 1.875rem 0.9375rem 0 0;
+  }
+  @media screen and (min-width: 350px) and (max-width: 500px) {
+    margin: 1.25rem 0.9375rem 0 0;
+  }
+}
+.logo__grande {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  @media (max-width: 767px) {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+  }
+  @media screen and (min-width: 350px) and (max-width: 500px) {
+    width: 210px;
+    height: 210px;
+    margin-top: 0.625rem;
+    border-radius: 50%;
+  }
+}
+.titulo {
+  margin: 0.625rem 0 0.625rem 0;
+  @media (max-width: 767px) {
+    text-align: $textAlineacion-primaria;
+  }
+  @media screen and (min-width: 350px) and (max-width: 500px) {
+    text-align: $textAlineacion-primaria;
+  }
+}
+.texto {
+  text-align: $textAlineacion-terciaria;
+  margin-right: 3.125rem;
+  @media (max-width: 767px) {
+    text-align: $textAlineacion-terciaria;
+    margin: 0.9375rem 1.875rem 0.625rem 1.875rem;
+  }
+  @media screen and (min-width: 350px) and (max-width: 500px) {
+    text-align: $textAlineacion-terciaria;
+    margin: 0.9375rem 1.875rem 0.625rem 1.875rem;
+  }
+}
+.tratamiento {
+  text-align: $textAlineacion-primaria;
+  margin: 2.5rem 0 1.25rem;
+  @media (max-width: 767px) {
+    text-align: $textAlineacion-primaria;
+  }
+  @media screen and (min-width: 350px) and (max-width: 500px) {
+    text-align: $textAlineacion-primaria;
+    margin-bottom: 0.625rem;
+    margin-top: 0.625rem;
+  }
+}
+.img__tratamiento {
+  width: 13.125rem;
+  height: 18.75rem;
+  border-radius: 10px;
+  @media (max-width: 767px) {
+    width: 8.75rem;
+    height: 12.813rem;
+    border-radius: 10px;
+  }
+  @media screen and (min-width: 350px) and (max-width: 500px) {
+    width: 7.5rem;
+    height: 10.625rem;
+    border-radius: 10px;
+  }
+}
+.derechos {
+  margin-left: 1.25rem;
+  @media (max-width: 767px) {
+    margin-left: 1.25rem;
+  }
+  @media screen and (min-width: 350px) and (max-width: 500px) {
+    margin-left: 0.625rem;
+  }
+}
+.redes {
+  min-width: 8.75rem;
+  margin-right: 1.25rem;
+  @media (max-width: 767px) {
+    min-width: 6.25rem;
+    margin-right: 1.25rem;
+  }
+  @media screen and (min-width: 350px) and (max-width: 500px) {
+    min-width: 3.75rem;
+    margin-right: 0.625rem;
+  }
+}
+.redes {
+  a {
+    text-decoration: none;
+    width: 2.5rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    text-align: $textAlineacion-primaria;
+    border-radius: 50%;
+
+    @media (max-width: 767px) {
+      text-decoration: none;
+      width: 1.875rem;
+      height: 1.875rem;
+      line-height: 1.875rem;
+      text-align: $textAlineacion-primaria;
+      border-radius: 50%;
+    }
+    @media screen and (min-width: 350px) and (max-width: 500px) {
+      text-decoration: none;
+      width: 1.5rem;
+      height: 1.5rem;
+      line-height: 1.5rem;
+      text-align: $textAlineacion-primaria;
+      border-radius: 50%;
+    }
+  }
+}
+.navbar-collapse {
+  @media screen and (min-width: 350px) and (max-width: 500px) {
+    padding: 0.125rem;
+  }
+}
