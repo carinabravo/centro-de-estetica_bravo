@@ -1,0 +1,50 @@
+/*** Colores del sitio ***/
+
+$fuentePrimaria-color: #757575;
+$fuenteSecundaria-color: #f0778f;
+$fuenteTerciaria-color: #6a6969;
+$basePrimaria-color: #eca9af;
+$baseSecundaria-color: #f2f2f2;
+
+.navbar > .container,
+.bg-light {
+  background-color: $baseSecundaria-color !important;
+}
+.navbar-brand,
+.navbar-toggler,
+.navbar-light {
+  color: $fuentePrimaria-color !important;
+}
+.nav-link:hover,
+.header_container,
+.bienvenida,
+.footer_container {
+  background-color: $basePrimaria-color;
+}
+.logo__chico {
+  box-shadow: 0 0.3125rem 0.625rem 0 #fa818b;
+}
+.nombre,
+.frase,
+.titulo,
+.texto,
+.titulo__uno {
+  color: $fuentePrimaria-color;
+}
+.tratamientos_titulo,
+.tratamientos {
+  background-color: $baseSecundaria-color;
+}
+.tratamiento {
+  color: $fuenteSecundaria-color;
+}
+.derechos {
+  color: $fuenteTerciaria-color;
+}
+.redes {
+  a {
+    background-color: $fuentePrimaria-color;
+    color: #fff;
+    box-shadow: 2x 2x 5x rgba(0, 0, 0, 5);
+  }
+}

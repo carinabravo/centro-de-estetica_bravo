@@ -1,0 +1,19 @@
+/*** Animaciones del sitio ***/
+
+.nav-link:hover {
+  transition: 0.5s;
+}
+.img__tratamiento {
+  transition: all 0.4s ease-in-out;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+.redes {
+  a {
+    transition: all 0.4s ease-in-out;
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+}
