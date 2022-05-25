@@ -3,8 +3,13 @@
 $fuentePrimaria-color: #757575;
 $fuenteSecundaria-color: #f0778f;
 $fuenteTerciaria-color: #6a6969;
+$fuenteCuaternaria-color: #fff;
 $basePrimaria-color: #eca9af;
 $baseSecundaria-color: #f2f2f2;
+$baseTerciaria-color: #f3dadd;
+$baseCuaternaria-color:#f0778fac;
+$fuenteSombra-color: #fa818b;
+
 
 .navbar > .container,
 .bg-light {
@@ -22,7 +27,7 @@ $baseSecundaria-color: #f2f2f2;
   background-color: $basePrimaria-color;
 }
 .logo__chico {
-  box-shadow: 0 0.3125rem 0.625rem 0 #fa818b;
+  box-shadow: 0 0.3125rem 0.625rem 0 $fuenteSombra-color;
 }
 .nombre,
 .frase,
@@ -44,7 +49,7 @@ $baseSecundaria-color: #f2f2f2;
 .redes {
   a {
     background-color: $fuentePrimaria-color;
-    color: #fff;
+    color: $fuenteCuaternaria-color;
     box-shadow: 2x 2x 5x rgba(0, 0, 0, 5);
   }
 }
