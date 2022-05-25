@@ -1,0 +1,62 @@
+/*** Medidas - Tratamientos ***/
+
+.fondo__color__tratamientos {
+  height: 81.25rem;
+}
+.titulo__principal {
+  text-align: $textAlineacion-primaria;
+  margin-top: 2.5rem;
+  @media (max-width: 767px) {
+    margin-top: 1.25rem;
+  }
+  @media screen and (min-width: 350px) and (max-width: 500px) {
+    margin-top: 1.25rem;
+  }
+}
+.imagen__tratamiento {
+  width: 23.125rem;
+  height: 15.625rem;
+  border-radius: 10px;
+  margin: 2.5rem 0 0 2.5rem;
+  @media (max-width: 767px) {
+    width: 17.5rem;
+    height: 10.313rem;
+    margin: 0.3125rem 0 0.625rem 0.625rem;
+  }
+  @media screen and (min-width: 350px) and (max-width: 500px) {
+    width: 16.25rem;
+    height: 10rem;
+    margin: 0.3125rem 0 0.625rem 0.625rem;
+  }
+}
+.sub__titulo__tratamiento {
+  text-align: $textAlineacion-terciaria;
+  margin: 2.5rem 0 0.625rem 1.875rem;
+  @media (max-width: 767px) {
+    margin: 0.625rem 0 0.3125rem 0.9375rem;
+  }
+  @media screen and (min-width: 350px) and (max-width: 500px) {
+    margin: 0.625rem 0 0.625rem 0.9375rem;
+  }
+}
+.listado {
+  list-style: disc;
+  text-align: $textAlineacion-terciaria;
+  margin: 0 0 0.625rem 1.0625rem;
+  @media (max-width: 767px) {
+    margin: 0 0 0.3125rem 0;
+  }
+  @media screen and (min-width: 350px) and (max-width: 500px) {
+    margin-bottom: 0.625rem;
+  }
+}
+.descripciones__uno {
+  text-align: $textAlineacion-terciaria;
+  margin: 0 2.5rem 0 1.875rem;
+  @media (max-width: 767px) {
+    margin: 0 0.9375rem 0.625rem 0.9375rem;
+  }
+  @media screen and (min-width: 350px) and (max-width: 500px) {
+    margin: 0.625rem 0.9375rem 0.625rem 0.9375rem;
+  }
+}
