@@ -1,0 +1,118 @@
+/*** Fuentes - Contacto ***/
+
+.titulo__contacto {
+  font-weight: $fuente-mayor;
+  font-size: 1.4375rem;
+  @media (max-width: 767px) {
+    font-size: 1.125rem;
+  }
+  @media screen and (min-width: 350px) and (max-width: 500px) {
+    font-size: 0.9375rem;
+  }
+}
+.texto__contacto {
+  font-size: 0.9375rem;
+  @media (max-width: 767px) {
+    font-size: 0.8125rem;
+  }
+  @media screen and (min-width: 350px) and (max-width: 500px) {
+    font-size: 0.75rem;
+  }
+}
+.casillas {
+  font-family: Georgia;
+  font-size: 0.9375rem;
+  @media (max-width: 767px) {
+    font-size: 0.9375rem;
+  }
+  @media screen and (min-width: 350px) and (max-width: 500px) {
+    font-size: 0.8125rem;
+  }
+}
+.contacto__uno {
+  font-family: "Merienda", cursive;
+  font-size: 0.9375rem;
+  @media (max-width: 767px) {
+    font-size: 0.8125rem;
+  }
+  @media screen and (min-width: 350px) and (max-width: 500px) {
+    font-size: 0.75rem;
+  }
+}
+.opciones {
+  font-family: Georgia;
+  font-size: 0.9375rem;
+  @media (max-width: 767px) {
+    font-size: 0.875rem;
+  }
+  @media screen and (min-width: 350px) and (max-width: 500px) {
+    font-size: 0.8125rem;
+  }
+}
+.casilla__consulta {
+  font-family: Georgia;
+  font-size: 0.9375rem;
+  @media (max-width: 767px) {
+    font-size: 0.9375rem;
+  }
+  @media screen and (min-width: 350px) and (max-width: 500px) {
+    font-size: 0.8125rem;
+  }
+}
+.contacto__dos {
+  font-size: 0.6875rem;
+  @media (max-width: 767px) {
+    font-size: 0.6875rem;
+  }
+  @media screen and (min-width: 350px) and (max-width: 500px) {
+    font-size: 0.625rem;
+  }
+}
+.botones {
+  font-size: 0.3125rem;
+  @media (max-width: 767px) {
+    font-size: 0.3125rem;
+  }
+  @media screen and (min-width: 350px) and (max-width: 500px) {
+    font-size: 0.125rem;
+  }
+}
+.boton {
+  font-family: "Merienda", cursive;
+  font-size: 0.625rem;
+  @media (max-width: 767px) {
+    font-size: 0.8125rem;
+  }
+  @media screen and (min-width: 350px) and (max-width: 500px) {
+    font-size: 0.75rem;
+  }
+}
+.titulo__img {
+  font-weight: $fuente-mayor;
+  font-size: 1.125rem;
+  @media (max-width: 767px) {
+    font-size: 1rem;
+  }
+  @media screen and (min-width: 350px) and (max-width: 500px) {
+    font-size: 0.875rem;
+  }
+}
+.texto__img {
+  font-size: 1rem;
+  @media (max-width: 767px) {
+    font-size: 0.875rem;
+  }
+  @media screen and (min-width: 350px) and (max-width: 500px) {
+    font-size: 0.75rem;
+  }
+}
+.frase__img {
+  font-weight: $fuente-mayor;
+  font-size: 1.4375rem;
+  @media (max-width: 767px) {
+    font-size: 1.3125rem;
+  }
+  @media screen and (min-width: 350px) and (max-width: 500px) {
+    font-size: 1.0625rem;
+  }
+}
