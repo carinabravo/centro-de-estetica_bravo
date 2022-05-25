@@ -1,0 +1,26 @@
+/*** Colores - Nosotros ***/
+
+.color__fondo {
+  background-color: $baseTerciaria-color;
+}
+.img__nosotros {
+  box-shadow: 0 0.625rem 0.9375rem 0 $basePrimaria-color;
+}
+.titulo__nosotros,
+.sub__titulo__nosotros,
+.texto__nosotros,
+.texto__nosotros__dos,
+.texto__nosotros__tres,
+.texto__img__dos {
+  color: $fuentePrimaria-color;
+}
+.info__extra__dos {
+  background-color: $baseSecundaria-color;
+  border-color: $basePrimaria-color;
+  border-style: solid;
+}
+.titulo__img__dos,
+.frase__img__dos,
+.frase__nosotros {
+  color: $fuenteSecundaria-color;
+}
