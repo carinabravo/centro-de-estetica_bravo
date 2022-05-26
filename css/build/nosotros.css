@@ -327,7 +327,7 @@ body {
   .main_container {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 15.313rem 29.375rem 3.438rem 42.8125rem;
+    grid-template-rows: 15.313rem 29.375rem 2.5rem 43.438rem;
     grid-auto-flow: row;
     grid-template-areas: "imagen_principal" "bienvenida" "tratamientos_titulo" "tratamientos";
   }
@@ -545,7 +545,7 @@ body {
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .texto {
-    font-size: 0.813rem;
+    font-size: 0.781rem;
   }
 }
 
@@ -565,16 +565,17 @@ body {
 }
 
 .tratamiento {
-  font-size: 1.25rem;
+  font-size: 1.313rem;
+  font-weight: bold;
 }
 @media (max-width: 767px) {
   .tratamiento {
-    font-size: 0.875rem;
+    font-size: 1rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .tratamiento {
-    font-size: 0.813rem;
+    font-size: 0.906rem;
   }
 }
 
@@ -743,11 +744,11 @@ body {
 
 .sub__titulo__nosotros {
   text-align: center;
-  margin: 3.125rem 0 0.9375rem;
+  margin: 1.875rem 0 0.9375rem;
 }
 @media (max-width: 767px) {
   .sub__titulo__nosotros {
-    margin: 2.5rem 0 1.25rem;
+    margin: 1.875rem 0 0.938rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
@@ -815,16 +816,16 @@ body {
 
 .sub__titulo__nosotros {
   font-weight: bold;
-  font-size: 1.875rem;
+  font-size: 1.75rem;
 }
 @media (max-width: 767px) {
   .sub__titulo__nosotros {
-    font-size: 1rem;
+    font-size: 1.25rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .sub__titulo__nosotros {
-    font-size: 0.8125rem;
+    font-size: 0.875em;
   }
 }
 
@@ -912,7 +913,6 @@ body {
 }
 
 .titulo__nosotros,
-.sub__titulo__nosotros,
 .texto__nosotros,
 .texto__nosotros__dos,
 .texto__nosotros__tres,
@@ -928,6 +928,7 @@ body {
 
 .titulo__img__dos,
 .frase__img__dos,
+.sub__titulo__nosotros,
 .frase__nosotros {
   color: #f0778f;
 }

@@ -327,7 +327,7 @@ body {
   .main_container {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 15.313rem 29.375rem 3.438rem 42.8125rem;
+    grid-template-rows: 15.313rem 29.375rem 2.5rem 43.438rem;
     grid-auto-flow: row;
     grid-template-areas: "imagen_principal" "bienvenida" "tratamientos_titulo" "tratamientos";
   }
@@ -545,7 +545,7 @@ body {
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .texto {
-    font-size: 0.813rem;
+    font-size: 0.781rem;
   }
 }
 
@@ -565,16 +565,17 @@ body {
 }
 
 .tratamiento {
-  font-size: 1.25rem;
+  font-size: 1.313rem;
+  font-weight: bold;
 }
 @media (max-width: 767px) {
   .tratamiento {
-    font-size: 0.875rem;
+    font-size: 1rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .tratamiento {
-    font-size: 0.813rem;
+    font-size: 0.906rem;
   }
 }
 
