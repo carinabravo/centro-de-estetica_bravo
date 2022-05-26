@@ -243,9 +243,9 @@ body {
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .redes a {
     text-decoration: none;
-    width: 1.5rem;
-    height: 1.5rem;
-    line-height: 1.5rem;
+    width: 1.75rem;
+    height: 1.75rem;
+    line-height: 1.75rem;
     text-align: center;
     border-radius: 50%;
   }
@@ -572,27 +572,31 @@ body {
 
 .tratamiento {
   font-size: 1.25rem;
-  font-size: 0.875rem;
+}
+@media (max-width: 767px) {
+  .tratamiento {
+    font-size: 0.8125rem;
+  }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .tratamiento {
-    font-size: 0.75rem;
+    font-size: 0.8125rem;
   }
 }
 
 .derechos {
   font-family: "open sans", cursive;
   font-weight: bold;
-  font-size: 0.625rem;
+  font-size: 0.75rem;
 }
 @media (max-width: 767px) {
   .derechos {
-    font-size: 0.5rem;
+    font-size: 0.75rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .derechos {
-    font-size: 0.375rem;
+    font-size: 0.5625rem;
   }
 }
 
@@ -606,7 +610,7 @@ body {
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .redes a {
-    font-size: 0.9375rem;
+    font-size: 1.0625rem;
   }
 }
 
@@ -1021,7 +1025,7 @@ input[type=checkbox]:checked {
 
 .boton {
   font-family: "Merienda", cursive;
-  font-size: 0.625rem;
+  font-size: 0.8125rem;
 }
 @media (max-width: 767px) {
   .boton {
