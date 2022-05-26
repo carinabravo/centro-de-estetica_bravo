@@ -580,7 +580,7 @@ body {
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .tratamiento {
-    font-size: 0.8125rem;
+    font-size: 0.75rem;
   }
 }
 
@@ -824,8 +824,8 @@ input[type=checkbox]:checked {
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .boton {
-    width: 7.8125rem;
-    height: 1.875rem;
+    width: 7.9375rem;
+    height: 2.125rem;
     padding: 0.3125rem;
     margin: 0.3125rem 0 0.9375rem 1.25rem;
   }
@@ -1025,7 +1025,7 @@ input[type=checkbox]:checked {
 
 .boton {
   font-family: "Merienda", cursive;
-  font-size: 0.8125rem;
+  font-size: 0.875rem;
 }
 @media (max-width: 767px) {
   .boton {
