@@ -11,31 +11,32 @@
   }
 }
 .sub__titulo__tratamiento {
-  font-size: 1.375rem;
+  font-size: 1.344rem;
+  font-weight: $fuente-mayor;
   @media (max-width: 767px) {
-    font-size: 0.9375rem;
+    font-size: 0.875rem;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
-    font-size: 0.875rem;
+    font-size: 0.844rem;
   }
 }
 .listado {
-  font-weight: $fuente-mayor;
-  font-size: 0.875rem;
+  font-weight: $fuente-menor;
+  font-size: 0.906rem;
   @media (max-width: 767px) {
-    font-size: 0.75rem;
+    font-size: 0.844rem;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
-    font-size: 0.625rem;
+    font-size: 0.719rem;
   }
 }
 .descripciones__uno {
   font-weight: $fuente-media;
-  font-size: 0.875rem;
+  font-size: 0.906rem;
   @media (max-width: 767px) {
-    font-size: 0.8125rem;
+    font-size: 0.844rem;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
-    font-size: 0.6875rem;
+    font-size: 0.719rem;
   }
 }

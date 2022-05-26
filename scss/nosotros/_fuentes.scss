@@ -24,7 +24,7 @@
   font-weight: $fuente-media;
   font-size: 0.9375rem;
   @media (max-width: 767px) {
-    font-size: 0.8125rem;
+    font-size: 0.844rem;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
     font-size: 0.75rem;
@@ -34,7 +34,7 @@
   font-weight: $fuente-media;
   font-size: 0.9375rem;
   @media (max-width: 767px) {
-    font-size: 0.75rem;
+    font-size: 0.844rem;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
     font-size: 0.75rem;
@@ -44,17 +44,17 @@
   font-weight: $fuente-media;
   font-size: 0.9375rem;
   @media (max-width: 767px) {
-    font-size: 0.8125rem;
+    font-size: 0.844rem;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
     font-size: 0.75rem;
   }
 }
 .frase__nosotros {
-  font-size: 15px;
+  font-size: 0.938rem;
   font-weight: $fuente-mayor;
   @media (max-width: 767px) {
-    font-size: 0.8125rem;
+    font-size: 0.875rem;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
     font-size: 0.75rem;

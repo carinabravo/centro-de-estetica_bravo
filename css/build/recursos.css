@@ -109,8 +109,8 @@ body {
 }
 @media (max-width: 767px) {
   .logo__grande {
-    width: 250px;
-    height: 250px;
+    width: 245px;
+    height: 245px;
     border-radius: 50%;
   }
 }
@@ -124,7 +124,7 @@ body {
 }
 
 .titulo {
-  margin: 0.625rem 0 0.625rem 0;
+  margin-bottom: 0.625rem;
 }
 @media (max-width: 767px) {
   .titulo {
@@ -201,7 +201,7 @@ body {
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .derechos {
-    margin-left: 0.625rem;
+    margin-left: 0.688rem;
   }
 }
 
@@ -212,7 +212,7 @@ body {
 @media (max-width: 767px) {
   .redes {
     min-width: 6.25rem;
-    margin-right: 1.25rem;
+    margin-right: 1.0625rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
@@ -251,12 +251,6 @@ body {
   }
 }
 
-@media screen and (min-width: 350px) and (max-width: 500px) {
-  .navbar-collapse {
-    padding: 0.125rem;
-  }
-}
-
 /*** Estructura del sitio ***/
 .grid_container {
   display: grid;
@@ -286,7 +280,7 @@ body {
   .grid_container {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 7.5rem 3.125rem 90.625rem 3.125rem;
+    grid-template-rows: 7.5rem 3.125rem 90.625rem 3.75rem;
     grid-template-areas: "header_container" "nav_container" "main__container" "footer_container";
   }
 }
@@ -324,7 +318,7 @@ body {
   .main_container {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 21.875rem 30rem 3.125rem 23.125rem;
+    grid-template-rows: 21.25rem 30.625rem 3.75rem 23.125rem;
     grid-auto-flow: row;
     grid-template-areas: "imagen_principal" "bienvenida" "tratamientos_titulo" "tratamientos";
   }
@@ -333,7 +327,7 @@ body {
   .main_container {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 15.625rem 29.0625rem 3.125rem 42.8125rem;
+    grid-template-rows: 15.313rem 29.375rem 3.438rem 42.8125rem;
     grid-auto-flow: row;
     grid-template-areas: "imagen_principal" "bienvenida" "tratamientos_titulo" "tratamientos";
   }
@@ -546,12 +540,12 @@ body {
 }
 @media (max-width: 767px) {
   .texto {
-    font-size: 0.875rem;
+    font-size: 0.938rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .texto {
-    font-size: 0.75rem;
+    font-size: 0.813rem;
   }
 }
 
@@ -575,12 +569,12 @@ body {
 }
 @media (max-width: 767px) {
   .tratamiento {
-    font-size: 0.8125rem;
+    font-size: 0.875rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .tratamiento {
-    font-size: 0.75rem;
+    font-size: 0.813rem;
   }
 }
 
@@ -703,14 +697,14 @@ body {
 @media (max-width: 767px) {
   .formulario__dos {
     width: 28.125rem;
-    height: 53.75rem;
+    height: 54.688rem;
     margin: 0 0.3125rem 0 0.3125rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .formulario__dos {
     width: 20.625rem;
-    height: 51.25rem;
+    height: 51.875rem;
   }
 }
 
@@ -819,7 +813,7 @@ body {
 }
 
 .boton {
-  width: 8.75rem;
+  width: 9.375rem;
   height: 2.5rem;
   padding: 0.625rem;
   border-width: 1px;
@@ -969,7 +963,7 @@ body {
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .sub__titulo__RRHH {
-    font-size: 0.875rem;
+    font-size: 0.938rem;
   }
 }
 
@@ -978,12 +972,12 @@ body {
 }
 @media (max-width: 767px) {
   .texto__RRHH {
-    font-size: 0.8125rem;
+    font-size: 0.875rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .texto__RRHH {
-    font-size: 0.75rem;
+    font-size: 0.8125rem;
   }
 }
 
@@ -1004,7 +998,7 @@ body {
 
 .casilla__mensaje {
   font-family: Georgia;
-  font-size: 0.9375rem;
+  font-size: 0.875rem;
 }
 @media (max-width: 767px) {
   .casilla__mensaje {
@@ -1042,7 +1036,7 @@ body {
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .boton {
-    font-size: 0.75rem;
+    font-size: 0.813rem;
   }
 }
 
@@ -1117,7 +1111,7 @@ body {
 
 .boton {
   background-color: #eca9af;
-  color: #757575;
+  color: rgba(50, 50, 50, 0.8549019608);
   border-color: #f0778f;
   border-style: solid;
 }

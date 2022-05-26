@@ -32,18 +32,18 @@ input[type="checkbox"]:checked {
 }
 .formulario__uno {
   width: 29.375rem;
-  height: 33.75rem;
+  height: 34.063rem;
   border-radius: 10px;
   border-width: 0.3125rem;
   margin: 1.875rem 1.25rem 0 1.25rem;
   @media (max-width: 767px) {
     width: 26.25rem;
-    height: 32.5rem;
+    height: 33.438rem;
     margin: 1.875rem 0.3125rem 0 0.3125rem;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
     width: 20.625rem;
-    height: 29.375rem;
+    height: 30.313rem;
     margin-top: 1.875rem;
   }
 }
@@ -95,7 +95,7 @@ input[type="checkbox"]:checked {
   }
 }
 .boton {
-  width: 11.25rem;
+  width: 10.625rem;
   height: 2.5rem;
   padding: 0.625rem;
   margin: 0.625rem 0 0.875rem 1.25rem;
@@ -108,7 +108,7 @@ input[type="checkbox"]:checked {
     margin: 0.625rem 0 0.875rem 1.25rem;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
-    width: 7.9375rem;
+    width: 7.188rem;
     height: 2.125rem;
     padding: 0.3125rem;
     margin: 0.3125rem 0 0.9375rem 1.25rem;
@@ -119,7 +119,7 @@ input[type="checkbox"]:checked {
   height: 13.125rem;
   border-radius: 10px;
   border-width: 5px;
-  margin-top: 3.125rem;
+  margin-top: 1.875rem;
   @media (max-width: 767px) {
     width: 26.25rem;
     height: 10.625rem;

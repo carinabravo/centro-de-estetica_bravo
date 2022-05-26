@@ -77,8 +77,8 @@ $justifyContent-cuaternario: flex-end;
   height: 350px;
   border-radius: 50%;
   @media (max-width: 767px) {
-    width: 250px;
-    height: 250px;
+    width: 245px;
+    height: 245px;
     border-radius: 50%;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
@@ -89,7 +89,7 @@ $justifyContent-cuaternario: flex-end;
   }
 }
 .titulo {
-  margin: 0.625rem 0 0.625rem 0;
+  margin-bottom: 0.625rem;
   @media (max-width: 767px) {
     text-align: $textAlineacion-primaria;
   }
@@ -142,7 +142,7 @@ $justifyContent-cuaternario: flex-end;
     margin-left: 1.25rem;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
-    margin-left: 0.625rem;
+    margin-left: 0.688rem;
   }
 }
 .redes {
@@ -150,7 +150,7 @@ $justifyContent-cuaternario: flex-end;
   margin-right: 1.25rem;
   @media (max-width: 767px) {
     min-width: 6.25rem;
-    margin-right: 1.25rem;
+    margin-right: 1.0625rem;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
     min-width: 3.75rem;
@@ -182,10 +182,5 @@ $justifyContent-cuaternario: flex-end;
       text-align: $textAlineacion-primaria;
       border-radius: 50%;
     }
-  }
-}
-.navbar-collapse {
-  @media screen and (min-width: 350px) and (max-width: 500px) {
-    padding: 0.125rem;
   }
 }

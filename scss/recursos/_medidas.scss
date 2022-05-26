@@ -15,12 +15,12 @@
   border-width:5px ;
   @media (max-width: 767px) {
     width: 28.125rem;
-    height: 53.75rem;
+    height: 54.688rem;
     margin: 0 0.3125rem 0 0.3125rem;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
     width: 20.625rem;
-    height: 51.25rem;
+    height: 51.875rem;
   }
 }
 .formulario__RRHH {
@@ -102,7 +102,7 @@
   text-align: $textAlineacion-primaria;
 }
 .boton {
-  width: 8.75rem;
+  width: 9.375rem;
   height: 2.5rem;
   padding: 0.625rem;
   border-width: 1px;
