@@ -327,7 +327,7 @@ body {
   .main_container {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 15.313rem 29.375rem 2.5rem 43.438rem;
+    grid-template-rows: 15rem 29.688rem 2.5rem 43.438rem;
     grid-auto-flow: row;
     grid-template-areas: "imagen_principal" "bienvenida" "tratamientos_titulo" "tratamientos";
   }
@@ -1085,7 +1085,7 @@ body {
 
 /*** Colores - Recursos humanos ***/
 .color__fondo {
-  background-color: #f3dadd;
+  background-color: #f5e0e2;
 }
 
 .titulo__RRHH,

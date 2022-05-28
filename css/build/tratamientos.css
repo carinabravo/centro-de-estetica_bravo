@@ -327,7 +327,7 @@ body {
   .main_container {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 15.313rem 29.375rem 2.5rem 43.438rem;
+    grid-template-rows: 15rem 29.688rem 2.5rem 43.438rem;
     grid-auto-flow: row;
     grid-template-areas: "imagen_principal" "bienvenida" "tratamientos_titulo" "tratamientos";
   }
@@ -838,7 +838,6 @@ body {
 .sub__titulo__tratamiento {
   font-size: 1.344rem;
   font-weight: bold;
-  font-weight: bold;
 }
 @media (max-width: 767px) {
   .sub__titulo__tratamiento {
@@ -847,12 +846,12 @@ body {
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .sub__titulo__tratamiento {
-    font-size: 0.906rem;
+    font-size: 0.938rem;
   }
 }
 
 .listado {
-  font-weight: lighter;
+  font-weight: normal;
   font-size: 0.906rem;
 }
 @media (max-width: 767px) {
@@ -883,7 +882,7 @@ body {
 
 /*** Colores - Tratamientos ***/
 .fondo__color__tratamientos {
-  background-color: #f3dadd;
+  background-color: #f5e0e2;
 }
 
 .titulo__principal,

@@ -11,17 +11,17 @@
   }
 }
 .sub__titulo__tratamiento {
-  font-size: 1.344rem; font-weight: bold;
+  font-size: 1.344rem;
   font-weight: $fuente-mayor;
   @media (max-width: 767px) {
     font-size: 0.938rem;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
-    font-size: 0.906rem;
+    font-size: 0.938rem;
   }
 }
 .listado {
-  font-weight: $fuente-menor;
+  font-weight: $fuente-media;
   font-size: 0.906rem;
   @media (max-width: 767px) {
     font-size: 0.844rem;
