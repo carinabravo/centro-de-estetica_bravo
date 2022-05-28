@@ -53,12 +53,12 @@ $justifyContent-cuaternario: flex-end;
 }
 .nombre {
   align-items: $alineacionItem-primario;
-  margin: 5rem 0 0 0.625rem;
+  margin: 4.688rem 0 0 0.625rem;
   @media (max-width: 767px) {
-    margin: 4.375rem 0 0 0.625rem;
+    margin: 4.25rem 0 0 0.625rem;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
-    margin: 0.75rem 4.1875rem 0 0;
+    margin: 0.875rem 4.1875rem 0 0;
   }
 }
 .frase {
