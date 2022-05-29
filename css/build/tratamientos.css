@@ -30,6 +30,10 @@ body {
   border-radius: 5px;
 }
 
+.navbar {
+  z-index: 10;
+}
+
 .imagen {
   width: 100%;
 }

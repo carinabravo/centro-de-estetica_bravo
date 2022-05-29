@@ -30,6 +30,10 @@ body {
   border-radius: 5px;
 }
 
+.navbar {
+  z-index: 10;
+}
+
 .imagen {
   width: 100%;
 }
@@ -903,21 +907,64 @@ input[type=checkbox]:checked {
   align-items: center;
 }
 
-/*** Fuentes - Contacto ***/
-.titulo__contacto {
+/*** Fuentes - Tratamientos ***/
+.titulo__principal, .titulo__contacto {
   font-size: 1.5rem;
 }
 @media (max-width: 767px) {
-  .titulo__contacto {
+  .titulo__principal, .titulo__contacto {
     font-size: 1.25rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
-  .titulo__contacto {
+  .titulo__principal, .titulo__contacto {
     font-size: 0.969rem;
   }
 }
 
+.sub__titulo__tratamiento {
+  font-size: 1.375rem;
+}
+@media (max-width: 767px) {
+  .sub__titulo__tratamiento {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 350px) and (max-width: 500px) {
+  .sub__titulo__tratamiento {
+    font-size: 0.875rem;
+  }
+}
+
+.listado {
+  font-size: 0.938rem;
+}
+@media (max-width: 767px) {
+  .listado {
+    font-size: 0.875rem;
+  }
+}
+@media screen and (min-width: 350px) and (max-width: 500px) {
+  .listado {
+    font-size: 0.75rem;
+  }
+}
+
+.descripciones__uno {
+  font-size: 0.906rem;
+}
+@media (max-width: 767px) {
+  .descripciones__uno {
+    font-size: 0.844rem;
+  }
+}
+@media screen and (min-width: 350px) and (max-width: 500px) {
+  .descripciones__uno {
+    font-size: 0.719rem;
+  }
+}
+
+/*** Fuentes - Contacto ***/
 .texto__contacto {
   font-size: 0.9375rem;
 }
