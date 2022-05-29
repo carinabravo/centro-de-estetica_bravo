@@ -1,7 +1,6 @@
 /*** Fuentes - Nosotros ***/
 
 .titulo__nosotros {
-  font-weight: $fuente-mayor;
   font-size: 1.4375rem;
   @media (max-width: 767px) {
     font-size: 1.125rem;
@@ -11,7 +10,6 @@
   }
 }
 .sub__titulo__nosotros {
-  font-weight: $fuente-mayor;
   font-size: 1.75rem;
   @media (max-width: 767px) {
     font-size: 1.25rem;
@@ -21,7 +19,6 @@
   }
 }
 .texto__nosotros {
-  font-weight: $fuente-media;
   font-size: 0.9375rem;
   @media (max-width: 767px) {
     font-size: 0.844rem;
@@ -31,7 +28,6 @@
   }
 }
 .texto__nosotros__dos {
-  font-weight: $fuente-media;
   font-size: 0.9375rem;
   @media (max-width: 767px) {
     font-size: 0.844rem;
@@ -41,7 +37,6 @@
   }
 }
 .texto__nosotros__tres {
-  font-weight: $fuente-media;
   font-size: 0.9375rem;
   @media (max-width: 767px) {
     font-size: 0.844rem;
@@ -52,22 +47,10 @@
 }
 .frase__nosotros {
   font-size: 0.938rem;
-  font-weight: $fuente-mayor;
   @media (max-width: 767px) {
     font-size: 0.875rem;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
     font-size: 0.75rem;
   }
-}
-.titulo__img__dos {
-  font-weight: $fuente-mayor;
-  font-size: 1rem;
-}
-.texto__img__dos {
-  font-size: 0.875rem;
-}
-.frase__img__dos {
-  font-weight: $fuente-mayor;
-  font-size: 1.3125rem;
 }

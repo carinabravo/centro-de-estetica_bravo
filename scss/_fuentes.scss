@@ -1,15 +1,21 @@
 /*** Fuentes del sitio ***/
 
-$fuente-mayor: bold;
-$fuente-media: normal;
-$fuente-menor: lighter;
+$fuentes: (
+  mayor: bold,
+  medio: normal,
+  menor: lighter,
+);
+
+@each $medida, $valor in $fuentes {
+  .texto-#{$medida} {
+    font-weight: $valor;
+  }
+}
 
 body {
   font-family: "Merienda", cursive;
-  font-weight: $fuente-media;
 }
 .navbar-brand {
-  font-weight: $fuente-mayor;
   font-size: 1.125rem;
   @media (max-width: 767px) {
     font-size: 1rem;
@@ -37,7 +43,6 @@ body {
 }
 .nombre {
   font-size: 1.5625rem;
-  font-weight: $fuente-mayor;
   @media (max-width: 767px) {
     font-size: 1.325rem;
   }
@@ -57,7 +62,6 @@ body {
 }
 .titulo {
   font-size: 1.4375rem;
-  font-weight: $fuente-mayor;
   @media (max-width: 767px) {
     font-size: 1.375rem;
   }
@@ -75,7 +79,6 @@ body {
   }
 }
 .titulo__uno {
-  font-weight: $fuente-mayor;
   font-size: 1.375rem;
   @media (max-width: 767px) {
     font-size: 1.25rem;
@@ -86,7 +89,6 @@ body {
 }
 .tratamiento {
   font-size: 1.313rem;
-  font-weight: $fuente-mayor;
   @media (max-width: 767px) {
     font-size: 1rem;
   }
@@ -96,7 +98,6 @@ body {
 }
 .derechos {
   font-family: "open sans", cursive;
-  font-weight: $fuente-mayor;
   font-size: 0.75rem;
   @media (max-width: 767px) {
     font-size: 0.75rem;

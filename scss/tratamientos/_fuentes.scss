@@ -1,7 +1,6 @@
 /*** Fuentes - Tratamientos ***/
 
 .titulo__principal {
-  font-weight: $fuente-mayor;
   font-size: 1.4375rem;
   @media (max-width: 767px) {
     font-size: 1.125rem;
@@ -12,7 +11,6 @@
 }
 .sub__titulo__tratamiento {
   font-size: 1.344rem;
-  font-weight: $fuente-mayor;
   @media (max-width: 767px) {
     font-size: 0.938rem;
   }
@@ -21,7 +19,6 @@
   }
 }
 .listado {
-  font-weight: $fuente-media;
   font-size: 0.906rem;
   @media (max-width: 767px) {
     font-size: 0.844rem;
@@ -31,7 +28,6 @@
   }
 }
 .descripciones__uno {
-  font-weight: $fuente-media;
   font-size: 0.906rem;
   @media (max-width: 767px) {
     font-size: 0.844rem;
