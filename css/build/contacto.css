@@ -447,7 +447,7 @@ body {
 /*** Fuentes del sitio ***/
 body {
   font-family: "Merienda", cursive;
-  font-weight: lighter;
+  font-weight: normal;
 }
 
 .navbar-brand {

@@ -17,17 +17,17 @@
     font-size: 0.938rem;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
-    font-size: 0.938rem;
+    font-size: 0.875rem;
   }
 }
 .listado {
-  font-weight: $fuente-mayor;
+  font-weight: $fuente-media;
   font-size: 0.906rem;
   @media (max-width: 767px) {
     font-size: 0.844rem;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
-    font-size: 0.719rem;
+    font-size: 0.75rem;
   }
 }
 .descripciones__uno {
