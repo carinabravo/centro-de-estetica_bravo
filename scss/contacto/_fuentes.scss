@@ -1,12 +1,12 @@
 /*** Fuentes - Contacto ***/
 
 .titulo__contacto {
-  font-size: 1.4375rem;
+  font-size: 1.5rem;
   @media (max-width: 767px) {
-    font-size: 1.125rem;
+    font-size: 1.25rem;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
-    font-size: 1rem;
+    font-size: 0.969rem;
   }
 }
 .texto__contacto {
@@ -105,11 +105,11 @@
   }
 }
 .frase__img {
-  font-size: 1.4375rem;
+  font-size: 1.375rem;
   @media (max-width: 767px) {
-    font-size: 1.3125rem;
+    font-size: 1.125rem;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
-    font-size: 1.0625rem;
+    font-size: 1rem;
   }
 }

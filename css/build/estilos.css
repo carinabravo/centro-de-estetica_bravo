@@ -82,7 +82,7 @@ body {
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .nombre {
-    margin: 0.875rem 4.1875rem 0 0;
+    margin: 0.813rem 4.1875rem 0 0;
   }
 }
 
@@ -510,7 +510,7 @@ body {
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .nombre {
-    font-size: 0.9375rem;
+    font-size: 1rem;
   }
 }
 
@@ -530,16 +530,16 @@ body {
 }
 
 .titulo {
-  font-size: 1.4375rem;
+  font-size: 1.5rem;
 }
 @media (max-width: 767px) {
   .titulo {
-    font-size: 1.375rem;
+    font-size: 1.25rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .titulo {
-    font-size: 1rem;
+    font-size: 0.969rem;
   }
 }
 
@@ -553,12 +553,12 @@ body {
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .texto {
-    font-size: 0.781rem;
+    font-size: 0.813rem;
   }
 }
 
 .titulo__uno {
-  font-size: 1.375rem;
+  font-size: 1.5rem;
 }
 @media (max-width: 767px) {
   .titulo__uno {
@@ -567,7 +567,7 @@ body {
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .titulo__uno {
-    font-size: 1rem;
+    font-size: 0.969rem;
   }
 }
 
