@@ -1,13 +1,9 @@
+@import "../tratamientos/fuentes";
+
 /*** Fuentes - Contacto ***/
 
 .titulo__contacto {
-  font-size: 1.5rem;
-  @media (max-width: 767px) {
-    font-size: 1.25rem;
-  }
-  @media screen and (min-width: 350px) and (max-width: 500px) {
-    font-size: 0.969rem;
-  }
+ @extend .titulo__principal;
 }
 .texto__contacto {
   font-size: 0.9375rem;

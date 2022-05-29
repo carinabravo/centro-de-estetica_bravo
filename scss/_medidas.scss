@@ -21,6 +21,9 @@ $justifyContent-cuaternario: flex-end;
   padding: 0.3125rem;
   border-radius: 5px;
 }
+.navbar {
+  z-index: 10;
+}
 .imagen {
   width: 100%;
 }
