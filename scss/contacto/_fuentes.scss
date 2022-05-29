@@ -1,7 +1,6 @@
 /*** Fuentes - Contacto ***/
 
 .titulo__contacto {
-  font-weight: $fuente-mayor;
   font-size: 1.4375rem;
   @media (max-width: 767px) {
     font-size: 1.125rem;
@@ -88,7 +87,6 @@
   }
 }
 .titulo__img {
-  font-weight: $fuente-mayor;
   font-size: 1.125rem;
   @media (max-width: 767px) {
     font-size: 1rem;
@@ -107,7 +105,6 @@
   }
 }
 .frase__img {
-  font-weight: $fuente-mayor;
   font-size: 1.4375rem;
   @media (max-width: 767px) {
     font-size: 1.3125rem;

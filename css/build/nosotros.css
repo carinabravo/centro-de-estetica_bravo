@@ -445,13 +445,23 @@ body {
 }
 
 /*** Fuentes del sitio ***/
-body {
-  font-family: "Merienda", cursive;
+.texto-mayor {
+  font-weight: bold;
+}
+
+.texto-medio {
   font-weight: normal;
 }
 
+.texto-menor {
+  font-weight: lighter;
+}
+
+body {
+  font-family: "Merienda", cursive;
+}
+
 .navbar-brand {
-  font-weight: bold;
   font-size: 1.125rem;
 }
 @media (max-width: 767px) {
@@ -492,7 +502,6 @@ body {
 
 .nombre {
   font-size: 1.5625rem;
-  font-weight: bold;
 }
 @media (max-width: 767px) {
   .nombre {
@@ -522,7 +531,6 @@ body {
 
 .titulo {
   font-size: 1.4375rem;
-  font-weight: bold;
 }
 @media (max-width: 767px) {
   .titulo {
@@ -550,7 +558,6 @@ body {
 }
 
 .titulo__uno {
-  font-weight: bold;
   font-size: 1.375rem;
 }
 @media (max-width: 767px) {
@@ -566,7 +573,6 @@ body {
 
 .tratamiento {
   font-size: 1.313rem;
-  font-weight: bold;
 }
 @media (max-width: 767px) {
   .tratamiento {
@@ -581,7 +587,6 @@ body {
 
 .derechos {
   font-family: "open sans", cursive;
-  font-weight: bold;
   font-size: 0.75rem;
 }
 @media (max-width: 767px) {
@@ -798,7 +803,6 @@ body {
 
 /*** Fuentes - Nosotros ***/
 .titulo__nosotros {
-  font-weight: bold;
   font-size: 1.4375rem;
 }
 @media (max-width: 767px) {
@@ -813,7 +817,6 @@ body {
 }
 
 .sub__titulo__nosotros {
-  font-weight: bold;
   font-size: 1.75rem;
 }
 @media (max-width: 767px) {
@@ -828,7 +831,6 @@ body {
 }
 
 .texto__nosotros {
-  font-weight: normal;
   font-size: 0.9375rem;
 }
 @media (max-width: 767px) {
@@ -843,7 +845,6 @@ body {
 }
 
 .texto__nosotros__dos {
-  font-weight: normal;
   font-size: 0.9375rem;
 }
 @media (max-width: 767px) {
@@ -858,7 +859,6 @@ body {
 }
 
 .texto__nosotros__tres {
-  font-weight: normal;
   font-size: 0.9375rem;
 }
 @media (max-width: 767px) {
@@ -874,7 +874,6 @@ body {
 
 .frase__nosotros {
   font-size: 0.938rem;
-  font-weight: bold;
 }
 @media (max-width: 767px) {
   .frase__nosotros {
@@ -885,20 +884,6 @@ body {
   .frase__nosotros {
     font-size: 0.75rem;
   }
-}
-
-.titulo__img__dos {
-  font-weight: bold;
-  font-size: 1rem;
-}
-
-.texto__img__dos {
-  font-size: 0.875rem;
-}
-
-.frase__img__dos {
-  font-weight: bold;
-  font-size: 1.3125rem;
 }
 
 /*** Colores - Nosotros ***/
