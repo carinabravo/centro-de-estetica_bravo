@@ -851,7 +851,7 @@ body {
 }
 
 .listado {
-  font-weight: normal;
+  font-weight: bold;
   font-size: 0.906rem;
 }
 @media (max-width: 767px) {
