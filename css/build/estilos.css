@@ -562,16 +562,16 @@ body {
 }
 
 .titulo__uno {
-  font-size: 1.5rem;
+  font-size: 1.375rem;
 }
 @media (max-width: 767px) {
   .titulo__uno {
-    font-size: 1.25rem;
+    font-size: 1.125rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .titulo__uno {
-    font-size: 0.969rem;
+    font-size: 0.938rem;
   }
 }
 
@@ -585,7 +585,7 @@ body {
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .tratamiento {
-    font-size: 0.906rem;
+    font-size: 0.875rem;
   }
 }
 
@@ -640,7 +640,7 @@ body {
 }
 
 .logo__chico {
-  box-shadow: 0 0.3125rem 0.625rem 0 #fa818b;
+  box-shadow: 0 0.3125rem 0.625rem 0.188rem #fa818b;
 }
 
 .nombre,

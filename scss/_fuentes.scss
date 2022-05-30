@@ -79,12 +79,12 @@ body {
   }
 }
 .titulo__uno {
-  font-size: 1.5rem;
+  font-size: 1.375rem;
   @media (max-width: 767px) {
-    font-size: 1.25rem;
+    font-size: 1.125rem;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
-    font-size: 0.969rem;
+    font-size: 0.938rem;
   }
 }
 .tratamiento {
@@ -93,7 +93,7 @@ body {
     font-size: 1rem;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
-    font-size: 0.906rem;
+    font-size: 0.875rem;
   }
 }
 .derechos {

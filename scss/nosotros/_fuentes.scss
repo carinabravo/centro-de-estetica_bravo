@@ -6,12 +6,12 @@
   @extend .titulo__principal;
 }
 .sub__titulo__nosotros {
-  font-size: 1.375rem;
+  font-size: 1.313rem;
   @media (max-width: 767px) {
-    font-size: 1.25rem;
+    font-size: 1.063rem;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
-    font-size: 0.906em;
+    font-size: 0.875em;
   }
 }
 .texto__nosotros {
