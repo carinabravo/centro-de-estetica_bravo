@@ -292,13 +292,13 @@ body {
 .header_container {
   grid-area: header_container;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 @media (max-width: 767px) {
   .header_container {
     grid-area: header_container;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
