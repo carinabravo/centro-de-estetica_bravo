@@ -116,13 +116,13 @@ input[type="checkbox"]:checked {
 }
 .info__extra {
   width: 29.375rem;
-  height: 13.125rem;
+  height: 10.625rem;
   border-radius: 10px;
   border-width: 5px;
   margin-top: 1.875rem;
   @media (max-width: 767px) {
     width: 26.25rem;
-    height: 10.625rem;
+    height: 9.375rem;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
     width: 20.625rem;
@@ -130,11 +130,24 @@ input[type="checkbox"]:checked {
   }
 }
 .titulo__img {
-  margin-top: 2.5rem;
+  margin-top: 1.563rem;
   @media (max-width: 767px) {
-    margin-top: 1.875rem;
+    margin-top: 1.563rem;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
     margin-top: 1.25rem;
+  }
+}
+.imagen__tarjetas {
+  width: 32.5rem;
+  height: 25.625rem;
+  margin-top: 1.25rem;
+  @media (max-width: 767px) {
+    width: 30rem;
+    height: 24.375rem;
+  }
+  @media screen and (min-width: 350px) and (max-width: 500px) {
+    width: 21.563rem;
+    height: 15.625rem;
   }
 }
