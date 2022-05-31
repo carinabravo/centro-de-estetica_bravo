@@ -9,18 +9,18 @@
 }
 .formulario__dos {
   width: 46.875rem;
-  height: 39.375rem;
+  height: 43.75rem;
   margin: 0 0.625rem 0 0.625rem;
   border-radius: 10px;
-  border-width:5px ;
+  border-width: 5px;
   @media (max-width: 767px) {
     width: 28.125rem;
-    height: 54.688rem;
+    height: 65.625rem;
     margin: 0 0.3125rem 0 0.3125rem;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
     width: 20.625rem;
-    height: 51.875rem;
+    height: 63.75rem;
   }
 }
 .formulario__RRHH {
@@ -122,7 +122,7 @@
 }
 .info__extra__dos {
   width: 25rem;
-  height: 10.625rem;
+  height: 15rem;
   border-radius: 10px;
   border-width: 3px;
   margin-top: 1.875rem;
@@ -136,12 +136,18 @@
   }
 }
 .titulo__img__dos {
-  margin-top: 1.875rem;
+  margin-top: 3.125rem;
+  @media (max-width: 767px) {
+    margin-top: 2.188rem;
+  }
+  @media screen and (min-width: 350px) and (max-width: 500px) {
+    margin-top: 2.188rem;
+  }
 }
 .texto__img__dos {
-  margin-bottom: 1.25rem;
+  margin-bottom: 2.188rem;
   @media (max-width: 767px) {
-    margin-bottom: 0.875rem;
+    margin-bottom: 1.25rem;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
     margin-bottom: 1.25rem;

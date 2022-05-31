@@ -697,7 +697,7 @@ body {
 
 .formulario__dos {
   width: 46.875rem;
-  height: 39.375rem;
+  height: 43.75rem;
   margin: 0 0.625rem 0 0.625rem;
   border-radius: 10px;
   border-width: 5px;
@@ -705,14 +705,14 @@ body {
 @media (max-width: 767px) {
   .formulario__dos {
     width: 28.125rem;
-    height: 54.688rem;
+    height: 65.625rem;
     margin: 0 0.3125rem 0 0.3125rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .formulario__dos {
     width: 20.625rem;
-    height: 51.875rem;
+    height: 63.75rem;
   }
 }
 
@@ -846,7 +846,7 @@ body {
 
 .info__extra__dos {
   width: 25rem;
-  height: 10.625rem;
+  height: 15rem;
   border-radius: 10px;
   border-width: 3px;
   margin-top: 1.875rem;
@@ -865,15 +865,25 @@ body {
 }
 
 .titulo__img__dos {
-  margin-top: 1.875rem;
+  margin-top: 3.125rem;
+}
+@media (max-width: 767px) {
+  .titulo__img__dos {
+    margin-top: 2.188rem;
+  }
+}
+@media screen and (min-width: 350px) and (max-width: 500px) {
+  .titulo__img__dos {
+    margin-top: 2.188rem;
+  }
 }
 
 .texto__img__dos {
-  margin-bottom: 1.25rem;
+  margin-bottom: 2.188rem;
 }
 @media (max-width: 767px) {
   .texto__img__dos {
-    margin-bottom: 0.875rem;
+    margin-bottom: 1.25rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
@@ -1090,11 +1100,11 @@ body {
 }
 
 .titulo__img__dos {
-  font-size: 1rem;
+  font-size: 1.125rem;
 }
 @media (max-width: 767px) {
   .titulo__img__dos {
-    font-size: 1rem;
+    font-size: 1.125rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
@@ -1104,7 +1114,7 @@ body {
 }
 
 .texto__img__dos {
-  font-size: 0.875rem;
+  font-size: 0.938rem;
 }
 @media (max-width: 767px) {
   .texto__img__dos {
@@ -1118,16 +1128,16 @@ body {
 }
 
 .frase__img__dos {
-  font-size: 1.375rem;
+  font-size: 1.25rem;
 }
 @media (max-width: 767px) {
   .frase__img__dos {
-    font-size: 1.125rem;
+    font-size: 1.188rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .frase__img__dos {
-    font-size: 1rem;
+    font-size: 0.938rem;
   }
 }
 
