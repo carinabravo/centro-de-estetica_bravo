@@ -139,15 +139,15 @@ input[type="checkbox"]:checked {
   }
 }
 .imagen__tarjetas {
-  width: 32.5rem;
-  height: 25.625rem;
-  margin-top: 1.25rem;
+  width: 30rem;
+  height: 23.75rem;
+  margin-top: 1.875rem;
   @media (max-width: 767px) {
-    width: 30rem;
-    height: 24.375rem;
+    width: 26.875rem;
+    height: 20.625rem;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
-    width: 21.563rem;
-    height: 15.625rem;
+    width: 21.25rem;
+    height: 15.938rem;
   }
 }
