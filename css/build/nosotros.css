@@ -651,7 +651,6 @@ body {
   color: #3d3d3d;
 }
 
-.tratamientos_titulo,
 .tratamientos {
   background-color: #f2f2f2;
 }
@@ -668,7 +667,8 @@ body {
 
 /*** Animaciones del sitio ***/
 .header_container,
-.footer_container {
+.footer_container,
+.tratamientos_titulo {
   background: linear-gradient(-45deg, #fa818b 25%, rgba(238, 138, 158, 0.662745098) 38%, #b085ae 50%, #eb8fb0 62%, #b085ae 75%, #fa818b 100%);
   background-size: 400% 400%;
   position: relative;
@@ -686,6 +686,26 @@ body {
     background-position: 0 50%;
   }
 }
+.nav-link:hover {
+  transition: 0.5s;
+}
+
+.img__tratamiento {
+  transition: all 0.5s ease-in-out;
+}
+
+.img__tratamiento:hover {
+  transform: scale(1.1);
+}
+
+.redes a {
+  transition: all 0.5s ease-in-out;
+}
+
+.redes a:hover {
+  transform: scale(1.2);
+}
+
 /*** Medidas - Nosotros ***/
 .color__fondo {
   height: 81.25rem;
