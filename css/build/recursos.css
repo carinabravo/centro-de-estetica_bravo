@@ -11,7 +11,7 @@ html {
 
 body {
   width: 100%;
-  max-width: 62.5rem;
+  max-width: 75rem;
   min-height: 100%;
   margin: auto;
 }
@@ -667,24 +667,25 @@ body {
 }
 
 /*** Animaciones del sitio ***/
-.nav-link:hover {
-  transition: 0.5s;
+.header_container,
+.footer_container {
+  background: linear-gradient(-45deg, #fa818b 25%, rgba(238, 138, 158, 0.662745098) 38%, #b085ae 50%, #eb8fb0 62%, #b085ae 75%, #fa818b 100%);
+  background-size: 400% 400%;
+  position: relative;
+  animation: animate 6.5s ease-in-out infinite;
 }
 
-.img__tratamiento {
-  transition: all 0.4s ease-in-out;
+@keyframes animate {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
 }
-.img__tratamiento:hover {
-  transform: scale(1.1);
-}
-
-.redes a {
-  transition: all 0.4s ease-in-out;
-}
-.redes a:hover {
-  transform: scale(1.2);
-}
-
 /*** Medidas - Recursos humanos ***/
 .color__fondo {
   height: 81.25rem;
