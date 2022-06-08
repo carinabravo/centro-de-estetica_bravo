@@ -176,8 +176,8 @@ body {
 }
 
 .img__tratamiento {
-  width: 13.125rem;
-  height: 18.75rem;
+  width: 14.188rem;
+  height: 20.625rem;
   border-radius: 10px;
 }
 @media (max-width: 767px) {
@@ -756,23 +756,26 @@ body {
   width: 25rem;
   height: 36.875rem;
   border-radius: 10px;
+  margin: 1.875rem 0 0 2.5rem;
 }
 @media (max-width: 767px) {
   .img__nosotros {
     width: 25rem;
     height: 36.875rem;
+    margin: 0;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .img__nosotros {
     width: 18.75rem;
     height: 29.375rem;
+    margin: 0;
   }
 }
 
 .sub__titulo__nosotros {
   text-align: center;
-  margin: 1.875rem 0 0.9375rem;
+  margin: 1.875rem 40px 0.9375rem 40px;
 }
 @media (max-width: 767px) {
   .sub__titulo__nosotros {
@@ -815,9 +818,21 @@ body {
 .empresa__container {
   grid-area: empresa__container;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   text-align: justify;
-  align-items: center;
+  align-items: flex-start;
+}
+@media (max-width: 767px) {
+  .empresa__container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 350px) and (max-width: 500px) {
+  .empresa__container {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .info__extra__dos {
@@ -899,7 +914,7 @@ body {
 }
 
 .texto__nosotros {
-  font-size: 0.9375rem;
+  font-size: 0.969rem;
 }
 @media (max-width: 767px) {
   .texto__nosotros {
@@ -913,7 +928,7 @@ body {
 }
 
 .texto__nosotros__dos {
-  font-size: 0.9375rem;
+  font-size: 0.969rem;
 }
 @media (max-width: 767px) {
   .texto__nosotros__dos {
@@ -927,7 +942,7 @@ body {
 }
 
 .texto__nosotros__tres {
-  font-size: 0.9375rem;
+  font-size: 1rem;
 }
 @media (max-width: 767px) {
   .texto__nosotros__tres {
@@ -941,7 +956,7 @@ body {
 }
 
 .frase__nosotros {
-  font-size: 0.938rem;
+  font-size: 0.969rem;
 }
 @media (max-width: 767px) {
   .frase__nosotros {

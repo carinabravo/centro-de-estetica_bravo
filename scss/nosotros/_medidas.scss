@@ -40,18 +40,21 @@
   width: 25rem;
   height: 36.875rem;
   border-radius: 10px;
+  margin: 1.875rem 0 0 2.5rem;
   @media (max-width: 767px) {
     width: 25rem;
     height: 36.875rem;
+    margin: 0;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
     width: 18.75rem;
     height: 29.375rem;
+    margin: 0;
   }
 }
 .sub__titulo__nosotros {
   text-align: $textAlineacion-primaria;
-  margin: 1.875rem 0 0.9375rem;
+  margin: 1.875rem 40px 0.9375rem 40px;
   @media (max-width: 767px) {
     margin: 1.875rem 0 0.938rem;
   }
