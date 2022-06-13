@@ -92,17 +92,17 @@ body {
 
 .frase {
   text-align: right;
-  margin: 1.875rem 1.25rem 0 0;
+  margin: 0.75rem 1.25rem 0 0;
 }
 @media (max-width: 767px) {
   .frase {
     text-align: right;
-    margin: 1.875rem 0.9375rem 0 0;
+    margin: 1.125rem 0.9375rem 0 0;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .frase {
-    margin: 1.25rem 0.9375rem 0 0;
+    margin: 0.938rem 0.9375rem 0 0;
   }
 }
 
