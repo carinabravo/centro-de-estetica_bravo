@@ -11,16 +11,16 @@
 }
 .grid_container {
   @include contenedor-index;
-  grid-template-rows: 11.25rem 3.125rem 81.25rem 3.75rem;
+  grid-template-rows: 11.25rem 3.125rem 85rem 3.75rem;
   grid-auto-flow: row;
   @media (max-width: 1200px) {
     @include contenedor-index;
-    grid-template-rows: 11.25rem 3.125rem 81.25rem 3.75rem;
+    grid-template-rows: 11.25rem 3.125rem 85rem 3.75rem;
     grid-auto-flow: row;
   }
   @media (max-width: 767px) {
     @include contenedor-index;
-    grid-template-rows: 10rem 3.125rem 78.125rem 3.75rem;
+    grid-template-rows: 10rem 3.125rem 78.75rem 3.75rem;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
     @include contenedor-index;
@@ -56,7 +56,7 @@
 }
 .main_container {
   @include contenedor-main;
-  grid-template-rows: 25rem 22.5rem 3.125rem 31.25rem;
+  grid-template-rows: 28rem 22.5rem 3.25rem 31.25rem;
   @media (max-width: 767px) {
     @include contenedor-main;
     grid-template-rows: 21.25rem 30.625rem 3.75rem 23.125rem;

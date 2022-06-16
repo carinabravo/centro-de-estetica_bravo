@@ -11,7 +11,7 @@ html {
 
 body {
   width: 100%;
-  max-width: 75rem;
+  max-width: 100%;
   min-height: 100%;
   margin: auto;
 }
@@ -120,8 +120,8 @@ body {
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .logo__grande {
-    width: 210px;
-    height: 210px;
+    width: 200px;
+    height: 200px;
     margin-top: 0.625rem;
     border-radius: 50%;
   }
@@ -160,7 +160,7 @@ body {
 
 .tratamiento {
   text-align: center;
-  margin: 2.5rem 0 1.25rem;
+  margin: 2.5rem 0 2.5rem;
 }
 @media (max-width: 767px) {
   .tratamiento {
@@ -260,7 +260,7 @@ body {
   display: grid;
   grid-template-columns: 100%;
   grid-template-areas: "header_container" "nav_container" "main_container" "footer_container";
-  grid-template-rows: 11.25rem 3.125rem 81.25rem 3.75rem;
+  grid-template-rows: 11.25rem 3.125rem 85rem 3.75rem;
   grid-auto-flow: row;
 }
 @media (max-width: 1200px) {
@@ -268,7 +268,7 @@ body {
     display: grid;
     grid-template-columns: 100%;
     grid-template-areas: "header_container" "nav_container" "main_container" "footer_container";
-    grid-template-rows: 11.25rem 3.125rem 81.25rem 3.75rem;
+    grid-template-rows: 11.25rem 3.125rem 85rem 3.75rem;
     grid-auto-flow: row;
   }
 }
@@ -277,7 +277,7 @@ body {
     display: grid;
     grid-template-columns: 100%;
     grid-template-areas: "header_container" "nav_container" "main_container" "footer_container";
-    grid-template-rows: 10rem 3.125rem 78.125rem 3.75rem;
+    grid-template-rows: 10rem 3.125rem 78.75rem 3.75rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
@@ -316,7 +316,7 @@ body {
   grid-template-columns: 100%;
   grid-auto-flow: row;
   grid-template-areas: "imagen_principal" "bienvenida" "tratamientos_titulo" "tratamientos";
-  grid-template-rows: 25rem 22.5rem 3.125rem 31.25rem;
+  grid-template-rows: 28rem 22.5rem 3.25rem 31.25rem;
 }
 @media (max-width: 767px) {
   .main_container {
@@ -538,12 +538,12 @@ body {
 }
 @media (max-width: 767px) {
   .titulo {
-    font-size: 1.25rem;
+    font-size: 1.313rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .titulo {
-    font-size: 0.969rem;
+    font-size: 1.125rem;
   }
 }
 
@@ -552,12 +552,12 @@ body {
 }
 @media (max-width: 767px) {
   .texto {
-    font-size: 0.938rem;
+    font-size: 1rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .texto {
-    font-size: 0.781rem;
+    font-size: 0.813rem;
   }
 }
 
@@ -566,12 +566,12 @@ body {
 }
 @media (max-width: 767px) {
   .titulo__uno {
-    font-size: 1.125rem;
+    font-size: 1.188rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .titulo__uno {
-    font-size: 0.938rem;
+    font-size: 1rem;
   }
 }
 

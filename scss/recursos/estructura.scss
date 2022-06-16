@@ -12,16 +12,16 @@
 .grid_container {
   @media (max-width: 1200px) {
     @include contenedor-recursos;
-    grid-template-rows: 11.25rem 3.125rem 81.25rem 3.75rem;
+    grid-template-rows: 11.25rem 3.125rem 85rem 3.75rem;
     grid-auto-flow: row;
   }
   @media (max-width: 767px) {
     @include contenedor-recursos;
-    grid-template-rows: 10rem 3.125rem 81.25rem 3.75rem;
+    grid-template-rows: 10rem 3.125rem 85rem 3.75rem;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
     @include contenedor-recursos;
-    grid-template-rows: 7.5rem 3.125rem 81.25rem 3.125rem;
+    grid-template-rows: 7.5rem 3.125rem 85rem 3.125rem;
   }
 }
 .recursos_container {

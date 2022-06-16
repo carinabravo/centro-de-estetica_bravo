@@ -1,7 +1,7 @@
 /*** Medidas - Nosotros ***/
 
 .color__fondo {
-  height: 81.25rem;
+  height: 85rem;
 }
 .titulo__nosotros {
   text-align: $textAlineacion-primaria;
@@ -59,6 +59,6 @@
     margin: 1.875rem 0 0.938rem;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
-    margin: 1.875rem 0 0.625rem;
+    margin: 1.875rem 2.5rem 0.625rem 2.5rem;
   }
 }
