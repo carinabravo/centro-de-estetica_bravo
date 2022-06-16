@@ -11,7 +11,7 @@ html {
 
 body {
   width: 100%;
-  max-width: 100%;
+  max-width: 75rem;
   min-height: 100%;
   margin: auto;
 }
@@ -316,7 +316,7 @@ body {
   grid-template-columns: 100%;
   grid-auto-flow: row;
   grid-template-areas: "imagen_principal" "bienvenida" "tratamientos_titulo" "tratamientos";
-  grid-template-rows: 25zrem 22.5rem 3.125rem 31.25rem;
+  grid-template-rows: 25rem 22.5rem 3.125rem 31.25rem;
 }
 @media (max-width: 767px) {
   .main_container {
