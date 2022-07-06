@@ -209,6 +209,10 @@ body {
   }
 }
 
+.fa-brands {
+  margin-right: 0.06rem;
+}
+
 .redes {
   min-width: 8.75rem;
   margin-right: 1.25rem;
