@@ -675,7 +675,7 @@ body {
   background: linear-gradient(-45deg, #fa818b 25%, rgba(238, 138, 158, 0.662745098) 38%, #b085ae 50%, #eb8fb0 62%, #b085ae 75%, #fa818b 100%);
   background-size: 400% 400%;
   position: relative;
-  animation: animate 7.5s ease-in-out infinite;
+  animation: animate 6.5s ease-in-out infinite;
 }
 
 @keyframes animate {
@@ -716,7 +716,7 @@ body {
 
 .titulo__contacto {
   text-align: center;
-  margin-top: 2.5rem;
+  margin: 2.5rem;
 }
 
 .texto__contacto {
@@ -932,7 +932,7 @@ input[type=checkbox]:checked {
     display: grid;
     grid-template-columns: 100%;
     grid-template-areas: "header_container" "nav_container" "contacto_container" "footer_container";
-    grid-template-rows: 7.5rem 3.125rem 85rem 3.125remz;
+    grid-template-rows: 7.5rem 3.125rem 85rem 3.125rem;
   }
 }
 
