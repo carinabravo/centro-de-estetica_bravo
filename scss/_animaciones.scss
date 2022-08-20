@@ -1,8 +1,8 @@
 /*** Animaciones del sitio ***/
 
 .header_container,
-.footer_container,
-.tratamientos_titulo {
+.footer_container 
+.tratamiento_titulo {
   background: linear-gradient(
     -45deg,
     #fa818b 25%,
@@ -14,7 +14,7 @@
   );
   background-size: 400% 400%;
   position: relative;
-  animation: animate 6.5s ease-in-out infinite;
+  animation: animate 5.5s ease-in-out infinite;
 }
 @keyframes animate {
   0% {
