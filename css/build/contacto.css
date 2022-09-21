@@ -895,24 +895,6 @@ input[type=checkbox]:checked {
   }
 }
 
-.imagen__tarjetas {
-  width: 30rem;
-  height: 23.75rem;
-  margin-top: 1.875rem;
-}
-@media (max-width: 767px) {
-  .imagen__tarjetas {
-    width: 26.875rem;
-    height: 20.625rem;
-  }
-}
-@media screen and (min-width: 350px) and (max-width: 500px) {
-  .imagen__tarjetas {
-    width: 21.25rem;
-    height: 15.938rem;
-  }
-}
-
 /*** Estructura - Contacto ***/
 @media (max-width: 1200px) {
   .grid_container {
