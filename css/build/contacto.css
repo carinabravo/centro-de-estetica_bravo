@@ -675,7 +675,6 @@ body {
   background: linear-gradient(-45deg, #fa818b 25%, rgba(238, 138, 158, 0.662745098) 38%, #b085ae 50%, #eb8fb0 62%, #b085ae 75%, #fa818b 100%);
   background-size: 400% 400%;
   position: relative;
-  animation: animate 6.5s ease-in-out infinite;
 }
 
 @keyframes animate {
