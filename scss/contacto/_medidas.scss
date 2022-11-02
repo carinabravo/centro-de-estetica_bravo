@@ -87,11 +87,9 @@ input[type="checkbox"]:checked {
   padding: 0.625rem;
   @media (max-width: 767px) {
     width: 23.75rem;
-    height: 5rem;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
     width: 18.125rem;
-    height: 4.375rem;
   }
 }
 .boton {

@@ -823,13 +823,11 @@ input[type=checkbox]:checked {
 @media (max-width: 767px) {
   .casilla__consulta {
     width: 23.75rem;
-    height: 5rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .casilla__consulta {
     width: 18.125rem;
-    height: 4.375rem;
   }
 }
 
@@ -1132,7 +1130,7 @@ input[type=checkbox]:checked {
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .titulo__img {
-    font-size: 0.875rem;
+    font-size: 0.938rem;
   }
 }
 
@@ -1146,7 +1144,7 @@ input[type=checkbox]:checked {
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .texto__img {
-    font-size: 0.813rem;
+    font-size: 0.875rem;
   }
 }
 
