@@ -5,11 +5,11 @@
 }
 .titulo__contacto {
   text-align: $textAlineacion-primaria;
-  margin: 2.5rem;
+  margin: 2.5rem 2.5rem 0 2.5rem;
 }
 .texto__contacto {
   text-align: $textAlineacion-terciaria;
-  margin: 0.625rem 0.9375rem 1.25rem 0.9375rem;
+  margin: 1.25rem 0.9375rem 1.25rem 0.9375rem;
 }
 .contacto__uno {
   text-align: $textAlineacion-terciaria;
@@ -80,7 +80,7 @@ input[type="checkbox"]:checked {
 }
 .casilla__consulta {
   width: 26.875rem;
-  height: 5rem;
+  height: 5.313rem;
   margin-left: 0.9375rem;
   border-width: 1px;
   border-radius: 10px;
@@ -97,7 +97,7 @@ input[type="checkbox"]:checked {
 .boton {
   width: 10.625rem;
   height: 2.5rem;
-  padding: 0.625rem;
+  padding: 0.625rem 0.625rem 0.938rem 0.625rem;
   margin: 0.625rem 0 0.875rem 1.25rem;
   border-width: 1px;
   border-radius: 10px;
@@ -116,25 +116,36 @@ input[type="checkbox"]:checked {
 }
 .info__extra {
   width: 29.375rem;
-  height: 10.625rem;
+  height:auto;
   border-radius: 10px;
   border-width: 5px;
   margin-top: 1.875rem;
+  padding-bottom: 30px;
   @media (max-width: 767px) {
     width: 26.25rem;
-    height: 9.375rem;
+
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
     width: 20.625rem;
-    height: 8.75rem;
+
   }
 }
 .titulo__img {
-  margin-top: 1.563rem;
+  margin-top: 1.875rem;
   @media (max-width: 767px) {
-    margin-top: 1.563rem;
+    margin-top: 1.875rem;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
-    margin-top: 1.25rem;
+    margin-top: 1.875rem;
+  }
+}
+.frase__img__dos {
+  margin: 0.625rem 1.563rem 0 1.563rem;
+  text-align: justify;
+  @media (max-width: 767px) {
+    margin: 0.625rem 1.875rem 0 1.875rem;
+  }
+  @media screen and (min-width: 350px) and (max-width: 500px) {
+    margin: 0.625rem 1.875rem 0 1.875rem;
   }
 }

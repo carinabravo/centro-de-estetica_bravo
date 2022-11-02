@@ -1,6 +1,6 @@
 /*** Colores del sitio ***/
 
-$fuentePrimaria-color: #3d3d3d;
+$fuentePrimaria-color: #626060;
 $fuenteSecundaria-color: #f0778f;
 $fuenteCuaternaria-color: #fff;
 $basePrimaria-color: #eca9af;
@@ -36,11 +36,9 @@ $fuenteSombra-color: #fa818b;
 .titulo__uno {
   color: $fuentePrimaria-color;
 }
-.tratamientos_titulo{
-background-color:$fuenteSombra-color;
 
-}
-.tratamientos {
+.tratamientos,
+.tratamientos_titulo {
   background-color: $baseSecundaria-color;
 }
 .tratamiento {

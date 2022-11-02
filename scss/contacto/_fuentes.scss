@@ -3,7 +3,7 @@
 /*** Fuentes - Contacto ***/
 
 .titulo__contacto {
- @extend .titulo__principal;
+  @extend .titulo__principal;
 }
 .texto__contacto {
   font-size: 0.9375rem;
@@ -94,18 +94,28 @@
 .texto__img {
   font-size: 1rem;
   @media (max-width: 767px) {
-    font-size: 0.875rem;
+    font-size: 0.938rem;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
-    font-size: 0.75rem;
+    font-size: 0.813rem;
   }
 }
 .frase__img {
-  font-size: 1.375rem;
+  font-size: 1.75rem;
   @media (max-width: 767px) {
-    font-size: 1.125rem;
+    font-size: 1.563rem;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
+    font-size: 1.25rem;
+  }
+}
+
+.frase__img__dos {
+  font-size: 1.063rem;
+  @media (max-width: 767px) {
     font-size: 1rem;
+  }
+  @media screen and (min-width: 350px) and (max-width: 500px) {
+    font-size: 0.938rem;
   }
 }
