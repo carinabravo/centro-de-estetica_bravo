@@ -718,9 +718,9 @@ body {
 
 .formulario__dos {
   width: 46.875rem;
-  height: 720px;
+  height: 45rem;
   margin: 0 0.625rem 0 0.625rem;
-  padding-bottom: 20px;
+  padding-bottom: 1.25rem;
   border-radius: 10px;
   border-width: 5px;
 }
@@ -729,14 +729,14 @@ body {
     width: 28.125rem;
     height: 65.625rem;
     margin: 0 0.3125rem 0 0.3125rem;
-    padding-top: 10px;
+    padding-top: 0.625rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .formulario__dos {
     width: 20.625rem;
     height: 63.75rem;
-    padding-top: 10px;
+    padding-top: 0.625rem;
   }
 }
 
