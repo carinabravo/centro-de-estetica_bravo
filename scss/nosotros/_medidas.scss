@@ -2,7 +2,14 @@
 
 .color__fondo {
   height: auto;
-  padding-top: 70px;
+  padding-top: 90px;
+  @media (max-width: 767px) {
+    padding-top: 60px;
+  }
+  @media screen and (min-width: 350px) and (max-width: 500px) {
+    padding-top: 60px;
+  }
+
 }
 .titulo__nosotros {
   text-align: $textAlineacion-primaria;

@@ -713,7 +713,17 @@ body {
 /*** Medidas - Tratamientos ***/
 .fondo__color__tratamientos {
   height: auto;
-  padding-top: 55px;
+  padding-top: 85px;
+}
+@media (max-width: 767px) {
+  .fondo__color__tratamientos {
+    padding-top: 45px;
+  }
+}
+@media screen and (min-width: 350px) and (max-width: 500px) {
+  .fondo__color__tratamientos {
+    padding-top: 45px;
+  }
 }
 
 .imagen__tratamiento {
