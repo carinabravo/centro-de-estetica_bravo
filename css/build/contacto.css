@@ -12,7 +12,7 @@ html {
 body {
   width: 100%;
   max-width: 100%;
-  min-height: 100%;
+  height: auto;
   margin: auto;
 }
 
@@ -712,12 +712,13 @@ body {
 
 /*** Medidas - Contacto ***/
 .color__fondo {
-  height: 85rem;
+  height: auto;
+  padding-top: 70px;
 }
 
 .titulo__contacto {
   text-align: center;
-  margin: 2.5rem 2.5rem 0 2.5rem;
+  margin: 1.5625rem 0 0.625rem 0;
 }
 
 .texto__contacto {
@@ -751,7 +752,8 @@ input[type=checkbox]:checked {
 
 .formulario__uno {
   width: 29.375rem;
-  height: 34.125rem;
+  height: auto;
+  padding-bottom: 15px;
   border-radius: 10px;
   border-width: 0.3125rem;
   margin: 1.875rem 1.25rem 0 1.25rem;
@@ -759,14 +761,12 @@ input[type=checkbox]:checked {
 @media (max-width: 767px) {
   .formulario__uno {
     width: 26.25rem;
-    height: 33.438rem;
     margin: 1.875rem 0.3125rem 0 0.3125rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .formulario__uno {
     width: 20.625rem;
-    height: 30.313rem;
     margin-top: 1.875rem;
   }
 }
@@ -946,16 +946,16 @@ input[type=checkbox]:checked {
 }
 
 /*** Fuentes - Tratamientos ***/
-.titulo__principal, .titulo__contacto {
+.titulo__principal {
   font-size: 1.375rem;
 }
 @media (max-width: 767px) {
-  .titulo__principal, .titulo__contacto {
+  .titulo__principal {
     font-size: 1.125rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
-  .titulo__principal, .titulo__contacto {
+  .titulo__principal {
     font-size: 0.938rem;
   }
 }
@@ -1003,6 +1003,20 @@ input[type=checkbox]:checked {
 }
 
 /*** Fuentes - Contacto ***/
+.titulo__contacto {
+  font-size: 1.375rem;
+}
+@media (max-width: 767px) {
+  .titulo__contacto {
+    font-size: 1.125rem;
+  }
+}
+@media screen and (min-width: 350px) and (max-width: 500px) {
+  .titulo__contacto {
+    font-size: 0.938rem;
+  }
+}
+
 .texto__contacto {
   font-size: 0.9375rem;
 }
@@ -1181,7 +1195,6 @@ input[type=checkbox]:checked {
   background-color: #f5e0e2;
 }
 
-.titulo__contacto,
 .texto__contacto,
 .contacto__uno,
 .contacto__dos,
@@ -1226,6 +1239,7 @@ input[type=checkbox]:checked {
 }
 
 .titulo__img,
+.titulo__contacto,
 .frase__img {
   color: #f0778f;
 }

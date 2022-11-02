@@ -1,12 +1,14 @@
 /*** Medidas - Contacto ***/
 
 .color__fondo {
-  height: 85rem;
+  height: auto;
+  padding-top: 70px;
 }
 .titulo__contacto {
   text-align: $textAlineacion-primaria;
-  margin: 2.5rem 2.5rem 0 2.5rem;
+  margin: 1.5625rem 0 0.625rem 0;
 }
+
 .texto__contacto {
   text-align: $textAlineacion-terciaria;
   margin: 1.25rem 0.9375rem 1.25rem 0.9375rem;
@@ -32,18 +34,17 @@ input[type="checkbox"]:checked {
 }
 .formulario__uno {
   width: 29.375rem;
-  height: 34.125rem;
+  height: auto;
+  padding-bottom: 15px;
   border-radius: 10px;
   border-width: 0.3125rem;
   margin: 1.875rem 1.25rem 0 1.25rem;
   @media (max-width: 767px) {
     width: 26.25rem;
-    height: 33.438rem;
     margin: 1.875rem 0.3125rem 0 0.3125rem;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
     width: 20.625rem;
-    height: 30.313rem;
     margin-top: 1.875rem;
   }
 }
@@ -114,18 +115,16 @@ input[type="checkbox"]:checked {
 }
 .info__extra {
   width: 29.375rem;
-  height:auto;
+  height: auto;
   border-radius: 10px;
   border-width: 5px;
   margin-top: 1.875rem;
   padding-bottom: 30px;
   @media (max-width: 767px) {
     width: 26.25rem;
-
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
     width: 20.625rem;
-
   }
 }
 .titulo__img {

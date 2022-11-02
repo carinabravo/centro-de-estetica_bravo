@@ -12,7 +12,7 @@ html {
 body {
   width: 100%;
   max-width: 100%;
-  min-height: 100%;
+  height: auto;
   margin: auto;
 }
 
@@ -712,12 +712,8 @@ body {
 
 /*** Medidas - Recursos humanos ***/
 .color__fondo {
-  height: 85rem;
-}
-
-.titulo__RRHH {
-  text-align: center;
-  margin: 2.5rem 0 1.875rem 0;
+  height: auto;
+  padding-top: 95px;
 }
 
 .formulario__dos {
@@ -961,35 +957,32 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
 }
 @media (max-width: 767px) {
   .formulario__dos {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .formulario__dos {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
 }
 
 /*** Fuentes - Tratamientos ***/
-.titulo__principal, .titulo__RRHH {
+.titulo__principal {
   font-size: 1.375rem;
 }
 @media (max-width: 767px) {
-  .titulo__principal, .titulo__RRHH {
+  .titulo__principal {
     font-size: 1.125rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
-  .titulo__principal, .titulo__RRHH {
+  .titulo__principal {
     font-size: 0.938rem;
   }
 }
@@ -1171,7 +1164,6 @@ body {
   background-color: #f5e0e2;
 }
 
-.titulo__RRHH,
 .texto__RRHH,
 .texto__img__dos,
 .titulo__img__dos {

@@ -3,7 +3,6 @@
 .color__fondo {
   background-color: $baseTerciaria-color;
 }
-.titulo__contacto,
 .texto__contacto,
 .contacto__uno,
 .contacto__dos,
@@ -41,6 +40,7 @@
   border-style: solid;
 }
 .titulo__img,
+.titulo__contacto,
 .frase__img {
   color: $fuenteSecundaria-color;
 }

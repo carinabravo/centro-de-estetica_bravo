@@ -1,17 +1,8 @@
 /*** Medidas - Tratamientos ***/
 
 .fondo__color__tratamientos {
-  height: 85rem;
-}
-.titulo__principal {
-  text-align: $textAlineacion-primaria;
-  margin-top: 2.5rem;
-  @media (max-width: 767px) {
-    margin-top: 1.25rem;
-  }
-  @media screen and (min-width: 350px) and (max-width: 500px) {
-    margin-top: 1.25rem;
-  }
+  height: auto;
+  padding-top:55px;
 }
 .imagen__tratamiento {
   width: 23.125rem;
