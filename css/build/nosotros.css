@@ -712,7 +712,7 @@ body {
 
 /*** Medidas - Nosotros ***/
 .color__fondo {
-  height: auto;
+  height: 83rem;
   padding-top: 90px;
 }
 @media (max-width: 767px) {

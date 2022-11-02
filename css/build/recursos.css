@@ -712,7 +712,7 @@ body {
 
 /*** Medidas - Recursos humanos ***/
 .color__fondo {
-  height: auto;
+  height: 83rem;
   padding-top: 130px;
 }
 @media (max-width: 767px) {
