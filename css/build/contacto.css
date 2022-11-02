@@ -633,7 +633,7 @@ body {
 .navbar-light,
 .nav-link,
 .derechos {
-  color: #3d3d3d !important;
+  color: #626060 !important;
 }
 
 .nav-link:hover,
@@ -652,14 +652,11 @@ body {
 .titulo,
 .texto,
 .titulo__uno {
-  color: #3d3d3d;
+  color: #626060;
 }
 
+.tratamientos,
 .tratamientos_titulo {
-  background-color: #fa818b;
-}
-
-.tratamientos {
   background-color: #f2f2f2;
 }
 
@@ -668,7 +665,7 @@ body {
 }
 
 .redes a {
-  background-color: #3d3d3d;
+  background-color: #626060;
   color: #fff;
   box-shadow: 2x 2x 5x rgb(0, 0, 0);
 }
@@ -720,12 +717,12 @@ body {
 
 .titulo__contacto {
   text-align: center;
-  margin: 2.5rem;
+  margin: 2.5rem 2.5rem 0 2.5rem;
 }
 
 .texto__contacto {
   text-align: justify;
-  margin: 0.625rem 0.9375rem 1.25rem 0.9375rem;
+  margin: 1.25rem 0.9375rem 1.25rem 0.9375rem;
 }
 
 .contacto__uno {
@@ -817,7 +814,7 @@ input[type=checkbox]:checked {
 
 .casilla__consulta {
   width: 26.875rem;
-  height: 5rem;
+  height: 5.313rem;
   margin-left: 0.9375rem;
   border-width: 1px;
   border-radius: 10px;
@@ -839,7 +836,7 @@ input[type=checkbox]:checked {
 .boton {
   width: 10.625rem;
   height: 2.5rem;
-  padding: 0.625rem;
+  padding: 0.625rem 0.625rem 0.938rem 0.625rem;
   margin: 0.625rem 0 0.875rem 1.25rem;
   border-width: 1px;
   border-radius: 10px;
@@ -863,35 +860,49 @@ input[type=checkbox]:checked {
 
 .info__extra {
   width: 29.375rem;
-  height: 10.625rem;
+  height: auto;
   border-radius: 10px;
   border-width: 5px;
   margin-top: 1.875rem;
+  padding-bottom: 30px;
 }
 @media (max-width: 767px) {
   .info__extra {
     width: 26.25rem;
-    height: 9.375rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .info__extra {
     width: 20.625rem;
-    height: 8.75rem;
   }
 }
 
 .titulo__img {
-  margin-top: 1.563rem;
+  margin-top: 1.875rem;
 }
 @media (max-width: 767px) {
   .titulo__img {
-    margin-top: 1.563rem;
+    margin-top: 1.875rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .titulo__img {
-    margin-top: 1.25rem;
+    margin-top: 1.875rem;
+  }
+}
+
+.frase__img__dos {
+  margin: 0.625rem 1.563rem 0 1.563rem;
+  text-align: justify;
+}
+@media (max-width: 767px) {
+  .frase__img__dos {
+    margin: 0.625rem 1.875rem 0 1.875rem;
+  }
+}
+@media screen and (min-width: 350px) and (max-width: 500px) {
+  .frase__img__dos {
+    margin: 0.625rem 1.875rem 0 1.875rem;
   }
 }
 
@@ -933,6 +944,7 @@ input[type=checkbox]:checked {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 
 /*** Fuentes - Tratamientos ***/
@@ -1129,26 +1141,40 @@ input[type=checkbox]:checked {
 }
 @media (max-width: 767px) {
   .texto__img {
-    font-size: 0.875rem;
+    font-size: 0.938rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .texto__img {
-    font-size: 0.75rem;
+    font-size: 0.813rem;
   }
 }
 
 .frase__img {
-  font-size: 1.375rem;
+  font-size: 1.75rem;
 }
 @media (max-width: 767px) {
   .frase__img {
-    font-size: 1.125rem;
+    font-size: 1.563rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .frase__img {
+    font-size: 1.25rem;
+  }
+}
+
+.frase__img__dos {
+  font-size: 1.063rem;
+}
+@media (max-width: 767px) {
+  .frase__img__dos {
     font-size: 1rem;
+  }
+}
+@media screen and (min-width: 350px) and (max-width: 500px) {
+  .frase__img__dos {
+    font-size: 0.938rem;
   }
 }
 
@@ -1161,8 +1187,10 @@ input[type=checkbox]:checked {
 .texto__contacto,
 .contacto__uno,
 .contacto__dos,
-.texto__img {
-  color: #3d3d3d;
+.texto__img,
+.opciones,
+.frase__img__dos {
+  color: #626060;
 }
 
 .formulario__uno {
@@ -1180,7 +1208,7 @@ input[type=checkbox]:checked {
 
 .boton {
   background-color: #eca9af;
-  color: #3d3d3d;
+  color: #626060;
   border-color: #f0778f;
   border-style: solid;
 }
