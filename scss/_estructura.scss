@@ -56,14 +56,14 @@
 }
 .main_container {
   @include contenedor-main;
-  grid-template-rows: 28rem 22.5rem 3.25rem 31.25rem;
+  grid-template-rows: 28rem 22.5rem 4.25rem 31.25rem;
   @media (max-width: 767px) {
     @include contenedor-main;
-    grid-template-rows: 21.25rem 30.625rem 3.75rem 23.125rem;
+    grid-template-rows: 21.25rem 30.625rem 4.25rem 23.125rem;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
     @include contenedor-main;
-    grid-template-rows: 15rem 29.688rem 2.5rem 43.438rem;
+    grid-template-rows: 15rem 29.688rem 2.7rem 43.438rem;
   }
 }
 .imagen_principal {
