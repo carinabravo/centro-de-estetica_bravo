@@ -154,7 +154,7 @@ body {
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .texto {
     text-align: justify;
-    margin: 0.9375rem 1.875rem 0.625rem 1.875rem;
+    margin: 1.25rem 1.25rem 0.625rem 1.25rem;
   }
 }
 
@@ -337,7 +337,7 @@ body {
     grid-template-columns: 100%;
     grid-auto-flow: row;
     grid-template-areas: "imagen_principal" "bienvenida" "tratamientos_titulo" "tratamientos";
-    grid-template-rows: 15rem 29.688rem 2.7rem 43.438rem;
+    grid-template-rows: 15rem 29.188rem 3rem 43.438rem;
   }
 }
 
@@ -791,7 +791,7 @@ body {
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .descripciones__uno {
-    margin: 0.625rem 0.9375rem 0.625rem 0.9375rem;
+    margin: 0.625rem 1.25rem 0.625rem 1.25rem;
   }
 }
 
