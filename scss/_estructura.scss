@@ -24,7 +24,7 @@
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
     @include contenedor-index;
-    grid-template-rows: 7.5rem 3.125rem 90.625rem 3.75rem;
+    grid-template-rows: 7.5rem 3.125rem 91.625rem 3.75rem;
   }
 }
 .header_container {
@@ -62,7 +62,7 @@
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
     @include contenedor-main;
-    grid-template-rows: 15rem 28.188rem 47.438rem;
+    grid-template-rows: 15rem 28.188rem 48.438rem;
   }
 }
 .imagen_principal {
