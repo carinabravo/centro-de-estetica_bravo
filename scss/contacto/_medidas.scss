@@ -56,10 +56,10 @@ input[type="checkbox"]:checked {
   margin-bottom: 1.25rem;
 }
 .formulario__uno {
-  width: 760px;
+  width: 47.5rem;
   height: auto;
-  padding-bottom: 15px;
-  border-radius: 10px;
+  padding-bottom: 0.398rem;
+  border-radius: 0.625rem;
   border-width: 0.3125rem;
   margin: 1.875rem 0 0 0;
   @media (max-width: 767px) {
@@ -72,7 +72,7 @@ input[type="checkbox"]:checked {
   }
 }
 .casillas {
-  width: 670px;
+  width: 41.875rem;
   height: 2.5rem;
   margin: 0 2.5rem 0.625rem 2.5rem;
   border-width: 1px;
@@ -105,7 +105,7 @@ input[type="checkbox"]:checked {
   }
 }
 .casilla__consulta {
-  width: 670px;
+  width: 41.875rem;
   height: 5.313rem;
   margin-left: 2.5rem;
   margin-right: 2.5rem;
@@ -143,12 +143,12 @@ input[type="checkbox"]:checked {
   }
 }
 .info__extra {
-  width: 760px;
+  width: 47.5rem;
   height: auto;
   border-radius: 10px;
   border-width: 5px;
   margin-top: 1.875rem;
-  padding-bottom: 30px;
+  padding-bottom: 1.875rem;
   @media (max-width: 767px) {
     width: 26.25rem;
   }
@@ -168,7 +168,7 @@ input[type="checkbox"]:checked {
 .frase__img__dos {
   margin: 0.625rem 2.5rem 0 2.5rem;
   text-align: justify;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
   @media (max-width: 767px) {
     margin: 0.625rem 0.938rem 0 0.938rem;
   }

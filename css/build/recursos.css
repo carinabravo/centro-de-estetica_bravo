@@ -691,7 +691,7 @@ body {
   .formulario__dos {
     width: 28.125rem;
     height: 1000px;
-    margin: 0 0.9375 0 0.9375rem;
+    margin: 0 0.9375rem 0 0.9375rem;
     padding-top: 0.625rem;
   }
 }
@@ -713,7 +713,7 @@ body {
 }
 @media (max-width: 767px) {
   .formulario__RRHH {
-    width: 405px;
+    width: 25.313rem;
     height: 21.875rem;
     text-align: center;
     margin: 1.875rem 0 0 0;
@@ -767,7 +767,7 @@ body {
 }
 @media (max-width: 767px) {
   .casilla {
-    width: 370px;
+    width: 23.125rem;
     height: 2.5rem;
     margin: 0.625rem 0.9375rem 0.625rem 0.9375rem;
   }
@@ -790,7 +790,7 @@ body {
 }
 @media (max-width: 767px) {
   .casilla__mensaje {
-    width: 370px;
+    width: 23.125rem;
     height: 5rem;
     margin: 0.3125rem 0.9375rem 0 0.9375rem;
   }
@@ -840,7 +840,7 @@ body {
 }
 @media (max-width: 767px) {
   .info__extra__dos {
-    width: 405px;
+    width: 25.313rem;
     height: 10.625rem;
   }
 }
