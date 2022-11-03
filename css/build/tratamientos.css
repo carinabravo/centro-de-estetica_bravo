@@ -12,7 +12,7 @@ html {
 body {
   width: 100%;
   max-width: 100%;
-  height: auto;
+  min-height: 100%;
   margin: auto;
 }
 
@@ -712,17 +712,19 @@ body {
 
 /*** Medidas - Tratamientos ***/
 .fondo__color__tratamientos {
-  height: 83rem;
+  height: auto;
   padding-top: 85px;
 }
 @media (max-width: 767px) {
   .fondo__color__tratamientos {
     padding-top: 45px;
+    height: auto;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .fondo__color__tratamientos {
-    padding-top: 10px;
+    padding-top: 45px;
+    height: auto;
   }
 }
 

@@ -1,14 +1,15 @@
 /*** Medidas - Recursos humanos ***/
 
 .color__fondo {
-  height: 83rem;
+  height: auto;
   padding-top: 130px;
   @media (max-width: 767px) {
     padding-top: 65px;
+    height: auto;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
     padding-top: 65px;
-    
+    height: auto;
   }
 }
 

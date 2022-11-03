@@ -12,7 +12,7 @@ html {
 body {
   width: 100%;
   max-width: 100%;
-  height: auto;
+  min-height: 100%;
   margin: auto;
 }
 
@@ -712,23 +712,20 @@ body {
 
 /*** Medidas - Nosotros ***/
 .color__fondo {
-  height: 83rem;
+  height: auto;
   padding-top: 90px;
 }
 @media (max-width: 767px) {
   .color__fondo {
     padding-top: 60px;
+    height: auto;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .color__fondo {
-    padding-top: 10px;
+    padding-top: 60px;
+    height: auto;
   }
-}
-
-.titulo__nosotros {
-  text-align: center;
-  margin: 2.5rem 0 1.875rem 0;
 }
 
 .texto__nosotros {
