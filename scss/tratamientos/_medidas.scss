@@ -2,18 +2,18 @@
 
 .fondo__color__tratamientos {
   height: auto;
-  padding-top:79px;
+  padding-top: 50px;
   @media (max-width: 767px) {
-    padding-top: 45px;
+    padding-top: 50px;
     height: auto;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
-    padding-top: 30px;
+    padding-top: 35px;
     height: auto;
   }
 }
 .imagen__tratamiento {
-  width: 23.125rem;
+  width: 22.125rem;
   height: 15.625rem;
   border-radius: 10px;
   margin: 2.5rem 0 0 2.5rem;
@@ -30,28 +30,32 @@
 }
 .sub__titulo__tratamiento {
   text-align: $textAlineacion-terciaria;
-  margin: 2.5rem 0 0.625rem 1.875rem;
+  margin: 2.5rem 0 0.625rem 2.5rem;
   @media (max-width: 767px) {
-    margin: 0.625rem 0 0.3125rem 0.9375rem;
+    margin: 0.625rem 0 0.3125rem 0;
+    text-align:$textAlineacion-primaria;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
-    margin: 0.625rem 0 0.625rem 0.9375rem;
+    margin: 0.625rem 0 0.625rem 0;
+    text-align:$textAlineacion-primaria;
   }
 }
 .listado {
   list-style: disc;
   text-align: $textAlineacion-terciaria;
-  margin: 0 0 0.625rem 1.0625rem;
+  margin: 0 0 0.625rem 1.5rem;
   @media (max-width: 767px) {
     margin: 0 0 0.3125rem 0;
+    text-align:$textAlineacion-terciaria;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
     margin-bottom: 0.625rem;
+    text-align:$textAlineacion-terciaria;
   }
 }
 .descripciones__uno {
   text-align: $textAlineacion-terciaria;
-  margin: 0 2.5rem 0 1.875rem;
+  margin: 0 2.5rem 0 2.5rem;
   @media (max-width: 767px) {
     margin: 0 1.25rem 0.625rem 1.25rem;
   }

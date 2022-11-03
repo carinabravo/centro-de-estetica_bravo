@@ -61,7 +61,7 @@ $justifyContent-cuaternario: flex-end;
     margin: 4.25rem 0 0 0.625rem;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
-    margin: 0.813rem 4.1875rem 0 0;
+    margin: 0.909rem 4.1885rem 0 0;
   }
 }
 .frase {
@@ -76,31 +76,22 @@ $justifyContent-cuaternario: flex-end;
   }
 }
 .logo__grande {
-  width: 330px;
-  height: 330px;
+  width: 310px;
+  height: 310px;
   border-radius: 50%;
   @media (max-width: 767px) {
     width: 245px;
     height: 245px;
     border-radius: 50%;
+    margin-top: 1.25rem;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
     width: 200px;
     height: 200px;
-    margin-top: 0.625rem;
+    margin-top: 1.25rem;
     border-radius: 50%;
   }
 }
-.titulo {
-  margin-bottom: 0.625rem;
-  @media (max-width: 767px) {
-    text-align: $textAlineacion-primaria;
-  }
-  @media screen and (min-width: 350px) and (max-width: 500px) {
-    text-align: $textAlineacion-primaria;
-  }
-}
-
 
 .texto {
   text-align: $textAlineacion-terciaria;
@@ -111,14 +102,15 @@ $justifyContent-cuaternario: flex-end;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
     text-align: $textAlineacion-terciaria;
-    margin: 1.25rem 1.25rem 0.625rem 1.25rem;
+    margin: 0.9375 1.25rem 0.625rem 1.25rem;
   }
 }
 .tratamiento {
   text-align: $textAlineacion-primaria;
-  margin: 2.5rem 0 2.5rem;
+  margin: 3.5rem 0 2.5rem;
   @media (max-width: 767px) {
     text-align: $textAlineacion-primaria;
+    margin: 5.5rem 0 2.5rem;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
     text-align: $textAlineacion-primaria;

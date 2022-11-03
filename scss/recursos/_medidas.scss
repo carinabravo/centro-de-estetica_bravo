@@ -2,9 +2,9 @@
 
 .color__fondo {
   height: auto;
-  padding-top: 125px;
+  padding-top: 95px;
   @media (max-width: 767px) {
-    padding-top: 65px;
+    padding-top: 55px;
     height: auto;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
@@ -22,8 +22,8 @@
   border-width: 5px;
   @media (max-width: 767px) {
     width: 28.125rem;
-    height: 65.625rem;
-    margin: 0 0.3125rem 0 0.3125rem;
+    height: 1000px;
+    margin: 0 0.9375 0 0.9375rem;
     padding-top: 0.625rem;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
@@ -40,7 +40,7 @@
   border-radius: 10px;
   border-width: 3px;
   @media (max-width: 767px) {
-    width: 23.75rem;
+    width: 405px;
     height: 21.875rem;
     text-align: $textAlineacion-primaria;
     margin: 1.875rem 0 0 0;
@@ -55,7 +55,7 @@
   text-align: $textAlineacion-terciaria;
   margin: 1.5625rem 0 0.625rem 1.875rem;
   @media (max-width: 767px) {
-    margin: 0 0 0.625rem 1.875rem;
+    margin: 0 0 0.625rem 0.9375rem;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
     margin: 0 0 0.625rem 0.9375rem;
@@ -65,7 +65,7 @@
   text-align: $textAlineacion-terciaria;
   margin: 0 1.875rem 0 1.875rem;
   @media (max-width: 767px) {
-    margin: 0.3125rem 1.875rem 0 1.875rem;
+    margin: 0.3125rem 0.9375rem 0 0.9375rem;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
     margin: 0.3125rem 0.9375rem 0 0.9375rem;
@@ -79,7 +79,7 @@
   border-radius: 10px;
   padding: 0.625rem;
   @media (max-width: 767px) {
-    width: 21.25rem;
+    width: 370px;
     height: 2.5rem;
     margin: 0.625rem 0.9375rem 0.625rem 0.9375rem;
   }
@@ -97,7 +97,7 @@
   border-radius: 10px;
   padding: 0.625rem;
   @media (max-width: 767px) {
-    width: 21.25rem;
+    width: 370px;
     height: 5rem;
     margin: 0.3125rem 0.9375rem 0 0.9375rem;
   }
@@ -118,7 +118,7 @@
   border-radius: 10px;
   margin-top: 1.25rem;
   @media (max-width: 767px) {
-    width: 8.75rem;
+    width: 150px;
     height: 2.5rem;
     padding: 0.625rem;
     margin-top: 1.25rem;
@@ -136,7 +136,7 @@
   border-width: 3px;
   margin-top: 1.875rem;
   @media (max-width: 767px) {
-    width: 23.75rem;
+    width: 405px;
     height: 10.625rem;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {

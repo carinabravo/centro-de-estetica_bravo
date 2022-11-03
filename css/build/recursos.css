@@ -86,7 +86,7 @@ body {
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .nombre {
-    margin: 0.813rem 4.1875rem 0 0;
+    margin: 0.909rem 4.1885rem 0 0;
   }
 }
 
@@ -107,8 +107,8 @@ body {
 }
 
 .logo__grande {
-  width: 330px;
-  height: 330px;
+  width: 310px;
+  height: 310px;
   border-radius: 50%;
 }
 @media (max-width: 767px) {
@@ -116,28 +116,15 @@ body {
     width: 245px;
     height: 245px;
     border-radius: 50%;
+    margin-top: 1.25rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .logo__grande {
     width: 200px;
     height: 200px;
-    margin-top: 0.625rem;
+    margin-top: 1.25rem;
     border-radius: 50%;
-  }
-}
-
-.titulo {
-  margin-bottom: 0.625rem;
-}
-@media (max-width: 767px) {
-  .titulo {
-    text-align: center;
-  }
-}
-@media screen and (min-width: 350px) and (max-width: 500px) {
-  .titulo {
-    text-align: center;
   }
 }
 
@@ -154,17 +141,18 @@ body {
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .texto {
     text-align: justify;
-    margin: 1.25rem 1.25rem 0.625rem 1.25rem;
+    margin: 0.9375 1.25rem 0.625rem 1.25rem;
   }
 }
 
 .tratamiento {
   text-align: center;
-  margin: 2.5rem 0 2.5rem;
+  margin: 3.5rem 0 2.5rem;
 }
 @media (max-width: 767px) {
   .tratamiento {
     text-align: center;
+    margin: 5.5rem 0 2.5rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
@@ -264,7 +252,7 @@ body {
   display: grid;
   grid-template-columns: 100%;
   grid-template-areas: "header_container" "nav_container" "main_container" "footer_container";
-  grid-template-rows: 11.25rem 3.125rem 85rem 3.75rem;
+  grid-template-rows: 11.25rem 3.125rem 87rem 3.75rem;
   grid-auto-flow: row;
 }
 @media (max-width: 1200px) {
@@ -272,7 +260,7 @@ body {
     display: grid;
     grid-template-columns: 100%;
     grid-template-areas: "header_container" "nav_container" "main_container" "footer_container";
-    grid-template-rows: 11.25rem 3.125rem 85rem 3.75rem;
+    grid-template-rows: 11.25rem 3.125rem 87rem 3.75rem;
     grid-auto-flow: row;
   }
 }
@@ -281,7 +269,7 @@ body {
     display: grid;
     grid-template-columns: 100%;
     grid-template-areas: "header_container" "nav_container" "main_container" "footer_container";
-    grid-template-rows: 10rem 3.125rem 78.75rem 3.75rem;
+    grid-template-rows: 10rem 3.125rem 81.25rem 3.75rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
@@ -319,16 +307,16 @@ body {
   display: grid;
   grid-template-columns: 100%;
   grid-auto-flow: row;
-  grid-template-areas: "imagen_principal" "bienvenida" "tratamientos_titulo" "tratamientos";
-  grid-template-rows: 28rem 22.5rem 4.25rem 31.25rem;
+  grid-template-areas: "imagen_principal" "bienvenida" "tratamientos";
+  grid-template-rows: 31rem 23.5rem 35.438rem;
 }
 @media (max-width: 767px) {
   .main_container {
     display: grid;
     grid-template-columns: 100%;
     grid-auto-flow: row;
-    grid-template-areas: "imagen_principal" "bienvenida" "tratamientos_titulo" "tratamientos";
-    grid-template-rows: 21.25rem 30.625rem 4.25rem 23.125rem;
+    grid-template-areas: "imagen_principal" "bienvenida" "tratamientos";
+    grid-template-rows: 21.25rem 30.625rem 29.813rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
@@ -336,8 +324,8 @@ body {
     display: grid;
     grid-template-columns: 100%;
     grid-auto-flow: row;
-    grid-template-areas: "imagen_principal" "bienvenida" "tratamientos_titulo" "tratamientos";
-    grid-template-rows: 15rem 29.188rem 3rem 43.438rem;
+    grid-template-areas: "imagen_principal" "bienvenida" "tratamientos";
+    grid-template-rows: 15rem 28.188rem 47.438rem;
   }
 }
 
@@ -381,29 +369,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-}
-
-.tratamientos_titulo {
-  grid-area: tratamientos_titulo;
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-evenly;
-}
-@media (max-width: 767px) {
-  .tratamientos_titulo {
-    grid-area: tratamientos_titulo;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-evenly;
-  }
-}
-@media screen and (min-width: 350px) and (max-width: 500px) {
-  .tratamientos_titulo {
-    grid-area: tratamientos_titulo;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-evenly;
   }
 }
 
@@ -537,22 +502,8 @@ body {
   }
 }
 
-.titulo {
-  font-size: 1.5rem;
-}
-@media (max-width: 767px) {
-  .titulo {
-    font-size: 1.313rem;
-  }
-}
-@media screen and (min-width: 350px) and (max-width: 500px) {
-  .titulo {
-    font-size: 1.125rem;
-  }
-}
-
 .texto {
-  font-size: 1.0625rem;
+  font-size: 1.125rem;
 }
 @media (max-width: 767px) {
   .texto {
@@ -633,7 +584,7 @@ body {
 .navbar-light,
 .nav-link,
 .derechos {
-  color: #545252 !important;
+  color: #494848 !important;
 }
 
 .nav-link:hover,
@@ -652,12 +603,12 @@ body {
 .titulo,
 .texto,
 .titulo__uno {
-  color: #545252;
+  color: #494848;
 }
 
 .tratamientos,
 .tratamientos_titulo {
-  background-color: #f5e0e2;
+  background-color: #f2f2f2;
 }
 
 .tratamiento {
@@ -665,7 +616,7 @@ body {
 }
 
 .redes a {
-  background-color: #545252;
+  background-color: #494848;
   color: #fff;
   box-shadow: 2x 2x 5x rgb(0, 0, 0);
 }
@@ -713,11 +664,11 @@ body {
 /*** Medidas - Recursos humanos ***/
 .color__fondo {
   height: auto;
-  padding-top: 125px;
+  padding-top: 95px;
 }
 @media (max-width: 767px) {
   .color__fondo {
-    padding-top: 65px;
+    padding-top: 55px;
     height: auto;
   }
 }
@@ -739,8 +690,8 @@ body {
 @media (max-width: 767px) {
   .formulario__dos {
     width: 28.125rem;
-    height: 65.625rem;
-    margin: 0 0.3125rem 0 0.3125rem;
+    height: 1000px;
+    margin: 0 0.9375 0 0.9375rem;
     padding-top: 0.625rem;
   }
 }
@@ -762,7 +713,7 @@ body {
 }
 @media (max-width: 767px) {
   .formulario__RRHH {
-    width: 23.75rem;
+    width: 405px;
     height: 21.875rem;
     text-align: center;
     margin: 1.875rem 0 0 0;
@@ -782,7 +733,7 @@ body {
 }
 @media (max-width: 767px) {
   .sub__titulo__RRHH {
-    margin: 0 0 0.625rem 1.875rem;
+    margin: 0 0 0.625rem 0.9375rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
@@ -797,7 +748,7 @@ body {
 }
 @media (max-width: 767px) {
   .texto__RRHH {
-    margin: 0.3125rem 1.875rem 0 1.875rem;
+    margin: 0.3125rem 0.9375rem 0 0.9375rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
@@ -816,7 +767,7 @@ body {
 }
 @media (max-width: 767px) {
   .casilla {
-    width: 21.25rem;
+    width: 370px;
     height: 2.5rem;
     margin: 0.625rem 0.9375rem 0.625rem 0.9375rem;
   }
@@ -839,7 +790,7 @@ body {
 }
 @media (max-width: 767px) {
   .casilla__mensaje {
-    width: 21.25rem;
+    width: 370px;
     height: 5rem;
     margin: 0.3125rem 0.9375rem 0 0.9375rem;
   }
@@ -866,7 +817,7 @@ body {
 }
 @media (max-width: 767px) {
   .boton {
-    width: 8.75rem;
+    width: 150px;
     height: 2.5rem;
     padding: 0.625rem;
     margin-top: 1.25rem;
@@ -889,7 +840,7 @@ body {
 }
 @media (max-width: 767px) {
   .info__extra__dos {
-    width: 23.75rem;
+    width: 405px;
     height: 10.625rem;
   }
 }
@@ -943,7 +894,7 @@ body {
     display: grid;
     grid-template-columns: 100%;
     grid-template-areas: "header_container" "nav_container" "main_container" "footer_container";
-    grid-template-rows: 10rem 3.125rem 85rem 3.75rem;
+    grid-template-rows: 10rem 3.125rem 87.5rem 3.75rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
@@ -951,7 +902,7 @@ body {
     display: grid;
     grid-template-columns: 100%;
     grid-template-areas: "header_container" "nav_container" "main_container" "footer_container";
-    grid-template-rows: 7.5rem 3.125rem 85rem 3.125rem;
+    grid-template-rows: 7.5rem 3.125rem 87.5rem 3.125rem;
   }
 }
 
@@ -988,20 +939,6 @@ body {
 }
 
 /*** Fuentes - Tratamientos ***/
-.titulo__principal {
-  font-size: 1.375rem;
-}
-@media (max-width: 767px) {
-  .titulo__principal {
-    font-size: 1.125rem;
-  }
-}
-@media screen and (min-width: 350px) and (max-width: 500px) {
-  .titulo__principal {
-    font-size: 0.938rem;
-  }
-}
-
 .sub__titulo__tratamiento {
   font-size: 1.375rem;
 }
@@ -1050,12 +987,13 @@ body {
 }
 @media (max-width: 767px) {
   .sub__titulo__RRHH {
-    font-size: 1.125rem;
+    text-align: center;
+    font-size: 1.375rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .sub__titulo__RRHH {
-    font-size: 0.938rem;
+    font-size: 1.25rem;
   }
 }
 
@@ -1161,16 +1099,16 @@ body {
 }
 
 .frase__img__dos {
-  font-size: 1.25rem;
+  font-size: 1.375rem;
 }
 @media (max-width: 767px) {
   .frase__img__dos {
-    font-size: 1.188rem;
+    font-size: 1.375rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .frase__img__dos {
-    font-size: 0.938rem;
+    font-size: 1.25rem;
   }
 }
 
@@ -1182,7 +1120,7 @@ body {
 .texto__RRHH,
 .texto__img__dos,
 .titulo__img__dos {
-  color: #545252;
+  color: #494848;
 }
 
 .formulario__dos,
@@ -1200,7 +1138,7 @@ body {
 
 .boton {
   background-color: #eca9af;
-  color: #545252;
+  color: #494848;
   border-color: #f0778f;
   border-style: solid;
 }

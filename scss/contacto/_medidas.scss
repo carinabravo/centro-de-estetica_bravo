@@ -2,51 +2,66 @@
 
 .color__fondo {
   height: auto;
-  padding-top: 92px;
+  padding-top: 65px;
   @media (max-width: 767px) {
-    padding-top: 40px;
+    padding-top: 25px;
     height: auto;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
-    padding-top: 23px;
+    padding-top: 20px;
     height: auto;
   }
 }
 .titulo__contacto {
   text-align: $textAlineacion-primaria;
-  margin: 1.5625rem 0 0.625rem 0;
+  margin: 1.5625rem 0 0.625rem 0.313rem;
 }
 
 .texto__contacto {
+  margin: 1.25rem 2.5rem 1.25rem 2.5rem;
+  @media (max-width: 767px) {
   text-align: $textAlineacion-terciaria;
   margin: 1.25rem 0.9375rem 1.25rem 0.9375rem;
 }
+}
 .contacto__uno {
+  text-align: $textAlineacion-terciaria;
+  margin: 0 2.5rem 0.9375rem 2.5rem;
+  @media (max-width: 767px) {
   text-align: $textAlineacion-terciaria;
   margin: 0 0.9375rem 0.9375rem 0.9375rem;
 }
+}
 .contacto__dos {
   text-align: $textAlineacion-terciaria;
+  margin: 0.3125rem 2.5rem 1.25rem 2.5rem;
+  @media (max-width: 767px) {
+  text-align: $textAlineacion-terciaria;
   margin: 0.3125rem 0.9375rem 1.25rem 0.9375rem;
+}
 }
 input[type="checkbox"]:checked {
   width: 1.125rem;
   height: 1.125rem;
 }
 .botones {
-  text-align: $textAlineacion-primaria;
-  margin: 1.125rem 1.125rem 0 0;
+  text-align: end;
+  margin: 1.125rem 2.5rem 0 0;
+  @media (max-width: 767px) {
+    text-align: $textAlineacion-primaria;
+    margin: 1.125rem 1.125rem 0 0;
+  }
 }
 .texto__img {
   margin-bottom: 1.25rem;
 }
 .formulario__uno {
-  width: 29.375rem;
+  width: 760px;
   height: auto;
   padding-bottom: 15px;
   border-radius: 10px;
   border-width: 0.3125rem;
-  margin: 1.875rem 1.25rem 0 1.25rem;
+  margin: 1.875rem 0 0 0;
   @media (max-width: 767px) {
     width: 26.25rem;
     margin: 1.875rem 0.3125rem 0 0.3125rem;
@@ -57,19 +72,21 @@ input[type="checkbox"]:checked {
   }
 }
 .casillas {
-  width: 26.875rem;
+  width: 670px;
   height: 2.5rem;
-  margin: 0 0 0.625rem 0.9375rem;
+  margin: 0 2.5rem 0.625rem 2.5rem;
   border-width: 1px;
   border-radius: 10px;
   padding: 0.625rem;
   @media (max-width: 767px) {
     width: 23.75rem;
     height: 2.5rem;
+    margin: 0 0 0.625rem 0.9375rem;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
     width: 18.125rem;
     height: 2.1875rem;
+    margin: 0 0 0.625rem 0.9375rem;
   }
 }
 .opciones {
@@ -88,17 +105,21 @@ input[type="checkbox"]:checked {
   }
 }
 .casilla__consulta {
-  width: 26.875rem;
+  width: 670px;
   height: 5.313rem;
-  margin-left: 0.9375rem;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
   border-width: 1px;
   border-radius: 10px;
   padding: 0.625rem;
   @media (max-width: 767px) {
     width: 23.75rem;
+    margin-left: 0.9375rem;
+    margin-right: 0;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
     width: 18.125rem;
+    margin-left: 0.9375rem;
   }
 }
 .boton {
@@ -122,7 +143,7 @@ input[type="checkbox"]:checked {
   }
 }
 .info__extra {
-  width: 29.375rem;
+  width: 760px;
   height: auto;
   border-radius: 10px;
   border-width: 5px;
@@ -145,12 +166,13 @@ input[type="checkbox"]:checked {
   }
 }
 .frase__img__dos {
-  margin: 0.625rem 1.563rem 0 1.563rem;
+  margin: 0.625rem 2.5rem 0 2.5rem;
   text-align: justify;
+  margin-bottom: 10px;
   @media (max-width: 767px) {
-    margin: 0.625rem 1.875rem 0 1.875rem;
+    margin: 0.625rem 0.938rem 0 0.938rem;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
-    margin: 0.625rem 1.875rem 0 1.875rem;
+    margin: 0.625rem 0.938rem 0 0.938rem;
   }
 }

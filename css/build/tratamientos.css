@@ -86,7 +86,7 @@ body {
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .nombre {
-    margin: 0.813rem 4.1875rem 0 0;
+    margin: 0.909rem 4.1885rem 0 0;
   }
 }
 
@@ -107,8 +107,8 @@ body {
 }
 
 .logo__grande {
-  width: 330px;
-  height: 330px;
+  width: 310px;
+  height: 310px;
   border-radius: 50%;
 }
 @media (max-width: 767px) {
@@ -116,28 +116,15 @@ body {
     width: 245px;
     height: 245px;
     border-radius: 50%;
+    margin-top: 1.25rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .logo__grande {
     width: 200px;
     height: 200px;
-    margin-top: 0.625rem;
+    margin-top: 1.25rem;
     border-radius: 50%;
-  }
-}
-
-.titulo {
-  margin-bottom: 0.625rem;
-}
-@media (max-width: 767px) {
-  .titulo {
-    text-align: center;
-  }
-}
-@media screen and (min-width: 350px) and (max-width: 500px) {
-  .titulo {
-    text-align: center;
   }
 }
 
@@ -154,17 +141,18 @@ body {
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .texto {
     text-align: justify;
-    margin: 1.25rem 1.25rem 0.625rem 1.25rem;
+    margin: 0.9375 1.25rem 0.625rem 1.25rem;
   }
 }
 
 .tratamiento {
   text-align: center;
-  margin: 2.5rem 0 2.5rem;
+  margin: 3.5rem 0 2.5rem;
 }
 @media (max-width: 767px) {
   .tratamiento {
     text-align: center;
+    margin: 5.5rem 0 2.5rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
@@ -264,7 +252,7 @@ body {
   display: grid;
   grid-template-columns: 100%;
   grid-template-areas: "header_container" "nav_container" "main_container" "footer_container";
-  grid-template-rows: 11.25rem 3.125rem 85rem 3.75rem;
+  grid-template-rows: 11.25rem 3.125rem 87rem 3.75rem;
   grid-auto-flow: row;
 }
 @media (max-width: 1200px) {
@@ -272,7 +260,7 @@ body {
     display: grid;
     grid-template-columns: 100%;
     grid-template-areas: "header_container" "nav_container" "main_container" "footer_container";
-    grid-template-rows: 11.25rem 3.125rem 85rem 3.75rem;
+    grid-template-rows: 11.25rem 3.125rem 87rem 3.75rem;
     grid-auto-flow: row;
   }
 }
@@ -281,7 +269,7 @@ body {
     display: grid;
     grid-template-columns: 100%;
     grid-template-areas: "header_container" "nav_container" "main_container" "footer_container";
-    grid-template-rows: 10rem 3.125rem 78.75rem 3.75rem;
+    grid-template-rows: 10rem 3.125rem 81.25rem 3.75rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
@@ -319,16 +307,16 @@ body {
   display: grid;
   grid-template-columns: 100%;
   grid-auto-flow: row;
-  grid-template-areas: "imagen_principal" "bienvenida" "tratamientos_titulo" "tratamientos";
-  grid-template-rows: 28rem 22.5rem 4.25rem 31.25rem;
+  grid-template-areas: "imagen_principal" "bienvenida" "tratamientos";
+  grid-template-rows: 31rem 23.5rem 35.438rem;
 }
 @media (max-width: 767px) {
   .main_container {
     display: grid;
     grid-template-columns: 100%;
     grid-auto-flow: row;
-    grid-template-areas: "imagen_principal" "bienvenida" "tratamientos_titulo" "tratamientos";
-    grid-template-rows: 21.25rem 30.625rem 4.25rem 23.125rem;
+    grid-template-areas: "imagen_principal" "bienvenida" "tratamientos";
+    grid-template-rows: 21.25rem 30.625rem 29.813rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
@@ -336,8 +324,8 @@ body {
     display: grid;
     grid-template-columns: 100%;
     grid-auto-flow: row;
-    grid-template-areas: "imagen_principal" "bienvenida" "tratamientos_titulo" "tratamientos";
-    grid-template-rows: 15rem 29.188rem 3rem 43.438rem;
+    grid-template-areas: "imagen_principal" "bienvenida" "tratamientos";
+    grid-template-rows: 15rem 28.188rem 47.438rem;
   }
 }
 
@@ -381,29 +369,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-}
-
-.tratamientos_titulo {
-  grid-area: tratamientos_titulo;
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-evenly;
-}
-@media (max-width: 767px) {
-  .tratamientos_titulo {
-    grid-area: tratamientos_titulo;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-evenly;
-  }
-}
-@media screen and (min-width: 350px) and (max-width: 500px) {
-  .tratamientos_titulo {
-    grid-area: tratamientos_titulo;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-evenly;
   }
 }
 
@@ -537,22 +502,8 @@ body {
   }
 }
 
-.titulo {
-  font-size: 1.5rem;
-}
-@media (max-width: 767px) {
-  .titulo {
-    font-size: 1.313rem;
-  }
-}
-@media screen and (min-width: 350px) and (max-width: 500px) {
-  .titulo {
-    font-size: 1.125rem;
-  }
-}
-
 .texto {
-  font-size: 1.0625rem;
+  font-size: 1.125rem;
 }
 @media (max-width: 767px) {
   .texto {
@@ -633,7 +584,7 @@ body {
 .navbar-light,
 .nav-link,
 .derechos {
-  color: #545252 !important;
+  color: #494848 !important;
 }
 
 .nav-link:hover,
@@ -652,12 +603,12 @@ body {
 .titulo,
 .texto,
 .titulo__uno {
-  color: #545252;
+  color: #494848;
 }
 
 .tratamientos,
 .tratamientos_titulo {
-  background-color: #f5e0e2;
+  background-color: #f2f2f2;
 }
 
 .tratamiento {
@@ -665,7 +616,7 @@ body {
 }
 
 .redes a {
-  background-color: #545252;
+  background-color: #494848;
   color: #fff;
   box-shadow: 2x 2x 5x rgb(0, 0, 0);
 }
@@ -713,23 +664,23 @@ body {
 /*** Medidas - Tratamientos ***/
 .fondo__color__tratamientos {
   height: auto;
-  padding-top: 79px;
+  padding-top: 50px;
 }
 @media (max-width: 767px) {
   .fondo__color__tratamientos {
-    padding-top: 45px;
+    padding-top: 50px;
     height: auto;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .fondo__color__tratamientos {
-    padding-top: 30px;
+    padding-top: 35px;
     height: auto;
   }
 }
 
 .imagen__tratamiento {
-  width: 23.125rem;
+  width: 22.125rem;
   height: 15.625rem;
   border-radius: 10px;
   margin: 2.5rem 0 0 2.5rem;
@@ -751,38 +702,42 @@ body {
 
 .sub__titulo__tratamiento {
   text-align: justify;
-  margin: 2.5rem 0 0.625rem 1.875rem;
+  margin: 2.5rem 0 0.625rem 2.5rem;
 }
 @media (max-width: 767px) {
   .sub__titulo__tratamiento {
-    margin: 0.625rem 0 0.3125rem 0.9375rem;
+    margin: 0.625rem 0 0.3125rem 0;
+    text-align: center;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .sub__titulo__tratamiento {
-    margin: 0.625rem 0 0.625rem 0.9375rem;
+    margin: 0.625rem 0 0.625rem 0;
+    text-align: center;
   }
 }
 
 .listado {
   list-style: disc;
   text-align: justify;
-  margin: 0 0 0.625rem 1.0625rem;
+  margin: 0 0 0.625rem 1.5rem;
 }
 @media (max-width: 767px) {
   .listado {
     margin: 0 0 0.3125rem 0;
+    text-align: justify;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .listado {
     margin-bottom: 0.625rem;
+    text-align: justify;
   }
 }
 
 .descripciones__uno {
   text-align: justify;
-  margin: 0 2.5rem 0 1.875rem;
+  margin: 0 2.5rem 0 2.5rem;
 }
 @media (max-width: 767px) {
   .descripciones__uno {
@@ -810,7 +765,7 @@ body {
     display: grid;
     grid-template-columns: 100%;
     grid-template-areas: "header_container" "nav_container" "tratamientos_container" "footer_container";
-    grid-template-rows: 10rem 3.125rem 85rem 3.75rem;
+    grid-template-rows: 10rem 3.125rem 87.5rem 3.75rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
@@ -818,7 +773,7 @@ body {
     display: grid;
     grid-template-columns: 100%;
     grid-template-areas: "header_container" "nav_container" "tratamientos_container" "footer_container";
-    grid-template-rows: 7.5rem 3.125rem 85rem 3.125rem;
+    grid-template-rows: 7.5rem 3.125rem 87.5rem 3.125rem;
   }
 }
 
@@ -837,7 +792,7 @@ body {
 @media (max-width: 767px) {
   .columnas {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     text-align: justify;
     align-items: center;
   }
@@ -845,27 +800,13 @@ body {
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .columnas {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     text-align: justify;
     align-items: center;
   }
 }
 
 /*** Fuentes - Tratamientos ***/
-.titulo__principal {
-  font-size: 1.375rem;
-}
-@media (max-width: 767px) {
-  .titulo__principal {
-    font-size: 1.125rem;
-  }
-}
-@media screen and (min-width: 350px) and (max-width: 500px) {
-  .titulo__principal {
-    font-size: 0.938rem;
-  }
-}
-
 .sub__titulo__tratamiento {
   font-size: 1.375rem;
 }
@@ -915,7 +856,7 @@ body {
 
 .sub__titulo__tratamiento,
 .descripciones__uno {
-  color: #545252;
+  color: #494848;
 }
 
 .listado {

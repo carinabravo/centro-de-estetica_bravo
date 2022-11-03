@@ -17,11 +17,11 @@
   }
   @media (max-width: 767px) {
     @include contenedor-tratamientos;
-    grid-template-rows: 10rem 3.125rem 85rem 3.75rem;
+    grid-template-rows: 10rem 3.125rem 87.5rem 3.75rem;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
     @include contenedor-tratamientos;
-    grid-template-rows: 7.5rem 3.125rem 85rem 3.125rem;
+    grid-template-rows: 7.5rem 3.125rem 87.5rem 3.125rem;
   }
 }
 .tratamientos_container {
@@ -36,13 +36,13 @@
   align-items: $alineacionItem-terciario;
   @media (max-width: 767px) {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     text-align: $textAlineacion-terciaria;
     align-items: $alineacionItem-primario;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     text-align: $textAlineacion-terciaria;
     align-items: $alineacionItem-primario;
   }

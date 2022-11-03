@@ -86,7 +86,7 @@ body {
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .nombre {
-    margin: 0.813rem 4.1875rem 0 0;
+    margin: 0.909rem 4.1885rem 0 0;
   }
 }
 
@@ -107,8 +107,8 @@ body {
 }
 
 .logo__grande {
-  width: 330px;
-  height: 330px;
+  width: 310px;
+  height: 310px;
   border-radius: 50%;
 }
 @media (max-width: 767px) {
@@ -116,28 +116,15 @@ body {
     width: 245px;
     height: 245px;
     border-radius: 50%;
+    margin-top: 1.25rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .logo__grande {
     width: 200px;
     height: 200px;
-    margin-top: 0.625rem;
+    margin-top: 1.25rem;
     border-radius: 50%;
-  }
-}
-
-.titulo {
-  margin-bottom: 0.625rem;
-}
-@media (max-width: 767px) {
-  .titulo {
-    text-align: center;
-  }
-}
-@media screen and (min-width: 350px) and (max-width: 500px) {
-  .titulo {
-    text-align: center;
   }
 }
 
@@ -154,17 +141,18 @@ body {
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .texto {
     text-align: justify;
-    margin: 1.25rem 1.25rem 0.625rem 1.25rem;
+    margin: 0.9375 1.25rem 0.625rem 1.25rem;
   }
 }
 
 .tratamiento {
   text-align: center;
-  margin: 2.5rem 0 2.5rem;
+  margin: 3.5rem 0 2.5rem;
 }
 @media (max-width: 767px) {
   .tratamiento {
     text-align: center;
+    margin: 5.5rem 0 2.5rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
@@ -264,7 +252,7 @@ body {
   display: grid;
   grid-template-columns: 100%;
   grid-template-areas: "header_container" "nav_container" "main_container" "footer_container";
-  grid-template-rows: 11.25rem 3.125rem 85rem 3.75rem;
+  grid-template-rows: 11.25rem 3.125rem 87rem 3.75rem;
   grid-auto-flow: row;
 }
 @media (max-width: 1200px) {
@@ -272,7 +260,7 @@ body {
     display: grid;
     grid-template-columns: 100%;
     grid-template-areas: "header_container" "nav_container" "main_container" "footer_container";
-    grid-template-rows: 11.25rem 3.125rem 85rem 3.75rem;
+    grid-template-rows: 11.25rem 3.125rem 87rem 3.75rem;
     grid-auto-flow: row;
   }
 }
@@ -281,7 +269,7 @@ body {
     display: grid;
     grid-template-columns: 100%;
     grid-template-areas: "header_container" "nav_container" "main_container" "footer_container";
-    grid-template-rows: 10rem 3.125rem 78.75rem 3.75rem;
+    grid-template-rows: 10rem 3.125rem 81.25rem 3.75rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
@@ -319,16 +307,16 @@ body {
   display: grid;
   grid-template-columns: 100%;
   grid-auto-flow: row;
-  grid-template-areas: "imagen_principal" "bienvenida" "tratamientos_titulo" "tratamientos";
-  grid-template-rows: 28rem 22.5rem 4.25rem 31.25rem;
+  grid-template-areas: "imagen_principal" "bienvenida" "tratamientos";
+  grid-template-rows: 31rem 23.5rem 35.438rem;
 }
 @media (max-width: 767px) {
   .main_container {
     display: grid;
     grid-template-columns: 100%;
     grid-auto-flow: row;
-    grid-template-areas: "imagen_principal" "bienvenida" "tratamientos_titulo" "tratamientos";
-    grid-template-rows: 21.25rem 30.625rem 4.25rem 23.125rem;
+    grid-template-areas: "imagen_principal" "bienvenida" "tratamientos";
+    grid-template-rows: 21.25rem 30.625rem 29.813rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
@@ -336,8 +324,8 @@ body {
     display: grid;
     grid-template-columns: 100%;
     grid-auto-flow: row;
-    grid-template-areas: "imagen_principal" "bienvenida" "tratamientos_titulo" "tratamientos";
-    grid-template-rows: 15rem 29.188rem 3rem 43.438rem;
+    grid-template-areas: "imagen_principal" "bienvenida" "tratamientos";
+    grid-template-rows: 15rem 28.188rem 47.438rem;
   }
 }
 
@@ -381,29 +369,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-}
-
-.tratamientos_titulo {
-  grid-area: tratamientos_titulo;
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-evenly;
-}
-@media (max-width: 767px) {
-  .tratamientos_titulo {
-    grid-area: tratamientos_titulo;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-evenly;
-  }
-}
-@media screen and (min-width: 350px) and (max-width: 500px) {
-  .tratamientos_titulo {
-    grid-area: tratamientos_titulo;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-evenly;
   }
 }
 
@@ -537,22 +502,8 @@ body {
   }
 }
 
-.titulo {
-  font-size: 1.5rem;
-}
-@media (max-width: 767px) {
-  .titulo {
-    font-size: 1.313rem;
-  }
-}
-@media screen and (min-width: 350px) and (max-width: 500px) {
-  .titulo {
-    font-size: 1.125rem;
-  }
-}
-
 .texto {
-  font-size: 1.0625rem;
+  font-size: 1.125rem;
 }
 @media (max-width: 767px) {
   .texto {
@@ -633,7 +584,7 @@ body {
 .navbar-light,
 .nav-link,
 .derechos {
-  color: #545252 !important;
+  color: #494848 !important;
 }
 
 .nav-link:hover,
@@ -652,12 +603,12 @@ body {
 .titulo,
 .texto,
 .titulo__uno {
-  color: #545252;
+  color: #494848;
 }
 
 .tratamientos,
 .tratamientos_titulo {
-  background-color: #f5e0e2;
+  background-color: #f2f2f2;
 }
 
 .tratamiento {
@@ -665,7 +616,7 @@ body {
 }
 
 .redes a {
-  background-color: #545252;
+  background-color: #494848;
   color: #fff;
   box-shadow: 2x 2x 5x rgb(0, 0, 0);
 }
@@ -713,39 +664,56 @@ body {
 /*** Medidas - Contacto ***/
 .color__fondo {
   height: auto;
-  padding-top: 92px;
+  padding-top: 65px;
 }
 @media (max-width: 767px) {
   .color__fondo {
-    padding-top: 40px;
+    padding-top: 25px;
     height: auto;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .color__fondo {
-    padding-top: 23px;
+    padding-top: 20px;
     height: auto;
   }
 }
 
 .titulo__contacto {
   text-align: center;
-  margin: 1.5625rem 0 0.625rem 0;
+  margin: 1.5625rem 0 0.625rem 0.313rem;
 }
 
 .texto__contacto {
-  text-align: justify;
-  margin: 1.25rem 0.9375rem 1.25rem 0.9375rem;
+  margin: 1.25rem 2.5rem 1.25rem 2.5rem;
+}
+@media (max-width: 767px) {
+  .texto__contacto {
+    text-align: justify;
+    margin: 1.25rem 0.9375rem 1.25rem 0.9375rem;
+  }
 }
 
 .contacto__uno {
   text-align: justify;
-  margin: 0 0.9375rem 0.9375rem 0.9375rem;
+  margin: 0 2.5rem 0.9375rem 2.5rem;
+}
+@media (max-width: 767px) {
+  .contacto__uno {
+    text-align: justify;
+    margin: 0 0.9375rem 0.9375rem 0.9375rem;
+  }
 }
 
 .contacto__dos {
   text-align: justify;
-  margin: 0.3125rem 0.9375rem 1.25rem 0.9375rem;
+  margin: 0.3125rem 2.5rem 1.25rem 2.5rem;
+}
+@media (max-width: 767px) {
+  .contacto__dos {
+    text-align: justify;
+    margin: 0.3125rem 0.9375rem 1.25rem 0.9375rem;
+  }
 }
 
 input[type=checkbox]:checked {
@@ -754,8 +722,14 @@ input[type=checkbox]:checked {
 }
 
 .botones {
-  text-align: center;
-  margin: 1.125rem 1.125rem 0 0;
+  text-align: end;
+  margin: 1.125rem 2.5rem 0 0;
+}
+@media (max-width: 767px) {
+  .botones {
+    text-align: center;
+    margin: 1.125rem 1.125rem 0 0;
+  }
 }
 
 .texto__img {
@@ -763,12 +737,12 @@ input[type=checkbox]:checked {
 }
 
 .formulario__uno {
-  width: 29.375rem;
+  width: 760px;
   height: auto;
   padding-bottom: 15px;
   border-radius: 10px;
   border-width: 0.3125rem;
-  margin: 1.875rem 1.25rem 0 1.25rem;
+  margin: 1.875rem 0 0 0;
 }
 @media (max-width: 767px) {
   .formulario__uno {
@@ -784,9 +758,9 @@ input[type=checkbox]:checked {
 }
 
 .casillas {
-  width: 26.875rem;
+  width: 670px;
   height: 2.5rem;
-  margin: 0 0 0.625rem 0.9375rem;
+  margin: 0 2.5rem 0.625rem 2.5rem;
   border-width: 1px;
   border-radius: 10px;
   padding: 0.625rem;
@@ -795,12 +769,14 @@ input[type=checkbox]:checked {
   .casillas {
     width: 23.75rem;
     height: 2.5rem;
+    margin: 0 0 0.625rem 0.9375rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .casillas {
     width: 18.125rem;
     height: 2.1875rem;
+    margin: 0 0 0.625rem 0.9375rem;
   }
 }
 
@@ -825,9 +801,10 @@ input[type=checkbox]:checked {
 }
 
 .casilla__consulta {
-  width: 26.875rem;
+  width: 670px;
   height: 5.313rem;
-  margin-left: 0.9375rem;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
   border-width: 1px;
   border-radius: 10px;
   padding: 0.625rem;
@@ -835,11 +812,14 @@ input[type=checkbox]:checked {
 @media (max-width: 767px) {
   .casilla__consulta {
     width: 23.75rem;
+    margin-left: 0.9375rem;
+    margin-right: 0;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .casilla__consulta {
     width: 18.125rem;
+    margin-left: 0.9375rem;
   }
 }
 
@@ -869,7 +849,7 @@ input[type=checkbox]:checked {
 }
 
 .info__extra {
-  width: 29.375rem;
+  width: 760px;
   height: auto;
   border-radius: 10px;
   border-width: 5px;
@@ -902,17 +882,18 @@ input[type=checkbox]:checked {
 }
 
 .frase__img__dos {
-  margin: 0.625rem 1.563rem 0 1.563rem;
+  margin: 0.625rem 2.5rem 0 2.5rem;
   text-align: justify;
+  margin-bottom: 10px;
 }
 @media (max-width: 767px) {
   .frase__img__dos {
-    margin: 0.625rem 1.875rem 0 1.875rem;
+    margin: 0.625rem 0.938rem 0 0.938rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .frase__img__dos {
-    margin: 0.625rem 1.875rem 0 1.875rem;
+    margin: 0.625rem 0.938rem 0 0.938rem;
   }
 }
 
@@ -931,7 +912,7 @@ input[type=checkbox]:checked {
     display: grid;
     grid-template-columns: 100%;
     grid-template-areas: "header_container" "nav_container" "contacto_container" "footer_container";
-    grid-template-rows: 10rem 3.125rem 85rem 3.75rem;
+    grid-template-rows: 10rem 3.125rem 87.5rem 3.75rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
@@ -939,7 +920,7 @@ input[type=checkbox]:checked {
     display: grid;
     grid-template-columns: 100%;
     grid-template-areas: "header_container" "nav_container" "contacto_container" "footer_container";
-    grid-template-rows: 7.5rem 3.125rem 85rem 3.125rem;
+    grid-template-rows: 7.5rem 3.125rem 87.5rem 3.125rem;
   }
 }
 
@@ -958,20 +939,6 @@ input[type=checkbox]:checked {
 }
 
 /*** Fuentes - Tratamientos ***/
-.titulo__principal {
-  font-size: 1.375rem;
-}
-@media (max-width: 767px) {
-  .titulo__principal {
-    font-size: 1.125rem;
-  }
-}
-@media screen and (min-width: 350px) and (max-width: 500px) {
-  .titulo__principal {
-    font-size: 0.938rem;
-  }
-}
-
 .sub__titulo__tratamiento {
   font-size: 1.375rem;
 }
@@ -1016,16 +983,16 @@ input[type=checkbox]:checked {
 
 /*** Fuentes - Contacto ***/
 .titulo__contacto {
-  font-size: 1.375rem;
+  font-size: 1.563rem;
 }
 @media (max-width: 767px) {
   .titulo__contacto {
-    font-size: 1.125rem;
+    font-size: 1.375rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .titulo__contacto {
-    font-size: 0.938rem;
+    font-size: 1.25rem;
   }
 }
 
@@ -1151,17 +1118,17 @@ input[type=checkbox]:checked {
 }
 @media (max-width: 767px) {
   .titulo__img {
-    font-size: 1rem;
+    font-size: 1.125rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .titulo__img {
-    font-size: 0.938rem;
+    font-size: 0.875rem;
   }
 }
 
 .texto__img {
-  font-size: 1rem;
+  font-size: 0.938rem;
 }
 @media (max-width: 767px) {
   .texto__img {
@@ -1170,7 +1137,7 @@ input[type=checkbox]:checked {
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .texto__img {
-    font-size: 0.875rem;
+    font-size: 0.75rem;
   }
 }
 
@@ -1179,7 +1146,7 @@ input[type=checkbox]:checked {
 }
 @media (max-width: 767px) {
   .frase__img {
-    font-size: 1.563rem;
+    font-size: 1.375rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
@@ -1213,7 +1180,7 @@ input[type=checkbox]:checked {
 .texto__img,
 .opciones,
 .frase__img__dos {
-  color: #545252;
+  color: #494848;
 }
 
 .formulario__uno {
@@ -1231,7 +1198,7 @@ input[type=checkbox]:checked {
 
 .boton {
   background-color: #eca9af;
-  color: #545252;
+  color: #494848;
   border-color: #f0778f;
   border-style: solid;
 }

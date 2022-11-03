@@ -60,17 +60,9 @@ body {
     font-size: 0.8125rem;
   }
 }
-.titulo {
-  font-size: 1.5rem;
-  @media (max-width: 767px) {
-    font-size: 1.313rem;
-  }
-  @media screen and (min-width: 350px) and (max-width: 500px) {
-    font-size: 1.125rem;
-  }
-}
+
 .texto {
-  font-size: 1.0625rem;
+  font-size: 1.125rem;
   @media (max-width: 767px) {
     font-size: 1rem;
   }
