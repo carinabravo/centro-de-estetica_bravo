@@ -780,7 +780,7 @@ input[type=checkbox]:checked {
 }
 
 .opciones {
-  width: 6.25rem;
+  width: 7.5rem;
   height: 2.5rem;
   margin: 0.3125rem 0 0 0.3125rem;
   padding: 0 0.625rem 0 0.625rem;
@@ -789,13 +789,13 @@ input[type=checkbox]:checked {
 }
 @media (max-width: 767px) {
   .opciones {
-    width: 5.625rem;
+    width: 7rem;
     height: 2.5rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
   .opciones {
-    width: 6.25rem;
+    width: 6.875rem;
     height: 2.1875rem;
   }
 }
