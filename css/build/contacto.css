@@ -681,7 +681,7 @@ body {
 
 .titulo__contacto {
   text-align: center;
-  margin: 1.5625rem 0 0.625rem 0.313rem;
+  margin: 1.25rem 0 0.625rem 0.313rem;
 }
 
 .texto__contacto {
@@ -732,14 +732,11 @@ input[type=checkbox]:checked {
   }
 }
 
-.texto__img {
-  margin-bottom: 1.25rem;
-}
-
 .formulario__uno {
   width: 47.5rem;
   height: auto;
-  padding-bottom: 0.398rem;
+  padding-bottom: 1.25rem;
+  padding-top: 0.625rem;
   border-radius: 0.625rem;
   border-width: 0.3125rem;
   margin: 1.875rem 0 0 0;
@@ -748,6 +745,8 @@ input[type=checkbox]:checked {
   .formulario__uno {
     width: 26.25rem;
     margin: 1.875rem 0.3125rem 0 0.3125rem;
+    padding-bottom: 0.398rem;
+    padding-top: 0;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
@@ -784,6 +783,7 @@ input[type=checkbox]:checked {
   width: 6.25rem;
   height: 2.5rem;
   margin: 0.3125rem 0 0 0.3125rem;
+  padding: 0 0.625rem 0 0.625rem;
   border-width: 1px;
   border-radius: 10px;
 }
@@ -853,12 +853,13 @@ input[type=checkbox]:checked {
   height: auto;
   border-radius: 10px;
   border-width: 5px;
-  margin-top: 1.875rem;
+  margin-top: 2.5rem;
   padding-bottom: 1.875rem;
 }
 @media (max-width: 767px) {
   .info__extra {
     width: 26.25rem;
+    margin-top: 1.875rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
@@ -879,6 +880,10 @@ input[type=checkbox]:checked {
   .titulo__img {
     margin-top: 1.875rem;
   }
+}
+
+.texto__img {
+  margin-bottom: 1.25rem;
 }
 
 .frase__img__dos {
@@ -936,6 +941,8 @@ input[type=checkbox]:checked {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 /*** Fuentes - Tratamientos ***/

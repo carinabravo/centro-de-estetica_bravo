@@ -14,7 +14,7 @@
 }
 .titulo__contacto {
   text-align: $textAlineacion-primaria;
-  margin: 1.5625rem 0 0.625rem 0.313rem;
+  margin: 1.25rem 0 0.625rem 0.313rem;
 }
 
 .texto__contacto {
@@ -52,19 +52,20 @@ input[type="checkbox"]:checked {
     margin: 1.125rem 1.125rem 0 0;
   }
 }
-.texto__img {
-  margin-bottom: 1.25rem;
-}
+
 .formulario__uno {
   width: 47.5rem;
   height: auto;
-  padding-bottom: 0.398rem;
+  padding-bottom: 1.25rem;
+  padding-top: 0.625rem;
   border-radius: 0.625rem;
   border-width: 0.3125rem;
   margin: 1.875rem 0 0 0;
   @media (max-width: 767px) {
     width: 26.25rem;
     margin: 1.875rem 0.3125rem 0 0.3125rem;
+    padding-bottom: 0.398rem;
+    padding-top: 0;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
     width: 20.625rem;
@@ -93,6 +94,7 @@ input[type="checkbox"]:checked {
   width: 6.25rem;
   height: 2.5rem;
   margin: 0.3125rem 0 0 0.3125rem;
+  padding: 0 0.625rem 0 0.625rem;
   border-width: 1px;
   border-radius: 10px;
   @media (max-width: 767px) {
@@ -147,10 +149,11 @@ input[type="checkbox"]:checked {
   height: auto;
   border-radius: 10px;
   border-width: 5px;
-  margin-top: 1.875rem;
+  margin-top: 2.5rem;
   padding-bottom: 1.875rem;
   @media (max-width: 767px) {
     width: 26.25rem;
+    margin-top: 1.875rem;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
     width: 20.625rem;
@@ -164,6 +167,9 @@ input[type="checkbox"]:checked {
   @media screen and (min-width: 350px) and (max-width: 500px) {
     margin-top: 1.875rem;
   }
+}
+.texto__img {
+  margin-bottom: 1.25rem;
 }
 .frase__img__dos {
   margin: 0.625rem 2.5rem 0 2.5rem;

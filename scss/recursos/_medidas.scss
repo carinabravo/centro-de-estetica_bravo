@@ -14,10 +14,11 @@
 }
 
 .formulario__dos {
-  width: 46.875rem;
-  height: 45rem;
-  margin: 0 0.625rem 0 0.625rem;
-  padding-bottom: 1.25rem;
+  width: 49rem;
+  height: 45.625rem;
+  padding-bottom: 2rem;
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
   border-radius: 10px;
   border-width: 5px;
   @media (max-width: 767px) {
@@ -25,6 +26,9 @@
     height: 1000px;
     margin: 0 0.9375rem 0 0.9375rem;
     padding-top: 0.625rem;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 1.25rem;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
     width: 20.625rem;
@@ -63,7 +67,7 @@
 }
 .texto__RRHH {
   text-align: $textAlineacion-terciaria;
-  margin: 0 1.875rem 0 1.875rem;
+  margin: 0 2.5rem 0 1.875rem;
   @media (max-width: 767px) {
     margin: 0.3125rem 0.9375rem 0 0.9375rem;
   }
@@ -134,10 +138,11 @@
   height: 15rem;
   border-radius: 10px;
   border-width: 3px;
-  margin-top: 1.875rem;
+  margin-top: 2.5rem;
   @media (max-width: 767px) {
     width: 25.313rem;
     height: 10.625rem;
+    margin-top: 0;
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
     width: 18.125rem;
