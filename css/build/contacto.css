@@ -859,7 +859,7 @@ input[type=checkbox]:checked {
 @media (max-width: 767px) {
   .info__extra {
     width: 26.25rem;
-    margin-top: 1.875rem;
+    margin-top: 1.25rem;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 500px) {
