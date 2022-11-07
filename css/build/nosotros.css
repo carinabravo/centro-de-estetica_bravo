@@ -743,7 +743,7 @@ body {
   }
 }
 
-.info__extra__dos {
+.info__extra__nosotros {
   width: 15rem;
   height: 10.625rem;
   border-radius: 10px;
@@ -751,11 +751,11 @@ body {
   margin-top: 3.75rem;
 }
 
-.titulo__img__dos {
+.titulo__extra__nosotros {
   margin-top: 1.875rem;
 }
 
-.texto__img__dos {
+.texto__extra__nosotros {
   margin-bottom: 1.25rem;
 }
 
@@ -842,7 +842,7 @@ body {
   }
 }
 
-.info__extra__dos {
+.info__extra__nosotros {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -974,17 +974,17 @@ body {
 .texto__nosotros,
 .texto__nosotros__dos,
 .texto__nosotros__tres,
-.texto__img__dos {
+.texto__extra__nosotros {
   color: #494848;
 }
 
-.info__extra__dos {
+.info__extra__nosotros {
   background-color: #f2f2f2;
   border-color: #eca9af;
   border-style: solid;
 }
 
-.titulo__img__dos,
+.titulo__extra__nosotros,
 .frase__img__dos,
 .sub__titulo__nosotros,
 .frase__nosotros {
