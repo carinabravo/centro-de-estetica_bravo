@@ -24,7 +24,7 @@
   }
   @media screen and (min-width: 350px) and (max-width: 500px) {
     @include contenedor-index;
-    grid-template-rows: 7.5rem 3.125rem 93.625rem 3.75rem;
+    grid-template-rows: 7.5rem 3.125rem 93.75rem 3.125rem;
   }
 }
 .header_container {
