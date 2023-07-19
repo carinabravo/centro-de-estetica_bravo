@@ -1,4 +1,4 @@
-# 💆🏻 Centro de estetica
+# 💆🏻 Medicina estética
 
 ### Description 
 
