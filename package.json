@@ -18,7 +18,7 @@
     "url": "https://github.com/carinabravo/centro-de-estetica_bravo/issues"
   },
   "homepage": "https://github.com/carinabravo/centro-de-estetica_bravo#readme",
-  "description": "",
+  "description": "### Description",
   "devDependencies": {
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.16",

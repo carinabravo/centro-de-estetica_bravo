@@ -1,0 +1,237 @@
+/*** Estructura del sitio ***/
+.grid_container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-auto-flow: row;
+}
+
+.header_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.textos_header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar > .container,
+.bg-light {
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.main_container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-auto-flow: row;
+  grid-template-rows: auto;
+}
+
+.imagen_principal {
+  display: flex;
+  flex-direction: row;
+}
+
+.bienvenida {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: justify;
+  align-items: center;
+}
+@media screen and (max-width: 767px) {
+  .bienvenida {
+    flex-direction: column;
+  }
+}
+
+.titulo_bienvenida {
+  text-align: justify;
+}
+@media screen and (max-width: 767px) {
+  .titulo_bienvenida {
+    text-align: center;
+  }
+}
+
+.texto {
+  text-align: justify;
+}
+
+.tratamientos {
+  display: flex;
+  flex-direction: column;
+}
+
+.tratamientos-dos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+@media screen and (max-width: 767px) {
+  .tratamientos-dos {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.tratamientos_titulo {
+  text-align: center;
+  align-items: center;
+}
+
+.tratamiento {
+  text-align: center;
+}
+
+.footer_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.redes a {
+  text-decoration: none;
+  text-align: center;
+}
+
+.empresa__container {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+@media screen and (max-width: 767px) {
+  .empresa__container {
+    flex-direction: column;
+  }
+}
+
+.sub__titulo__nosotros {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.info__extra__nosotros {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.texto__nosotros,
+.texto__nosotros__dos,
+.texto__nosotros__tres,
+.frase__nosotros,
+.sub__titulo__tratamiento,
+.texto__contacto,
+.contacto__uno,
+.contacto__dos,
+.formulario__RRHH,
+.texto__RRHH {
+  text-align: justify;
+}
+
+.fondo__color__tratamientos {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.tratamientos__container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.columnas {
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: justify;
+  align-items: justify;
+}
+@media screen and (max-width: 767px) {
+  .columnas {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.listado {
+  list-style: disc;
+  text-align: justify;
+}
+
+.descripciones__uno {
+  text-align: justify;
+}
+
+.color__fondo {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.contacto_container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.titulo__contacto,
+.sub__titulo__RRHH {
+  text-align: center;
+}
+
+.botones {
+  text-align: end;
+}
+
+.recursos_container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.formulario__dos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 767px) {
+  .formulario__dos {
+    flex-direction: column;
+  }
+}
+
+.botones__dos {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=estructura.css.map */

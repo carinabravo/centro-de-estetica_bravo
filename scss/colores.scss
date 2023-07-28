@@ -1,0 +1,138 @@
+/*** Colores del sitio ***/
+
+$color-fuente-1: #494848;
+$color-fuente-2: #fff;
+$color-fuente-3: #f0778f;
+$color-fuente-4: #6c757d;
+$fondo-color-1: #eca9aead;
+$fondo-color-2: #eca9addd;
+$fondo-color-3: #eca9af;
+$fondo-color-4: #c10ab81b;
+$fondo-color-5: #eca9ad61;
+$sombra-1: #fa818b;
+
+body,
+.redes a {
+  color: $color-fuente-1;
+}
+
+.navbar {
+  background-color: $color-fuente-2 !important;
+}
+
+.navbar-light,
+.nav-link,
+.navbar-toggler {
+  color: $color-fuente-1 !important;
+}
+
+.nav-link:hover {
+  background-color: $fondo-color-1;
+}
+
+.fa-solid {
+  color: $color-fuente-3 !important;
+}
+
+.bienvenida {
+  background-color: $fondo-color-2;
+}
+
+.logo__grande {
+  box-shadow: 0 0 30px $sombra-1;
+}
+
+.titulo_bienvenida,
+.tratamientos_titulo,
+.tratamiento,
+.sub__titulo__nosotros,
+.frase__nosotros,
+.listado,
+.titulo__contacto,
+.sub__titulo__RRHH {
+  color: $color-fuente-3;
+}
+
+.footer_container {
+  background-color: $fondo-color-3;
+}
+
+.color__fondo,
+.fondo__color__tratamientos {
+  background-color: $fondo-color-4;
+}
+
+.formulario__uno {
+  border-color: $color-fuente-3;
+  border-style: solid;
+  box-shadow: 0 0 30px $sombra-1;
+}
+
+.casillas,
+.opciones,
+.casilla__consulta {
+  background-color: $color-fuente-2;
+  border-color: $color-fuente-3;
+}
+
+.casillas:focus,
+.contacto__uno:focus,
+.casilla__consulta:focus {
+  border: 1px solid $sombra-1;
+  box-shadow: 0 0 10px $sombra-1;
+}
+
+.opciones {
+  color: $color-fuente-4;
+}
+
+.boton {
+  border-color: $color-fuente-3;
+  background-color: $fondo-color-5;
+  border-style: solid;
+  color: $color-fuente-1;
+}
+
+.boton:hover,
+.boton-1:hover {
+  box-shadow: 0 0 10px $sombra-1;
+}
+
+.formulario__dos {
+  border-color: $color-fuente-3;
+  border-style: solid;
+  box-shadow: 0 0 30px $sombra-1;
+}
+
+.formulario__RRHH {
+  border-color: $color-fuente-3;
+  border-style: solid;
+  box-shadow: 0 0 9px $sombra-1;
+}
+
+.casilla,
+.casilla__mensaje {
+  background-color: $color-fuente-2;
+}
+
+.casilla:focus,
+.casilla__mensaje:focus {
+  border: 1px solid $sombra-1;
+  box-shadow: 0 0 10px $sombra-1;
+  transition: 0.2s ease all;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  border-color: $color-fuente-3;
+}
+
+.boton-1 {
+  border-color: $color-fuente-3;
+  background-color: $fondo-color-5;
+  border-style: solid;
+  color: $color-fuente-1;
+}
