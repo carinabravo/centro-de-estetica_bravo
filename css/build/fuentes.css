@@ -20,172 +20,172 @@ body {
 }
 
 .nombre {
-  font-size: 35px;
+  font-size: 29px;
   font-weight: bold;
 }
 @media screen and (max-width: 767px) {
   .nombre {
-    font-size: 26px;
+    font-size: 22px;
   }
 }
-@media screen and (min-width: 350px) and (max-width: 450px) {
+@media screen and (max-width: 450px) {
   .nombre {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
 .frase {
-  font-size: 27px;
+  font-size: 23px;
 }
 @media screen and (max-width: 767px) {
   .frase {
-    font-size: 20px;
+    font-size: 19px;
   }
 }
-@media screen and (min-width: 350px) and (max-width: 450px) {
+@media screen and (max-width: 450px) {
   .frase {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
 .nav-link {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: bold;
 }
 @media screen and (max-width: 767px) {
   .nav-link {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
-@media screen and (min-width: 350px) and (max-width: 450px) {
+@media screen and (max-width: 450px) {
   .nav-link {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
 .navbar-toggler {
-  font-size: 14px;
+  font-size: 13px;
 }
-@media screen and (min-width: 350px) and (max-width: 450px) {
+@media screen and (max-width: 450px) {
   .navbar-toggler {
-    font-size: 13px;
+    font-size: 12px;
   }
 }
 
 .fa-solid {
-  font-size: 47px;
+  font-size: 42px;
 }
 @media screen and (max-width: 767px) {
   .fa-solid {
-    font-size: 40px;
+    font-size: 37px;
   }
 }
-@media screen and (min-width: 350px) and (max-width: 450px) {
+@media screen and (max-width: 450px) {
   .fa-solid {
-    font-size: 34px;
+    font-size: 30px;
   }
 }
 
 .titulo_bienvenida {
-  font-size: 34px;
+  font-size: 32px;
   font-weight: bold;
   font-family: "Segoe Script";
 }
 @media screen and (max-width: 767px) {
   .titulo_bienvenida {
-    font-size: 30px;
+    font-size: 27px;
   }
 }
-@media screen and (min-width: 350px) and (max-width: 450px) {
+@media screen and (max-width: 450px) {
   .titulo_bienvenida {
-    font-size: 27px;
+    font-size: 22px;
   }
 }
 
 .texto {
-  font-size: 24px;
+  font-size: 22px;
 }
 @media screen and (max-width: 767px) {
   .texto {
-    font-size: 22px;
+    font-size: 20px;
   }
 }
-@media screen and (min-width: 350px) and (max-width: 450px) {
+@media screen and (max-width: 450px) {
   .texto {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
 .tratamientos_titulo {
   font-family: "Segoe Script";
-  font-size: 32px;
+  font-size: 29px;
 }
 @media screen and (max-width: 767px) {
   .tratamientos_titulo {
-    font-size: 30px;
+    font-size: 25px;
   }
 }
-@media screen and (min-width: 350px) and (max-width: 450px) {
+@media screen and (max-width: 450px) {
   .tratamientos_titulo {
-    font-size: 26px;
+    font-size: 21px;
   }
 }
 
 .tratamiento {
   font-family: "Segoe Script";
-  font-size: 26px;
+  font-size: 23px;
 }
 @media screen and (max-width: 767px) {
   .tratamiento {
-    font-size: 23px;
+    font-size: 20px;
   }
 }
-@media screen and (min-width: 350px) and (max-width: 450px) {
+@media screen and (max-width: 450px) {
   .tratamiento {
-    font-size: 21px;
+    font-size: 18px;
   }
 }
 
 .derechos {
-  font-size: 18px;
+  font-size: 16px;
 }
 @media screen and (max-width: 767px) {
   .derechos {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
-@media screen and (min-width: 350px) and (max-width: 450px) {
+@media screen and (max-width: 450px) {
   .derechos {
-    font-size: 15px;
+    font-size: 12px;
   }
 }
 
 .redes a {
-  font-size: 40px;
+  font-size: 36px;
 }
 @media screen and (max-width: 767px) {
   .redes a {
-    font-size: 36px;
+    font-size: 31px;
   }
 }
-@media screen and (min-width: 350px) and (max-width: 450px) {
+@media screen and (max-width: 450px) {
   .redes a {
-    font-size: 31px;
+    font-size: 26px;
   }
 }
 
 .sub__titulo__nosotros {
   font-family: "Segoe Script";
-  font-size: 32px;
+  font-size: 29px;
 }
 @media screen and (max-width: 767px) {
   .sub__titulo__nosotros {
-    font-size: 30px;
+    font-size: 25px;
   }
 }
-@media screen and (min-width: 350px) and (max-width: 450px) {
+@media screen and (max-width: 450px) {
   .sub__titulo__nosotros {
-    font-size: 26px;
+    font-size: 21px;
   }
 }
 
@@ -194,7 +194,7 @@ body {
 .texto__nosotros__tres,
 .descripciones__uno,
 .texto__contacto {
-  font-size: 22px;
+  font-size: 19px;
 }
 @media screen and (max-width: 767px) {
   .texto__nosotros,
@@ -202,124 +202,124 @@ body {
   .texto__nosotros__tres,
   .descripciones__uno,
   .texto__contacto {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
-@media screen and (min-width: 350px) and (max-width: 450px) {
+@media screen and (max-width: 450px) {
   .texto__nosotros,
   .texto__nosotros__dos,
   .texto__nosotros__tres,
   .descripciones__uno,
   .texto__contacto {
-    font-size: 19px;
+    font-size: 17px;
   }
 }
 
 .frase__nosotros {
   font-family: "Segoe Script";
-  font-size: 24px;
+  font-size: 22px;
 }
 @media screen and (max-width: 767px) {
   .frase__nosotros {
-    font-size: 22px;
+    font-size: 20px;
   }
 }
-@media screen and (min-width: 350px) and (max-width: 450px) {
+@media screen and (max-width: 450px) {
   .frase__nosotros {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
 .sub__titulo__tratamiento {
   font-family: "Segoe Script";
-  font-size: 32px;
+  font-size: 29px;
 }
 @media screen and (max-width: 767px) {
   .sub__titulo__tratamiento {
-    font-size: 30px;
+    font-size: 26px;
   }
 }
-@media screen and (min-width: 350px) and (max-width: 450px) {
+@media screen and (max-width: 450px) {
   .sub__titulo__tratamiento {
-    font-size: 26px;
+    font-size: 21px;
   }
 }
 
 .listado {
   font-family: "Segoe Script";
-  font-size: 20px;
+  font-size: 18px;
 }
 @media screen and (max-width: 767px) {
   .listado {
-    font-size: 19px;
+    font-size: 17px;
   }
 }
-@media screen and (min-width: 350px) and (max-width: 450px) {
+@media screen and (max-width: 450px) {
   .listado {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
 .titulo__contacto {
   font-family: "Segoe Script";
-  font-size: 32px;
+  font-size: 29px;
 }
 @media screen and (max-width: 767px) {
-  .titulo__contacto {
-    font-size: 30px;
-  }
-}
-@media screen and (min-width: 350px) and (max-width: 450px) {
   .titulo__contacto {
     font-size: 26px;
   }
 }
+@media screen and (max-width: 450px) {
+  .titulo__contacto {
+    font-size: 21px;
+  }
+}
 
 .opciones {
-  font-size: 18px;
+  font-size: 17px;
 }
 @media screen and (max-width: 767px) {
   .opciones {
-    font-size: 17px;
+    font-size: 16px;
   }
 }
-@media screen and (min-width: 350px) and (max-width: 450px) {
+@media screen and (max-width: 450px) {
   .opciones {
-    font-size: 16px;
+    font-size: 15px;
   }
 }
 
 .atencion,
 .acepta {
-  font-size: 20px;
+  font-size: 19px;
 }
 @media screen and (max-width: 767px) {
-  .atencion,
-  .acepta {
-    font-size: 19px;
-  }
-}
-@media screen and (min-width: 350px) and (max-width: 450px) {
   .atencion,
   .acepta {
     font-size: 18px;
   }
 }
+@media screen and (max-width: 450px) {
+  .atencion,
+  .acepta {
+    font-size: 17px;
+  }
+}
 
 .contacto__dos {
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .boton {
   font-family: "Segoe Script";
-  font-size: 21px;
+  font-size: 20px;
 }
 @media screen and (max-width: 767px) {
   .boton {
     font-size: 19px;
   }
 }
-@media screen and (min-width: 350px) and (max-width: 450px) {
+@media screen and (max-width: 450px) {
   .boton {
     font-size: 18px;
   }
@@ -331,18 +331,9 @@ optgroup,
 select,
 textarea {
   font-family: "Barlow Semi Condensed", sans-serif;
-  font-size: 19px;
+  font-size: 18px;
 }
 @media screen and (max-width: 767px) {
-  button,
-  input,
-  optgroup,
-  select,
-  textarea {
-    font-size: 18px;
-  }
-}
-@media screen and (min-width: 350px) and (max-width: 450px) {
   button,
   input,
   optgroup,
@@ -351,48 +342,57 @@ textarea {
     font-size: 17px;
   }
 }
+@media screen and (max-width: 450px) {
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    font-size: 16px;
+  }
+}
 
 .sub__titulo__RRHH {
   font-family: "Segoe Script";
-  font-size: 32px;
+  font-size: 29px;
 }
 @media screen and (max-width: 767px) {
-  .sub__titulo__RRHH {
-    font-size: 30px;
-  }
-}
-@media screen and (min-width: 350px) and (max-width: 450px) {
   .sub__titulo__RRHH {
     font-size: 26px;
   }
 }
+@media screen and (max-width: 450px) {
+  .sub__titulo__RRHH {
+    font-size: 21px;
+  }
+}
 
 .texto__RRHH {
-  font-size: 21px;
+  font-size: 19px;
 }
 @media screen and (max-width: 767px) {
   .texto__RRHH {
-    font-size: 19px;
+    font-size: 18px;
   }
 }
-@media screen and (min-width: 350px) and (max-width: 450px) {
+@media screen and (max-width: 450px) {
   .texto__RRHH {
-    font-size: 18px;
+    font-size: 17px;
   }
 }
 
 .boton-1 {
   font-family: "Segoe Script";
-  font-size: 22px;
+  font-size: 20px;
 }
 @media screen and (max-width: 767px) {
   .boton-1 {
-    font-size: 20px;
+    font-size: 19px;
   }
 }
-@media screen and (min-width: 350px) and (max-width: 450px) {
+@media screen and (max-width: 450px) {
   .boton-1 {
-    font-size: 19px;
+    font-size: 18px;
   }
 }
 
