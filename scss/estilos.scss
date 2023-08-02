@@ -1,6 +1,11 @@
-@import "base";
-@import "estructura";
-@import "medidas";
-@import "fuentes";
-@import "colores";
-@import "animaciones";
+@import "_base";
+@import "_estructura";
+@import "_medidas";
+@import "_fuentes";
+@import "_colores";
+@import "_animaciones";
+
+@font-face {
+    font-family: Segoe Script;
+    src: url(../segoesc.ttf);
+  }

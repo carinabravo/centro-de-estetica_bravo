@@ -1,3 +1,4 @@
+/*** Base ***/
 /*** Base del sitio ***/
 * {
   margin: 0;
@@ -1407,4 +1408,9 @@ input[type=checkbox]:checked {
   transition: all 0.4s;
 }
 
-/*# sourceMappingURL=estilos.css.map */
+@font-face {
+  font-family: Segoe Script;
+  src: url(../segoesc.ttf);
+}
+
+/*# sourceMappingURL=style.css.map */
