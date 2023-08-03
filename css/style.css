@@ -1435,17 +1435,23 @@ textarea {
 }
 .nav-link,
 .tratamiento,
+.logo__grande,
+.fa-solid,
 .redes a {
   cursor: pointer;
 }
 
 .nav-link:hover,
 .img__tratamiento,
+.fa-solid,
+.logo__grande,
 .redes a {
   transition: all 0.4s ease-in-out;
 }
 
-.img__tratamiento:hover {
+.img__tratamiento:hover,
+.fa-solid:hover,
+.logo__grande:hover {
   transform: scale(1.1);
 }
 
