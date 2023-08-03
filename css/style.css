@@ -351,12 +351,14 @@ body {
   .logo__grande {
     width: 220px;
     margin: 10px 10px 30px 10px;
+    display: none;
   }
 }
 @media screen and (max-width: 450px) {
   .logo__grande {
     width: 190px;
     margin: 15px 10px 25px 10px;
+    display: none;
   }
 }
 
