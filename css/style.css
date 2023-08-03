@@ -73,11 +73,12 @@ body {
 }
 
 .titulo_bienvenida {
-  text-align: justify;
+  justify-content: start;
 }
 @media screen and (max-width: 767px) {
   .titulo_bienvenida {
     text-align: center;
+    justify-content: center;
   }
 }
 
@@ -239,9 +240,9 @@ body {
 
 .formulario__dos {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: normal;
 }
 @media screen and (max-width: 767px) {
   .formulario__dos {
@@ -268,7 +269,7 @@ body {
 }
 @media screen and (max-width: 767px) {
   .logo__chico {
-    width: 220px;
+    width: 230px;
   }
 }
 @media screen and (max-width: 450px) {
@@ -285,7 +286,7 @@ body {
 @media screen and (max-width: 767px) {
   .navbar > .container,
   .bg-light {
-    padding: 4px 25px;
+    padding: 4px 20px;
   }
 }
 @media screen and (max-width: 450px) {
@@ -327,11 +328,11 @@ body {
 }
 
 .bienvenida {
-  padding: 60px 40px;
+  padding: 50px 30px;
 }
 @media screen and (max-width: 767px) {
   .bienvenida {
-    padding: 40px 40px 30px 40px;
+    padding: 40px 25px 40px 25px;
   }
 }
 @media screen and (max-width: 450px) {
@@ -341,7 +342,7 @@ body {
 }
 
 .logo__grande {
-  width: 270px;
+  width: 290px;
   height: auto;
   border-radius: 50%;
   margin: 10px;
@@ -354,7 +355,7 @@ body {
 }
 @media screen and (max-width: 450px) {
   .logo__grande {
-    width: 170px;
+    width: 180px;
     margin: 10px 10px 20px 10px;
   }
 }
@@ -411,19 +412,19 @@ body {
 }
 
 .img__tratamiento {
-  width: 280px;
+  width: 220px;
   height: auto;
   border-radius: 10px;
-  margin: 10px 30px 0 30px;
+  margin: 10px 15px 0 15px;
 }
 @media screen and (max-width: 767px) {
   .img__tratamiento {
-    width: 250px;
+    width: 240px;
   }
 }
 @media screen and (max-width: 450px) {
   .img__tratamiento {
-    width: 210px;
+    width: 200px;
   }
 }
 
@@ -451,11 +452,11 @@ body {
 }
 
 .empresa__container {
-  padding: 20px 10px;
+  padding: 20px;
 }
 @media screen and (max-width: 450px) {
   .empresa__container {
-    padding: 0 10px;
+    padding: 0;
   }
 }
 
@@ -473,16 +474,16 @@ body {
 }
 @media screen and (max-width: 450px) {
   .img__nosotros {
-    width: 330px;
+    width: 290px;
   }
 }
 
 .sub__titulo__nosotros {
-  margin: 10px 10px 10px 10px;
+  margin: 10px 0;
 }
 @media screen and (max-width: 767px) {
   .sub__titulo__nosotros {
-    margin: 20px 0 15px 0;
+    margin: 20px 20px 15px 20px;
   }
 }
 @media screen and (max-width: 450px) {
@@ -500,7 +501,14 @@ body {
   .texto__nosotros,
   .texto__nosotros__dos,
   .texto__nosotros__tres {
-    margin: 10px 0 10px 0;
+    margin: 10px 20px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .texto__nosotros,
+  .texto__nosotros__dos,
+  .texto__nosotros__tres {
+    margin: 10px;
   }
 }
 
@@ -509,37 +517,49 @@ body {
 }
 @media screen and (max-width: 767px) {
   .frase__nosotros {
-    margin: 15px 0 0 0;
+    margin: 15px 20px 0 20px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .frase__nosotros {
+    margin: 15px 10px 0 10px;
   }
 }
 
 .fondo__color__tratamientos {
   height: auto;
-  padding: 50px 40px 25px 40px;
+  padding: 50px 40px 25px 35px;
+}
+@media screen and (max-width: 767px) {
+  .fondo__color__tratamientos {
+    padding: 50px 15px 25px 15px;
+  }
 }
 @media screen and (max-width: 450px) {
   .fondo__color__tratamientos {
-    padding: 40px 40px 25px 40px;
+    padding: 20px 20px 0 20px;
   }
 }
 
 .imagen__tratamiento {
-  width: 450px;
-  height: 300px;
+  width: 410px;
+  height: 295px;
   border-radius: 10px;
   margin: 10px 20px 10px 10px;
   padding-bottom: 25px;
 }
 @media screen and (max-width: 767px) {
   .imagen__tratamiento {
-    width: 400px;
-    height: 290px;
+    width: 380px;
+    height: 260px;
+    margin: 10px;
   }
 }
 @media screen and (max-width: 450px) {
   .imagen__tratamiento {
-    width: 410px;
-    height: 290px;
+    width: 290px;
+    height: 220px;
+    margin: 10px 0;
   }
 }
 
@@ -548,7 +568,12 @@ body {
 }
 @media screen and (max-width: 767px) {
   .sub__titulo__tratamiento {
-    margin: 10px 10px 10px 12px;
+    margin: 10px 20px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .sub__titulo__tratamiento {
+    margin: 10px;
   }
 }
 
@@ -557,7 +582,12 @@ body {
 }
 @media screen and (max-width: 767px) {
   .listado {
-    margin: 10px 0 15px 0;
+    margin: 10px 20px 15px 6px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .listado {
+    margin: 10px 10px 15px 0;
   }
 }
 
@@ -566,20 +596,35 @@ body {
 }
 @media screen and (max-width: 767px) {
   .descripciones__uno {
-    margin: 10px 10px 25px 10px;
+    margin: 10px 20px 20px 20px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .descripciones__uno {
+    margin: 10px 10px 20px 10px;
   }
 }
 
 .color__fondo {
-  padding: 40px;
+  padding: 40px 30px;
+}
+@media screen and (max-width: 450px) {
+  .color__fondo {
+    padding: 30px 20px;
+  }
 }
 
 .contacto_container {
-  padding: 20px;
+  padding: 20px 0;
+}
+@media screen and (max-width: 450px) {
+  .contacto_container {
+    padding: 0;
+  }
 }
 
 .formulario__uno {
-  width: 800px;
+  max-width: 680px;
   height: auto;
   padding: 40px;
   border-width: 3px;
@@ -588,43 +633,49 @@ body {
 }
 @media screen and (max-width: 767px) {
   .formulario__uno {
-    width: 600px;
+    width: auto;
+    padding: 40px 30px;
   }
 }
 @media screen and (max-width: 450px) {
   .formulario__uno {
-    width: 420px;
+    padding: 30px 30px 20px 30px;
   }
 }
 
 .titulo__contacto {
   margin: 10px 0 15px 0;
 }
+@media screen and (max-width: 450px) {
+  .titulo__contacto {
+    margin: 20px 0 15px 0;
+  }
+}
 
 .texto__contacto {
-  margin: 10px 10px 20px 10px;
+  margin: 10px 0 20px 0;
+}
+@media screen and (max-width: 450px) {
+  .texto__contacto {
+    margin: 10px 0 25px 0;
+  }
 }
 
 .casillas {
-  width: 700px;
-  margin: 5px;
+  width: 100%;
+  margin: 8px 0;
   border-width: 1px;
   border-radius: 10px;
   padding: 10px;
 }
 @media screen and (max-width: 767px) {
   .casillas {
-    width: 500px;
-  }
-}
-@media screen and (max-width: 450px) {
-  .casillas {
-    width: 320px;
+    margin: 5px 0;
   }
 }
 
 .contacto__uno {
-  margin: 5px 0 10px 10px;
+  margin: 5px 0 5px 5px;
 }
 
 .opciones {
@@ -642,31 +693,32 @@ body {
 }
 @media screen and (max-width: 450px) {
   .opciones {
-    width: 150px;
+    width: 145px;
+    margin: 0 0 0 5px;
   }
 }
 
 .casilla__consulta {
-  width: 700px;
+  width: 100%;
   height: auto;
-  margin: 0 5px 5px 5px;
+  margin: 8px 0 0 0;
   border-width: 1px;
   border-radius: 10px;
   padding: 10px;
 }
 @media screen and (max-width: 767px) {
   .casilla__consulta {
-    width: 500px;
-  }
-}
-@media screen and (max-width: 450px) {
-  .casilla__consulta {
-    width: 320px;
+    margin: 5px 0 0 0;
   }
 }
 
 .contacto__dos {
-  margin: 5px 0 10px 10px;
+  margin: 5px 0 10px 5px;
+}
+@media screen and (max-width: 767px) {
+  .contacto__dos {
+    margin: 5px 0 10px 3px;
+  }
 }
 
 input[type=checkbox]:checked {
@@ -678,18 +730,20 @@ input[type=checkbox]:checked {
   width: 140px;
   height: auto;
   padding: 6px 8px;
-  margin: 5px;
+  margin: 5px 0 5px 5px;
   border-width: 2px;
   border-radius: 10px;
 }
 @media screen and (max-width: 767px) {
   .boton {
     width: 120px;
+    padding: 5px 8px;
   }
 }
 @media screen and (max-width: 450px) {
   .boton {
-    width: 100px;
+    width: auto;
+    padding: 5px 15px;
   }
 }
 
@@ -698,103 +752,103 @@ input[type=checkbox]:checked {
 }
 
 .recursos_container {
-  padding: 20px;
+  padding: 20px 0;
+}
+@media screen and (max-width: 450px) {
+  .recursos_container {
+    padding: 0;
+  }
 }
 
 .formulario__dos {
-  width: 1000px;
+  width: 720px;
   height: auto;
-  padding: 40px 60px 50px 40px;
+  padding: 40px 40px 50px 40px;
   border-width: 3px;
   border-radius: 10px;
   margin: 10px;
 }
 @media screen and (max-width: 767px) {
   .formulario__dos {
-    width: 600px;
-    padding: 40px;
+    width: auto;
+    padding: 30px 15px 40px 15px;
   }
 }
 @media screen and (max-width: 450px) {
   .formulario__dos {
-    width: 450px;
+    padding: 30px 25px 40px 25px;
   }
 }
 
 .formulario__RRHH {
-  width: 400px;
+  width: auto;
   height: auto;
   padding: 30px 40px 10px 40px;
-  margin-top: 10px;
-  margin-left: 40px;
+  margin-top: 20px;
   border-width: 2px;
   border-radius: 10px;
 }
 @media screen and (max-width: 767px) {
   .formulario__RRHH {
-    width: 450px;
-    margin: 40px 20px 10px 20px;
+    margin: 30px 20px 10px 20px;
+    padding: 30px 30px 20px 30px;
   }
 }
 @media screen and (max-width: 450px) {
   .formulario__RRHH {
-    width: 330px;
+    margin: 30px 0 10px 0;
+    padding: 30px 25px 20px 25px;
   }
 }
 
 .casilla {
-  width: 300px;
+  width: 100%;
   height: auto;
-  margin: 8px;
+  margin: 8px 0;
   padding: 12px;
   border-width: 1px;
   border-radius: 10px;
 }
 @media screen and (max-width: 767px) {
   .casilla {
-    width: 350px;
-  }
-}
-@media screen and (max-width: 450px) {
-  .casilla {
-    width: 230px;
+    margin: 5px 0;
   }
 }
 
 .casilla__mensaje {
-  width: 300px;
+  width: 100%;
   height: auto;
-  margin: 8px;
+  margin: 8px 0;
   padding: 10px;
   border-width: 1px;
   border-radius: 10px;
 }
 @media screen and (max-width: 767px) {
   .casilla__mensaje {
-    width: 350px;
-  }
-}
-@media screen and (max-width: 450px) {
-  .casilla__mensaje {
-    width: 230px;
+    margin: 5px 0;
   }
 }
 
 .sub__titulo__RRHH {
-  margin: 0 20px 15px 20px;
+  margin: 20px 0;
+}
+@media screen and (max-width: 450px) {
+  .sub__titulo__RRHH {
+    margin: 20px 0 15px 0;
+  }
 }
 
 .texto__RRHH {
-  margin: 10px 20px 0 20px;
+  margin: 5px 0 0 0;
 }
 @media screen and (max-width: 767px) {
   .texto__RRHH {
-    margin: 10px 30px 0 30px;
+    margin: 10px 20px 0 20px;
   }
 }
 @media screen and (max-width: 450px) {
   .texto__RRHH {
-    margin: 10px 20px 0 20px;
+    margin: 10px 0 0 0;
   }
 }
 
@@ -804,25 +858,27 @@ input[type=checkbox]:checked {
 @media screen and (max-width: 767px) {
   .botones__dos {
     margin-top: 10px;
+    margin: 10px 0 10px 0;
   }
 }
 
 .boton-1 {
-  width: 300px;
+  width: auto;
   height: auto;
-  padding: 6px 5px;
-  margin: 8px 5px;
+  padding: 6px 80px;
+  margin: 8px 0;
   border-width: 2px;
   border-radius: 10px;
 }
 @media screen and (max-width: 767px) {
   .boton-1 {
-    width: 350px;
+    margin: 5px 0;
+    padding: 6px 5px;
   }
 }
 @media screen and (max-width: 450px) {
   .boton-1 {
-    width: 230px;
+    padding: 5px;
   }
 }
 
@@ -848,7 +904,7 @@ body {
 }
 
 .nombre {
-  font-size: 29px;
+  font-size: 28px;
   font-weight: bold;
 }
 @media screen and (max-width: 767px) {
@@ -867,7 +923,7 @@ body {
 }
 @media screen and (max-width: 767px) {
   .frase {
-    font-size: 19px;
+    font-size: 18px;
   }
 }
 @media screen and (max-width: 450px) {
@@ -901,11 +957,11 @@ body {
 }
 
 .fa-solid {
-  font-size: 42px;
+  font-size: 40px;
 }
 @media screen and (max-width: 767px) {
   .fa-solid {
-    font-size: 37px;
+    font-size: 35px;
   }
 }
 @media screen and (max-width: 450px) {
@@ -915,13 +971,13 @@ body {
 }
 
 .titulo_bienvenida {
-  font-size: 32px;
+  font-size: 30px;
   font-weight: bold;
   font-family: "Segoe Script";
 }
 @media screen and (max-width: 767px) {
   .titulo_bienvenida {
-    font-size: 27px;
+    font-size: 26px;
   }
 }
 @media screen and (max-width: 450px) {
@@ -946,7 +1002,7 @@ body {
 
 .tratamientos_titulo {
   font-family: "Segoe Script";
-  font-size: 29px;
+  font-size: 27px;
 }
 @media screen and (max-width: 767px) {
   .tratamientos_titulo {
@@ -961,7 +1017,7 @@ body {
 
 .tratamiento {
   font-family: "Segoe Script";
-  font-size: 23px;
+  font-size: 21px;
 }
 @media screen and (max-width: 767px) {
   .tratamiento {
@@ -970,7 +1026,7 @@ body {
 }
 @media screen and (max-width: 450px) {
   .tratamiento {
-    font-size: 18px;
+    font-size: 19px;
   }
 }
 
@@ -984,7 +1040,7 @@ body {
 }
 @media screen and (max-width: 450px) {
   .derechos {
-    font-size: 12px;
+    font-size: 13px;
   }
 }
 
@@ -998,17 +1054,17 @@ body {
 }
 @media screen and (max-width: 450px) {
   .redes a {
-    font-size: 26px;
+    font-size: 28px;
   }
 }
 
 .sub__titulo__nosotros {
   font-family: "Segoe Script";
-  font-size: 29px;
+  font-size: 27px;
 }
 @media screen and (max-width: 767px) {
   .sub__titulo__nosotros {
-    font-size: 25px;
+    font-size: 24px;
   }
 }
 @media screen and (max-width: 450px) {
@@ -1045,26 +1101,26 @@ body {
 
 .frase__nosotros {
   font-family: "Segoe Script";
-  font-size: 22px;
+  font-size: 19px;
 }
 @media screen and (max-width: 767px) {
   .frase__nosotros {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 @media screen and (max-width: 450px) {
   .frase__nosotros {
-    font-size: 18px;
+    font-size: 17px;
   }
 }
 
 .sub__titulo__tratamiento {
   font-family: "Segoe Script";
-  font-size: 29px;
+  font-size: 27px;
 }
 @media screen and (max-width: 767px) {
   .sub__titulo__tratamiento {
-    font-size: 26px;
+    font-size: 24px;
   }
 }
 @media screen and (max-width: 450px) {
@@ -1090,11 +1146,11 @@ body {
 
 .titulo__contacto {
   font-family: "Segoe Script";
-  font-size: 29px;
+  font-size: 27px;
 }
 @media screen and (max-width: 767px) {
   .titulo__contacto {
-    font-size: 26px;
+    font-size: 24px;
   }
 }
 @media screen and (max-width: 450px) {
@@ -1117,20 +1173,31 @@ body {
   }
 }
 
-.atencion,
-.acepta {
+.atencion {
   font-size: 19px;
 }
 @media screen and (max-width: 767px) {
-  .atencion,
-  .acepta {
+  .atencion {
     font-size: 18px;
   }
 }
 @media screen and (max-width: 450px) {
-  .atencion,
-  .acepta {
+  .atencion {
     font-size: 17px;
+  }
+}
+
+.acepta {
+  font-size: 17px;
+}
+@media screen and (max-width: 767px) {
+  .acepta {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .acepta {
+    font-size: 14px;
   }
 }
 
@@ -1138,18 +1205,18 @@ body {
   font-size: 14px;
 }
 
-.boton {
+.boton, .boton-1 {
   font-family: "Segoe Script";
-  font-size: 20px;
+  font-size: 19px;
 }
 @media screen and (max-width: 767px) {
-  .boton {
-    font-size: 19px;
+  .boton, .boton-1 {
+    font-size: 18px;
   }
 }
 @media screen and (max-width: 450px) {
-  .boton {
-    font-size: 18px;
+  .boton, .boton-1 {
+    font-size: 17px;
   }
 }
 
@@ -1182,11 +1249,11 @@ textarea {
 
 .sub__titulo__RRHH {
   font-family: "Segoe Script";
-  font-size: 29px;
+  font-size: 27px;
 }
 @media screen and (max-width: 767px) {
   .sub__titulo__RRHH {
-    font-size: 26px;
+    font-size: 24px;
   }
 }
 @media screen and (max-width: 450px) {
@@ -1206,21 +1273,6 @@ textarea {
 @media screen and (max-width: 450px) {
   .texto__RRHH {
     font-size: 17px;
-  }
-}
-
-.boton-1 {
-  font-family: "Segoe Script";
-  font-size: 20px;
-}
-@media screen and (max-width: 767px) {
-  .boton-1 {
-    font-size: 19px;
-  }
-}
-@media screen and (max-width: 450px) {
-  .boton-1 {
-    font-size: 18px;
   }
 }
 

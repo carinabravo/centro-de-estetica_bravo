@@ -62,10 +62,11 @@ $justifyContent-quintuple: space-around;
 }
 
 .titulo_bienvenida {
-  text-align: $textAlineacion-secundaria;
+  justify-content:start;
 
   @media screen and (max-width: 767px) {
     text-align: $textAlineacion-primaria;
+    justify-content: center;
   }
 }
 
@@ -223,10 +224,9 @@ $justifyContent-quintuple: space-around;
 
 .formulario__dos {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: $justifyContent-primario;
-  align-items: $alineacionItem-primario;
-
+  align-items: normal;
   @media screen and (max-width: 767px) {
     flex-direction: column;
   }

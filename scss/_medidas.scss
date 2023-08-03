@@ -9,8 +9,9 @@
 .logo__chico {
   width: 300px;
   margin: 20px 0;
+
   @media screen and (max-width: 767px) {
-    width: 220px;
+    width: 230px;
   }
   @media screen and (max-width: 450px) {
     margin: 20px 0 15px 0;
@@ -23,7 +24,7 @@
   padding: 5px 0;
 
   @media screen and (max-width: 767px) {
-    padding: 4px 25px;
+    padding: 4px 20px;
   }
   @media screen and (max-width: 450px) {
     padding: 2px 15px;
@@ -60,10 +61,10 @@
 }
 
 .bienvenida {
-  padding: 60px 40px;
+  padding: 50px 30px;
 
   @media screen and (max-width: 767px) {
-    padding: 40px 40px 30px 40px;
+    padding: 40px 25px 40px 25px;
   }
   @media screen and (max-width: 450px) {
     padding: 30px 20px 20px 20px;
@@ -71,7 +72,7 @@
 }
 
 .logo__grande {
-  width: 270px;
+  width: 290px;
   height: auto;
   border-radius: 50%;
   margin: 10px;
@@ -81,7 +82,7 @@
     margin: 10px 10px 30px 10px;
   }
   @media screen and (max-width: 450px) {
-    width: 170px;
+    width: 180px;
     margin: 10px 10px 20px 10px;
   }
 }
@@ -131,16 +132,16 @@
 }
 
 .img__tratamiento {
-  width: 280px;
+  width: 220px;
   height: auto;
   border-radius: 10px;
-  margin: 10px 30px 0 30px;
+  margin: 10px 15px 0 15px;
 
   @media screen and (max-width: 767px) {
-    width: 250px;
+  width: 240px;
   }
   @media screen and (max-width: 450px) {
-    width: 210px;
+    width: 200px;
   }
 }
 
@@ -168,10 +169,10 @@
 }
 
 .empresa__container {
-  padding: 20px 10px;
+  padding: 20px;
 
   @media screen and (max-width: 450px) {
-    padding: 0 10px;
+    padding: 0;
   }
 }
 
@@ -187,15 +188,15 @@
   }
 
   @media screen and (max-width: 450px) {
-    width: 330px;
+    width: 290px;
   }
 }
 
 .sub__titulo__nosotros {
-  margin: 10px 10px 10px 10px;
+  margin: 10px 0;
 
   @media screen and (max-width: 767px) {
-    margin: 20px 0 15px 0;
+    margin: 20px 20px 15px 20px;
   }
 
   @media screen and (max-width: 450px) {
@@ -209,7 +210,10 @@
   margin: 10px 0 10px 30px;
 
   @media screen and (max-width: 767px) {
-    margin: 10px 0 10px 0;
+    margin: 10px 20px;
+  }
+  @media screen and (max-width: 450px) {
+    margin: 10px;
   }
 }
 
@@ -217,34 +221,43 @@
   margin: 15px 0 10px 30px;
 
   @media screen and (max-width: 767px) {
-    margin: 15px 0 0 0;
+    margin: 15px 20px 0 20px;
+  }
+  @media screen and (max-width: 450px) {
+    margin: 15px 10px 0 10px;
   }
 }
 
 .fondo__color__tratamientos {
   height: auto;
-  padding: 50px 40px 25px 40px;
+  padding: 50px 40px 25px 35px;
+
+  @media screen and (max-width: 767px) {
+    padding: 50px 15px 25px 15px;
+  }
 
   @media screen and (max-width: 450px) {
-    padding: 40px 40px 25px 40px;
+    padding: 20px 20px 0 20px;
   }
 }
 
 .imagen__tratamiento {
-  width: 450px;
-  height: 300px;
+  width: 410px;
+  height: 295px;
   border-radius: 10px;
   margin: 10px 20px 10px 10px;
   padding-bottom: 25px;
 
   @media screen and (max-width: 767px) {
-    width: 400px;
-    height: 290px;
+    width: 380px;
+    height: 260px;
+    margin: 10px;
   }
 
   @media screen and (max-width: 450px) {
-    width: 410px;
-    height: 290px;
+    width: 290px;
+    height: 220px;
+    margin: 10px 0;
   }
 }
 
@@ -252,7 +265,10 @@
   margin: 10px 10px 10px 20px;
 
   @media screen and (max-width: 767px) {
-    margin: 10px 10px 10px 12px;
+    margin: 10px 20px;
+  }
+  @media screen and (max-width: 450px) {
+    margin: 10px;
   }
 }
 
@@ -260,7 +276,10 @@
   margin: 10px;
 
   @media screen and (max-width: 767px) {
-    margin: 10px 0 15px 0;
+    margin: 10px 20px 15px 6px;
+  }
+  @media screen and (max-width: 450px) {
+    margin: 10px 10px 15px 0;
   }
 }
 
@@ -268,20 +287,30 @@
   margin: 10px 10px 25px 20px;
 
   @media screen and (max-width: 767px) {
-    margin: 10px 10px 25px 10px;
+    margin: 10px 20px 20px 20px;
+  }
+  @media screen and (max-width: 450px) { 
+    margin: 10px 10px 20px 10px;
   }
 }
 
 .color__fondo {
-  padding: 40px;
+  padding: 40px 30px;
+
+  @media screen and (max-width: 450px) {
+  padding: 30px 20px;
+  }
 }
 
 .contacto_container {
-  padding: 20px;
+  padding: 20px 0;
+  @media screen and (max-width: 450px) {
+  padding: 0;
+  }
 }
 
 .formulario__uno {
-  width: 800px;
+  max-width: 680px;
   height: auto;
   padding: 40px;
   border-width: 3px;
@@ -289,40 +318,44 @@
   margin: 10px;
 
   @media screen and (max-width: 767px) {
-    width: 600px;
+    width: auto;
+    padding: 40px 30px;
   }
 
   @media screen and (max-width: 450px) {
-    width: 420px;
+  padding: 30px 30px 20px 30px;
   }
 }
 
 .titulo__contacto {
   margin: 10px 0 15px 0;
+  @media screen and (max-width: 450px) {
+  margin: 20px 0 15px 0;
+  }
 }
 
 .texto__contacto {
-  margin: 10px 10px 20px 10px;
+  margin: 10px 0 20px 0;
+
+  @media screen and (max-width: 450px) {
+  margin: 10px 0 25px 0;
+  }
 }
 
 .casillas {
-  width: 700px;
-  margin: 5px;
+  width: 100%;
+  margin: 8px 0;
   border-width: 1px;
   border-radius: 10px;
   padding: 10px;
 
   @media screen and (max-width: 767px) {
-    width: 500px;
-  }
-
-  @media screen and (max-width: 450px) {
-    width: 320px;
-  }
+    margin: 5px 0;
+   }
 }
 
 .contacto__uno {
-  margin: 5px 0 10px 10px;
+  margin: 5px 0 5px 5px;
 }
 
 .opciones {
@@ -337,31 +370,30 @@
   }
 
   @media screen and (max-width: 450px) {
-    width: 150px;
+    width: 145px;
+    margin: 0 0 0 5px;
   }
 }
 
 .casilla__consulta {
-  width: 700px;
+  width: 100%;
   height: auto;
-  margin: 0 5px 5px 5px;
-
+  margin:8px 0 0 0;
   border-width: 1px;
-
   border-radius: 10px;
   padding: 10px;
 
   @media screen and (max-width: 767px) {
-    width: 500px;
-  }
-
-  @media screen and (max-width: 450px) {
-    width: 320px;
-  }
+    margin: 5px 0 0 0;
+   }
 }
 
 .contacto__dos {
-  margin: 5px 0 10px 10px;
+  margin: 5px 0 10px 5px;
+
+  @media screen and (max-width: 767px) {
+   margin: 5px 0 10px 3px;
+  }
 }
 
 input[type="checkbox"]:checked {
@@ -373,16 +405,17 @@ input[type="checkbox"]:checked {
   width: 140px;
   height: auto;
   padding: 6px 8px;
-  margin: 5px;
+   margin: 5px 0 5px 5px;
   border-width: 2px;
   border-radius: 10px;
 
   @media screen and (max-width: 767px) {
     width: 120px;
+    padding: 5px 8px;
   }
-
   @media screen and (max-width: 450px) {
-    width: 100px;
+    width: auto;
+    padding: 5px 15px;
   }
 }
 
@@ -391,93 +424,88 @@ input[type="checkbox"]:checked {
 }
 
 .recursos_container {
-  padding: 20px;
+  padding: 20px 0;
+  @media screen and (max-width: 450px) {
+    padding: 0;
+   }
 }
 
 .formulario__dos {
-  width: 1000px;
+  width: 720px;
   height: auto;
-  padding: 40px 60px 50px 40px;
+  padding: 40px 40px 50px 40px;
   border-width: 3px;
   border-radius: 10px;
   margin: 10px;
 
   @media screen and (max-width: 767px) {
-    width: 600px;
-    padding: 40px;
+    width: auto;
+    padding: 30px 15px 40px 15px;
   }
-
   @media screen and (max-width: 450px) {
-    width: 450px;
+    padding: 30px 25px 40px 25px;
   }
 }
 
 .formulario__RRHH {
-  width: 400px;
+  width: auto;
   height: auto;
   padding: 30px 40px 10px 40px;
-  margin-top: 10px;
-  margin-left: 40px;
+  margin-top: 20px;
   border-width: 2px;
   border-radius: 10px;
 
   @media screen and (max-width: 767px) {
-    width: 450px;
-    margin: 40px 20px 10px 20px;
+    margin: 30px 20px 10px 20px;
+    padding: 30px 30px 20px 30px;
   }
-
   @media screen and (max-width: 450px) {
-    width: 330px;
+    margin: 30px 0 10px 0;
+    padding: 30px 25px 20px 25px;
   }
 }
 
 .casilla {
-  width: 300px;
+  width: 100%;
   height: auto;
-  margin: 8px;
+  margin: 8px 0;
   padding: 12px;
   border-width: 1px;
   border-radius: 10px;
 
   @media screen and (max-width: 767px) {
-    width: 350px;
-  }
-
-  @media screen and (max-width: 450px) {
-    width: 230px;
-  }
+    margin: 5px 0;
+   }
 }
 
 .casilla__mensaje {
-  width: 300px;
+  width: 100%;
   height: auto;
-  margin: 8px;
+  margin: 8px 0;
   padding: 10px;
   border-width: 1px;
   border-radius: 10px;
 
   @media screen and (max-width: 767px) {
-    width: 350px;
-  }
-
-  @media screen and (max-width: 450px) {
-    width: 230px;
-  }
+    margin: 5px 0;
+   }
 }
 
 .sub__titulo__RRHH {
-  margin: 0 20px 15px 20px;
+  margin: 20px 0;
+  @media screen and (max-width: 450px) {
+   margin: 20px 0 15px 0;
+  }
 }
 
 .texto__RRHH {
-  margin: 10px 20px 0 20px;
+  margin: 5px 0 0 0;
 
   @media screen and (max-width: 767px) {
-    margin: 10px 30px 0 30px;
+  margin: 10px 20px 0 20px;
   }
-
   @media screen and (max-width: 450px) {
-    margin: 10px 20px 0 20px;
+    margin: 10px 0 0 0;
   }
 }
 
@@ -486,23 +514,23 @@ input[type="checkbox"]:checked {
 
   @media screen and (max-width: 767px) {
     margin-top: 10px;
+    margin: 10px 0 10px 0;
   }
 }
 
 .boton-1 {
-  width: 300px;
+  width: auto;
   height: auto;
-  padding: 6px 5px;
-  margin: 8px 5px;
+  padding: 6px 80px;
+  margin: 8px 0;
   border-width: 2px;
-
   border-radius: 10px;
 
   @media screen and (max-width: 767px) {
-    width: 350px;
+    margin: 5px 0;
+    padding: 6px 5px;
   }
-
   @media screen and (max-width: 450px) {
-    width: 230px;
+  padding: 5px;
   }
 }
