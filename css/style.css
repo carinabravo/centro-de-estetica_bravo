@@ -486,7 +486,7 @@ body {
 }
 
 .sub__titulo__nosotros {
-  margin: 10px 0;
+  margin: 10px 0 10px 30px;
 }
 @media screen and (max-width: 767px) {
   .sub__titulo__nosotros {
