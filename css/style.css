@@ -263,20 +263,8 @@ body {
   padding: 20px 30px 15px 30px;
 }
 
-.logo__chico {
-  width: 280px;
-  margin: 20px 0 15px 0;
-}
-@media screen and (max-width: 767px) {
-  .logo__chico {
-    width: 230px;
-  }
-}
-@media screen and (max-width: 450px) {
-  .logo__chico {
-    margin: 20px 0 15px 0;
-    width: 190px;
-  }
+.logo {
+  margin: 20px 0 0 0;
 }
 
 .navbar > .container,
@@ -905,6 +893,21 @@ body {
   font-family: "Barlow Semi Condensed", sans-serif;
 }
 
+.logo {
+  font-family: "Segoe Script";
+  font-size: 85px;
+}
+@media screen and (max-width: 767px) {
+  .logo {
+    font-size: 70px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .logo {
+    font-size: 55px;
+  }
+}
+
 .nombre {
   font-size: 27px;
   font-weight: bold;
@@ -1207,17 +1210,20 @@ body {
   font-size: 14px;
 }
 
-.boton, .boton-1 {
+.boton,
+.boton-1 {
   font-family: "Segoe Script";
   font-size: 19px;
 }
 @media screen and (max-width: 767px) {
-  .boton, .boton-1 {
+  .boton,
+  .boton-1 {
     font-size: 18px;
   }
 }
 @media screen and (max-width: 450px) {
-  .boton, .boton-1 {
+  .boton,
+  .boton-1 {
     font-size: 17px;
   }
 }

@@ -21,6 +21,17 @@ body {
   font-family: "Barlow Semi Condensed", sans-serif;
 }
 
+.logo {
+  font-family: "Segoe Script";
+  font-size: 85px;
+  @media screen and (max-width: 767px) {
+    font-size: 70px;
+  }
+  @media screen and (max-width: 450px) {
+    font-size: 55px;
+  }
+}
+
 .nombre {
   font-size: 27px;
   font-weight: bold;
@@ -232,7 +243,7 @@ body {
   }
 }
 
-.atencion{
+.atencion {
   font-size: 19px;
 
   @media screen and (max-width: 767px) {
@@ -241,7 +252,6 @@ body {
   @media screen and (max-width: 450px) {
     font-size: 17px;
   }
-
 }
 
 .acepta {
@@ -258,10 +268,10 @@ body {
 
 .contacto__dos {
   font-size: 14px;
-  
 }
 
-.boton, .boton-1 {
+.boton,
+.boton-1 {
   font-family: "Segoe Script";
   font-size: 19px;
 
@@ -310,4 +320,3 @@ textarea {
     font-size: 17px;
   }
 }
-
