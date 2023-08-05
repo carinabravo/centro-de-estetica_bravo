@@ -7,8 +7,8 @@
 }
 
 .logo__chico {
-  width: 300px;
-  margin: 20px 0;
+  width: 290px;
+  margin: 20px 0 15px 0;
 
   @media screen and (max-width: 767px) {
     width: 230px;
@@ -334,27 +334,23 @@
 .formulario__uno {
   max-width: 680px;
   height: auto;
-  padding: 40px;
+  padding: 30px 40px 40px 40px;
   border-width: 3px;
   border-radius: 10px;
   margin: 10px;
 
   @media screen and (max-width: 767px) {
     width: auto;
-    padding: 40px 30px;
+    padding: 20px 30px 40px 30px;
   }
 
   @media screen and (max-width: 450px) {
-    padding: 30px 30px 20px 30px;
+    padding: 20px 30px 20px 30px;
   }
 }
 
 .titulo__contacto {
-  margin: 10px 0 15px 0;
-
-  @media screen and (max-width: 450px) {
-    margin: 20px 0 15px 0;
-  }
+  margin: 20px 0 15px 0;
 }
 
 .texto__contacto {
@@ -459,18 +455,18 @@ input[type="checkbox"]:checked {
 .formulario__dos {
   width: 690px;
   height: auto;
-  padding: 40px 40px 50px 40px;
+  padding: 30px 40px 50px 40px;
   border-width: 3px;
   border-radius: 10px;
   margin: 10px;
 
   @media screen and (max-width: 767px) {
     width: auto;
-    padding: 30px 15px 40px 15px;
+    padding: 20px 15px 40px 15px;
   }
 
   @media screen and (max-width: 450px) {
-    padding: 30px 25px 40px 25px;
+    padding: 20px 25px 40px 25px;
   }
 }
 
@@ -520,11 +516,7 @@ input[type="checkbox"]:checked {
 }
 
 .sub__titulo__RRHH {
-  margin: 20px 0;
-
-  @media screen and (max-width: 450px) {
-    margin: 20px 0 15px 0;
-  }
+  margin: 20px 0 15px 0;
 }
 
 .texto__RRHH {

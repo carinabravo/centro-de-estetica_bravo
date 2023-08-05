@@ -264,8 +264,8 @@ body {
 }
 
 .logo__chico {
-  width: 300px;
-  margin: 20px 0;
+  width: 290px;
+  margin: 20px 0 15px 0;
 }
 @media screen and (max-width: 767px) {
   .logo__chico {
@@ -638,7 +638,7 @@ body {
 .formulario__uno {
   max-width: 680px;
   height: auto;
-  padding: 40px;
+  padding: 30px 40px 40px 40px;
   border-width: 3px;
   border-radius: 10px;
   margin: 10px;
@@ -646,22 +646,17 @@ body {
 @media screen and (max-width: 767px) {
   .formulario__uno {
     width: auto;
-    padding: 40px 30px;
+    padding: 20px 30px 40px 30px;
   }
 }
 @media screen and (max-width: 450px) {
   .formulario__uno {
-    padding: 30px 30px 20px 30px;
+    padding: 20px 30px 20px 30px;
   }
 }
 
 .titulo__contacto {
-  margin: 10px 0 15px 0;
-}
-@media screen and (max-width: 450px) {
-  .titulo__contacto {
-    margin: 20px 0 15px 0;
-  }
+  margin: 20px 0 15px 0;
 }
 
 .texto__contacto {
@@ -775,7 +770,7 @@ input[type=checkbox]:checked {
 .formulario__dos {
   width: 690px;
   height: auto;
-  padding: 40px 40px 50px 40px;
+  padding: 30px 40px 50px 40px;
   border-width: 3px;
   border-radius: 10px;
   margin: 10px;
@@ -783,12 +778,12 @@ input[type=checkbox]:checked {
 @media screen and (max-width: 767px) {
   .formulario__dos {
     width: auto;
-    padding: 30px 15px 40px 15px;
+    padding: 20px 15px 40px 15px;
   }
 }
 @media screen and (max-width: 450px) {
   .formulario__dos {
-    padding: 30px 25px 40px 25px;
+    padding: 20px 25px 40px 25px;
   }
 }
 
@@ -842,12 +837,7 @@ input[type=checkbox]:checked {
 }
 
 .sub__titulo__RRHH {
-  margin: 20px 0;
-}
-@media screen and (max-width: 450px) {
-  .sub__titulo__RRHH {
-    margin: 20px 0 15px 0;
-  }
+  margin: 20px 0 15px 0;
 }
 
 .texto__RRHH {
@@ -916,7 +906,7 @@ body {
 }
 
 .nombre {
-  font-size: 28px;
+  font-size: 27px;
   font-weight: bold;
 }
 @media screen and (max-width: 767px) {
@@ -931,16 +921,16 @@ body {
 }
 
 .frase {
-  font-size: 23px;
+  font-size: 24px;
 }
 @media screen and (max-width: 767px) {
   .frase {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 @media screen and (max-width: 450px) {
   .frase {
-    font-size: 16px;
+    font-size: 17px;
   }
 }
 
@@ -1014,31 +1004,31 @@ body {
 
 .tratamientos_titulo {
   font-family: "Segoe Script";
-  font-size: 27px;
+  font-size: 26px;
 }
 @media screen and (max-width: 767px) {
   .tratamientos_titulo {
-    font-size: 25px;
+    font-size: 24px;
   }
 }
 @media screen and (max-width: 450px) {
   .tratamientos_titulo {
-    font-size: 21px;
+    font-size: 20px;
   }
 }
 
 .tratamiento {
   font-family: "Segoe Script";
-  font-size: 21px;
+  font-size: 22px;
 }
 @media screen and (max-width: 767px) {
   .tratamiento {
-    font-size: 20px;
+    font-size: 21px;
   }
 }
 @media screen and (max-width: 450px) {
   .tratamiento {
-    font-size: 19px;
+    font-size: 20px;
   }
 }
 
@@ -1047,12 +1037,12 @@ body {
 }
 @media screen and (max-width: 767px) {
   .derechos {
-    font-size: 14px;
+    font-size: 15px;
   }
 }
 @media screen and (max-width: 450px) {
   .derechos {
-    font-size: 13px;
+    font-size: 14px;
   }
 }
 
@@ -1072,7 +1062,7 @@ body {
 
 .sub__titulo__nosotros {
   font-family: "Segoe Script";
-  font-size: 27px;
+  font-size: 26px;
 }
 @media screen and (max-width: 767px) {
   .sub__titulo__nosotros {
@@ -1128,16 +1118,16 @@ body {
 
 .sub__titulo__tratamiento {
   font-family: "Segoe Script";
-  font-size: 27px;
+  font-size: 25px;
 }
 @media screen and (max-width: 767px) {
   .sub__titulo__tratamiento {
-    font-size: 24px;
+    font-size: 23px;
   }
 }
 @media screen and (max-width: 450px) {
   .sub__titulo__tratamiento {
-    font-size: 21px;
+    font-size: 20px;
   }
 }
 
@@ -1158,7 +1148,7 @@ body {
 
 .titulo__contacto {
   font-family: "Segoe Script";
-  font-size: 27px;
+  font-size: 26px;
 }
 @media screen and (max-width: 767px) {
   .titulo__contacto {
@@ -1261,7 +1251,7 @@ textarea {
 
 .sub__titulo__RRHH {
   font-family: "Segoe Script";
-  font-size: 27px;
+  font-size: 26px;
 }
 @media screen and (max-width: 767px) {
   .sub__titulo__RRHH {
@@ -1326,6 +1316,7 @@ body,
 .sub__titulo__nosotros,
 .frase__nosotros,
 .listado,
+.sub__titulo__tratamiento,
 .titulo__contacto,
 .sub__titulo__RRHH {
   color: #f0778f;
