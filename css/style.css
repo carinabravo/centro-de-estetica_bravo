@@ -969,11 +969,6 @@ body {
     font-size: 35px;
   }
 }
-@media screen and (max-width: 450px) {
-  .fa-solid {
-    font-size: 30px;
-  }
-}
 
 .titulo_bienvenida {
   font-size: 30px;
