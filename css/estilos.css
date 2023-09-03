@@ -673,21 +673,15 @@ body {
 }
 
 .opciones {
-  width: 170px;
+  width: auto;
   height: auto;
   margin: 0 5px;
   padding: 10px;
   border-radius: 10px;
   border-width: 1px;
 }
-@media screen and (max-width: 767px) {
-  .opciones {
-    width: 160px;
-  }
-}
 @media screen and (max-width: 450px) {
   .opciones {
-    width: 145px;
     margin: 0 0 0 5px;
   }
 }
@@ -965,7 +959,7 @@ body {
 }
 @media screen and (max-width: 767px) {
   .fa-solid {
-    font-size: 35px;
+    font-size: 37px;
   }
 }
 
