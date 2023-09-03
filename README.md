@@ -1,4 +1,4 @@
-# 💆🏻 Centro de estética
+# Centro de estética
 
 ### Description 
 
