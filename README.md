@@ -1,6 +1,6 @@
 # Centro de estética
 
-### Description 
+### Descripción 
 
 #### Centro de medicina estética para tratamientos faciales, corporales y dermatológicos.
 
